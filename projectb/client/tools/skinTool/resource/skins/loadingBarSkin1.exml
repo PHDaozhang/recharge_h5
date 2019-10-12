@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="loadingBarSkin1" width="224" height="25" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+    <cui:Image id="thumb" source="recharge_chg@66" width="100%" height="100%" scale9Grid="1,1,6,6"/>
+</e:Skin>

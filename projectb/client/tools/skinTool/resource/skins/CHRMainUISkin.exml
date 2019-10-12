@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CHRMainUI" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing" xmlns:game="game.*">
+	<w:Config id="16b40727a1e"/>
+	<cui:Group id="skBgGrp" left="0" right="0" top="0" bottom="0">
+		<cui:Image width="1280" height="720" y="0" horizontalCenter="-90" source="recharge_box@pic_shangcheng_bg"/>
+		<cui:Image width="250" height="94" source="recharge_box@pic_shangcheng_lihe02" bottom="0" left="283"/>
+		<cui:Image id="skImgBgLeft" width="335" height="720" x="0" y="0" source="recharge_box@pic_shangcheng_zuobian_diban"/>
+		<cui:Image id="skImgBgTopRight" width="1557" height="94" right="0" top="0" source="recharge_box@pic_shangcheng_wuyan"/>
+		<cui:Image id="skImgBgRight" width="340" height="720" right="1" bottom="2" source="recharge_box@pic_shangcheng_youbian_diban"/>
+		<cui:Image width="321" height="135" source="recharge_box@pic_shangcheng_biaoti_diban" left="0" top="0"/>
+		<cui:Image width="324" height="125" source="recharge_box@pic_shangcheng_caideng" right="0" top="50"/>
+		<cui:Image width="475" height="300" source="recharge_box@pic_shangcheng_lihe" right="0" bottom="0"/>
+		<cui:Image width="176" height="81" x="56.22" y="-1.34" source="recharge_chg@pic_shangcheng_biaoti_shangcheng"/>
+	</cui:Group>
+	<cui:Group id="skTop" width="1280" height="105" y="0" anchorOffsetX="0" anchorOffsetY="0" right="0">
+		<cui:Group id="skGoldBGGrp" width="274" height="70" x="430" y="13.36" anchorOffsetY="0" anchorOffsetX="0">
+			<cui:Image width="275" height="58" x="-14" y="-1" source="recharge_chg@71"/>
+			<!--<cui:Image width="61" height="55" x="-22" y="-5" source="common@gold" scaleX="1.1" scaleY="1.1"/>-->
+			<cui:UIMovieClip x="8" y="21" aniName="hallGold" autoPlay="true"/>
+			<cui:BitmapLabel id="skPlayerGold" width="198" height="34" x="48" y="8" text="555y" anchorOffsetX="0" anchorOffsetY="0" font="gold"/>
+			<cui:ScaleButton id="skAddBtn" skinName="ScaleBtnSkin" icon="recharge_chg@2" x="218.67" y="-2.63" width="56" height="53"  visible="false"/>
+
+		</cui:Group>
+		<cui:ScaleButton id="skExit" skinName="ScaleBtnSkin" icon="recharge_chg@4" width="162" height="97" right="-2" top="3"/>
+		
+		<cui:Group id="skVipRot" x="746.66" y="8.01" width="400" height="60" visible="false" >
+			<cui:Image width="246" height="29" x="23" y="10" source="recharge_chg@67"/>
+			<cui:Group id="skVipBarGrp" width="293.33" height="55.33" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0">
+				<cui:Image id="skVipBarEnd" width="18" height="25" x="256.98" y="10" source="recharge_reCommon@pic_shangcheng_vip_jingyantiao_tou"/>
+				<cui:ProgressBar id="skVipBar" width="100" height="20" x="52.02" y="15.67" skinName="loadingBarSkin1"/>
+			</cui:Group>
+			<cui:Image id="skVipFront" width="80" height="48" x="0" y="-2" source="recharge_chg@40"   />
+			
+
+			<cui:BitmapLabel id="skVipProgress" width="150" height="19.5" x="68.01" y="13" text="0x100" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" font="vipjindutiao_shuz"/>
+			<cui:Image id="skShowTips" width="162" height="28" x="69.02" y="37.34" source="recharge_chg@70"/>
+
+			<cui:Image id="skVipNext" width="80" height="48" x="223.35" y="-1.31" source="recharge_chg@45"/>
+		</cui:Group>
+
+		<cui:Image id="skVip6Level" width="80" height="48" x="886" y="38" source="recharge_chg@45"   />
+	</cui:Group>
+
+
+
+
+
+
+
+	<cui:Group id="skRightGrp" width="220" height="460" y="142" right="0">
+		<cui:Scroller id="skRightScrollView" left="0" right="0" top="0" bottom="0">
+			<cui:DataGroup id="skRightScrollViewDataGroup"  width="220" height="100%">
+				<e:layout>
+					<cui:TileLayout isHorizontal="false" verticalGap="0" horizontalGap="0" itemH="46" itemW="219" />
+				</e:layout>
+			</cui:DataGroup>
+		</cui:Scroller>
+	</cui:Group>
+	<cui:Group id="skProxyPanel" width="800" height="570" y="100" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="10">
+
+		<cui:Group id="skTopTip" width="770" height="180" x="0" y="0" anchorOffsetY="0">
+			<cui:Image id="skTopTipBG" width="785" height="253" x="8" y="-65" scaleX="1" scaleY="1"  source="recharge_txt_60"/>
+			<cui:ScaleButton id="skCopyID" skinName="ScaleBtnSkin" icon="recharge_chg@5" x="443.91" y="37.91" width="108" height="37"/>
+			<cui:Label id="skProxyPlayerID" text="00000" x="289.2" y="39.12" width="140" height="25"/>
+		</cui:Group>
+
+		<cui:Scroller id="skProxySrollView" width="716" height="302" x="30.56" y="174.64" anchorOffsetX="0" anchorOffsetY="0">
+			<cui:DataGroup id="skProxySrollViewDataGroup"  anchorOffsetX="0" width="751" x="0" height="302" y="0">
+				<e:layout>
+					<cui:TileLayout isHorizontal="false" verticalGap="0" horizontalGap="0" itemH="95" itemW="366" />
+				</e:layout>
+				<cui:Label id="skSvr" text="Label" x="107" y="247" anchorOffsetX="0" width="464"/>
+			</cui:DataGroup>
+		</cui:Scroller>
+		<cui:Group id="skImgAgentDiscount" width="132" height="84" x="654" y="0" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0">
+			<cui:Image width="132" height="84" x="0" y="0" source="recharge_chg@pic_shangcheng_chongzhi_qipao"/>
+			<cui:Label id="sk_txt_16" text="限时VIP充值\n加送" x="9" y="16" size="20"/>
+			<cui:Label id="skTextAddGift" text="1%" x="53" y="36" size="20" textColor="0xfff17e"/>
+			<cui:Label id="skTxt_17" text="!" x="98" y="36" size="20" textColor="0xfff17e"/>
+		</cui:Group>
+		<cui:ScaleButton id="skProxyFresh" icon="recharge_chg@35" skinName="ScaleBtnSkin" x="267.56" y="496.64" scaleX="1" scaleY="1"/>
+
+
+
+	</cui:Group>
+
+	<cui:Group id="skGoldBuyPanel" width="800" height="570" y="100" horizontalCenter="10" visible="false">
+		<cui:Group id="skGoldBuyTopTipGrp" width="770" height="180" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+			<cui:Image id="skGoldbuyTopTipBG" width="785" height="253" x="8" y="-65"   source="recharge_txt_60"/>
+			<cui:Label id="skGoldBuyPlayerID" text="Label" x="289" y="36" anchorOffsetX="0" width="172"/>
+		</cui:Group>
+
+		<cui:Group id="skChipIcon1" width="109" height="100" x="71" y="271">
+			<cui:ScaleButton id="skChipIcon1Btn"  label="Button" x="0" y="0" skinName="ScaleBtnSkin" icon="recharge_chg@51"  width="92" height="99"/>
+			<cui:BitmapLabel id="skChipGold1" width="95" height="30" y="28" text="49" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma" x="0"/>
+		</cui:Group>
+
+		<cui:Group id="skChipIcon2" width="109" height="100" x="211" y="271">
+			<cui:ScaleButton id="skChipIcon2Btn"  label="Button" x="0" y="0" skinName="ScaleBtnSkin" icon="recharge_chg@49"  width="92" height="99"/>
+			<cui:BitmapLabel id="skChipGold2" width="95" height="30" y="28" text="49" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma" x="0"/>
+		</cui:Group>
+
+		<cui:Group id="skChipIcon3" width="109" height="100" x="350" y="271">
+			<cui:ScaleButton id="skChipIcon3Btn"  label="Button" x="0" y="0" skinName="ScaleBtnSkin" icon="recharge_chg@52"  width="92" height="99"/>
+			<cui:BitmapLabel id="skChipGold3" width="95" height="30" y="28" text="49" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma" x="0"/>
+		</cui:Group>
+
+		<cui:Group id="skChipIcon4" width="109" height="100" x="489" y="271">
+			<cui:ScaleButton id="skChipIcon4Btn"  label="Button" x="0" y="0" skinName="ScaleBtnSkin" icon="recharge_chg@48"  width="92" height="99"/>
+			<cui:BitmapLabel id="skChipGold4" width="95" height="30" y="28" text="490" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma" x="0"/>
+		</cui:Group>
+
+		<cui:Group id="skChipIcon5" width="109" height="100" x="627" y="271">
+			<cui:ScaleButton id="skChipIcon5Btn"  label="Button" x="0" y="0" skinName="ScaleBtnSkin" icon="recharge_chg@53"  width="92" height="99"/>
+			<cui:BitmapLabel id="skChipGold5" width="95" height="30" y="28" text="2999" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma" x="0"/>
+		</cui:Group>
+		<cui:Image id="skChipFlag" width="128" height="133" x="52" y="248" source="recharge_chg@56" />
+		<cui:Group id="skGoldInputBGGrp" width="679.45" height="61" x="62.35" y="179.2" anchorOffsetX="0" anchorOffsetY="0">
+			<cui:Image width="502" height="61" x="0" y="0" source="recharge_chg@47" />
+			<cui:EditableText id="skGoldInput" width="284" height="49" text="afefefe" x="175" y="6" anchorOffsetX="0" anchorOffsetY="0" size="32" prompt="请输入充值金额" promptColor="0xffe867" verticalAlign="middle"/>
+			<cui:ScaleButton id="skGoldClear" skinName="ScaleBtnSkin" icon="recharge_chg@6" x="503.15" y="4.65" width="174" height="58"/>
+		</cui:Group>
+		<cui:ScaleButton id="skRecharge" x="254" y="410" skinName="ScaleBtnSkin" icon="recharge_chg@3"  width="242" height="87"/>
+		<cui:ScaleButton id="skDownloadBtn" x="574" y="110" skinName="ScaleBtnSkin" icon="recharge_chg@btn_shangcheng_lijixiazai"  width="202" height="70"/>
+	</cui:Group>
+	<cui:Group id="skNotOpenPanel" width="800" height="570" y="104.65" horizontalCenter="0" visible="false">
+		<cui:Image width="357" height="67" x="180" y="39" source="recharge_chg@46" />
+		<cui:Image width="659" height="200" x="87" y="158" source="recharge_chg@69" />
+		<cui:ScaleButton id="skToProxy" width="242" height="87" label="Button" x="396" y="224"  skinName="ScaleBtnSkin" icon="recharge_chg@1" />
+	</cui:Group>
+	<cui:Group id="skFixedPanel" width="800" height="570" y="102" anchorOffsetY="0" horizontalCenter="10">
+		<cui:Group id="skFixedTipGrp" width="775" height="180" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0">
+			<cui:Image id="skFixedpTipBG" width="785" height="253" x="8" y="-65"   source="recharge_txt_60"/>
+			<cui:Label id="skFixedPlayerID" text="Label" x="293" y="39" anchorOffsetX="0" width="202"/>
+			<cui:Image id="skFixedFlag" width="69" height="71" x="20" y="38"  source="recharge_chg@38" />
+		</cui:Group>
+
+		<cui:Group id="skFixedChipIcon1" width="109" height="100" x="118" y="249">
+			<cui:ScaleButton id="skFixedChipIcon1Btn"  label="Button" x="3" y="2" skinName="ScaleBtnSkin" icon="recharge_chg@51"  width="92" height="99"/>
+			<cui:BitmapLabel id="skFixedChipGold1" width="95" height="30" x="0" y="28" text="49" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma"/>
+		</cui:Group>
+
+		<cui:Group id="skFixedChipIcon2" width="109" height="100" x="278" y="249">
+			<cui:ScaleButton id="skFixedChipIcon2Btn"  label="Button" x="3" y="2" skinName="ScaleBtnSkin" icon="recharge_chg@49"  width="92" height="99"/>
+			<cui:BitmapLabel id="skFixedChipGold2" width="95" height="30" x="0" y="28" text="49" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma"/>
+		</cui:Group>
+
+		<cui:Group id="skFixedChipIcon3" width="109" height="100" x="437" y="249">
+			<cui:ScaleButton id="skFixedChipIcon3Btn"  label="Button" x="3" y="2" skinName="ScaleBtnSkin" icon="recharge_chg@52"  width="92" height="99"/>
+			<cui:BitmapLabel id="skFixedChipGold3" width="95" height="30" x="0" y="28" text="49" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma"/>
+		
+		</cui:Group>
+
+		<cui:Group id="skFixedChipIcon4" width="109" height="100" x="596" y="249">
+			<cui:ScaleButton id="skFixedChipIcon4Btn"  label="Button" x="3" y="2" skinName="ScaleBtnSkin" icon="recharge_chg@48"  width="92" height="99"/>
+			<cui:BitmapLabel id="skFixedChipGold4" width="95" height="30" x="0" y="28" text="49" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma"/>
+		</cui:Group>
+
+		<cui:Group id="skFixedChipIcon5" width="109" height="100" x="118" y="369">
+			<cui:ScaleButton id="skFixedChipIcon5Btn"  label="Button" x="3" y="2" skinName="ScaleBtnSkin" icon="recharge_chg@50"  width="92" height="99"/>
+			<cui:BitmapLabel id="skFixedChipGold5" width="95" height="30" x="0" y="28" text="49" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma"/>
+		</cui:Group>
+
+		<cui:Group id="skFixedChipIcon6" width="109" height="100" x="278" y="369">
+			<cui:ScaleButton id="skFixedChipIcon6Btn"  label="Button" x="3" y="2" skinName="ScaleBtnSkin" icon="recharge_chg@53"  width="92" height="99"/>
+			<cui:BitmapLabel id="skFixedChipGold6" width="95" height="30" x="0" y="28" text="399" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma"/>
+		</cui:Group>
+
+		<cui:Group id="skFixedChipIcon7" width="109" height="100" x="437" y="369">
+			<cui:ScaleButton id="skFixedChipIcon7Btn"  label="Button" x="3" y="2" skinName="ScaleBtnSkin" icon="recharge_chg@55"  width="92" height="99"/>
+			<cui:BitmapLabel id="skFixedChipGold7" width="95" height="30" x="0" y="28" text="2999" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma"/>
+		</cui:Group>
+
+		<cui:Group id="skFixedChipIcon8" width="109" height="100" x="596" y="369">
+			<cui:ScaleButton id="skFixedChipIcon8Btn"  label="Button" x="3" y="2" skinName="ScaleBtnSkin" icon="recharge_chg@54"  width="92" height="99"/>
+			<cui:BitmapLabel id="skFixedChipGold8" width="95" height="30" x="0" y="28" text="4999" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma"/>
+		</cui:Group>
+		<cui:ScaleButton id="skFixedRecharge" width="244" height="87" label="Button" x="248" y="486" skinName="ScaleBtnSkin" icon="recharge_chg@3" />
+
+		<cui:Group id="skFixedGoldInputBGGrp" width="512" height="106" x="111" y="126" anchorOffsetY="0" anchorOffsetX="0">
+			<cui:Image id="skFixedGoldInputBG" width="502" height="61" source="recharge_chg@47"  y="50" x="0"/>
+			<cui:Label id="skFixedGoldInput" width="278" height="40" text="" x="180" y="62" anchorOffsetX="0" anchorOffsetY="0"/>
+		</cui:Group>
+
+		<cui:Image id="skFixedChipFlag" width="128" height="133" x="101" y="228" source="recharge_chg@56" />
+
+	</cui:Group>
+	<cui:Group id="skApplePanel" width="775" height="480" x="270" y="100" visible="false">
+		<cui:Group id="skAppleChipIcon1" width="109" height="100" x="132" y="113">
+			<cui:ScaleButton id="skAppleChipIcon1Btn"  label="Button" x="3" y="2" skinName="ScaleBtnSkin" icon="recharge_chg@55"  width="92" height="99"/>
+			<cui:BitmapLabel id="skAppleChipGold1" width="95" height="30" x="0" y="30" text="49" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma"/>
+		</cui:Group>
+
+		<cui:Group id="skAppleChipIcon2" width="109" height="100" x="502" y="113">
+			<cui:ScaleButton id="skAppleChipIcon2Btn"  label="Button" x="3" y="2" skinName="ScaleBtnSkin" icon="recharge_chg@55"  width="92" height="99"/>
+			<cui:BitmapLabel id="skAppleChipGold2" width="95" height="30" x="0" y="30" text="49" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma"/>
+		</cui:Group>
+
+		<cui:Group id="skAppleGoldInputBGGrp" width="710" height="61" x="47.5" y="273" anchorOffsetX="0" anchorOffsetY="0">
+			<cui:Image width="502" height="61" x="0" y="0" source="recharge_chg@47" />
+			<cui:EditableText id="skAppleGoldInput" width="294" height="38" text="Label" x="161" y="11.5" anchorOffsetX="0" anchorOffsetY="0"/>
+			<cui:ScaleButton id="skAppleGoldClear" skinName="ScaleBtnSkin" icon="recharge_chg@6"   label="" x="522" y="3" width="174" height="58"/>
+		</cui:Group>
+
+		<cui:ScaleButton id="skAppleRecharge" label="Button" x="251" y="400" skinName="ScaleBtnSkin" icon="recharge_chg@3"  width="242" height="87"/>
+
+	</cui:Group>
+	<cui:Group id="skLeftScrollviewGrp" width="291" height="602" x="0" y="118.16" anchorOffsetY="0" anchorOffsetX="0" locked="true">
+		<cui:Image id="skImgTopLine" width="230" height="2" x="0" y="5" source="recharge_chg@58"/>
+		<cui:Scroller id="skLeftScrollView" scaleX="1" scaleY="1" left="0" right="10" top="0" bottom="0" anchorOffsetX="0">
+		<cui:Group id="skLeftScrollViewPort" left="0" right="-8" top="0" bottom="0" anchorOffsetX="0">
+			<cui:Group id="skGoldBuy0Grp" width="273" height="83" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0">
+			<cui:Image id="skMenuImg0" source="recharge_chg@17" width="273" height="81" x="7" y="0"/>
+			<game:UIDBAni id="skHot0" dbNm="recharge_rementubiao" autoPlay="true" x="210" y="40"/>
+			<cui:Image id="skImgLine0" width="230" height="2" x="0" y="71" source="recharge_chg@58"/>
+			<cui:ScaleButton id="menuBtn0" skinName="ScaleBtnSkin" icon="recharge_chg@15" x="9" y="0" width="273" height="81"/>
+			<cui:Group id="skImgAgentDiscount2" width="75" height="76" x="0" y="0">
+				<cui:Image width="75" height="76" x="0" y="0" source="recharge_chg@pic_shangcheng_chongzhi_biaoqian"/>
+				<cui:Label id="skTextAddGift2" text="1%" x="4" y="32" size="20" rotation="-44"/>
+			</cui:Group>
+			</cui:Group>
+			<cui:Group id="skGoldBuy1Grp" width="273" height="82" x="0" y="70" anchorOffsetY="0" anchorOffsetX="0">
+			<cui:Image id="skMenuImg1" source="recharge_chg@33" width="273" height="81" x="7" y="0"/>
+			<game:UIDBAni id="skHot1" dbNm="recharge_rementubiao" autoPlay="true" x="210" y="40"/>
+			<cui:Image id="skImgLine1" width="230" height="2" x="0" y="71" source="recharge_chg@58"/>
+			<cui:ScaleButton id="menuBtn1" skinName="ScaleBtnSkin" icon="recharge_chg@28" x="9" y="0" width="273" height="81"/>
+			</cui:Group>
+			<cui:Group id="skGoldBuy2Grp" width="273" height="82" x="0" y="140" anchorOffsetY="0" anchorOffsetX="0">
+			<cui:Image id="skMenuImg2" source="recharge_chg@26" width="273" height="81" x="7" y="0"/>
+			<game:UIDBAni id="skHot2" dbNm="recharge_rementubiao" autoPlay="true" x="210" y="40"/>
+			<cui:Image id="skImgLine2" width="230" height="2" x="0" y="71" source="recharge_chg@58"/>
+			<cui:ScaleButton id="menuBtn2" skinName="ScaleBtnSkin" icon="recharge_chg@21" x="9" y="0" width="273" height="81"/>
+			</cui:Group>
+			<cui:Group id="skGoldBuy3Grp" width="273" height="82" x="0" y="210" anchorOffsetY="0" anchorOffsetX="0">
+			<cui:Image id="skMenuImg3" source="recharge_chg@20" width="273" height="81" x="7" y="0"/>
+			<game:UIDBAni id="skHot3" dbNm="recharge_rementubiao" autoPlay="true" x="210" y="40"/>
+			<cui:Image id="skImgLine3" width="230" height="2" x="0" y="71" source="recharge_chg@58"/>
+			<cui:ScaleButton id="menuBtn3" skinName="ScaleBtnSkin" icon="recharge_chg@18" x="9" y="0" width="273" height="81"/>
+			</cui:Group>
+			<cui:Group id="skGoldBuy4Grp" width="273" height="82" x="0" y="280" anchorOffsetY="0" anchorOffsetX="0">
+			<cui:Image id="skMenuImg4" source="recharge_chg@27" width="273" height="81" x="7" y="0"/>
+			<game:UIDBAni id="skHot4" dbNm="recharge_rementubiao" autoPlay="true" x="210" y="40"/>
+			<cui:Image id="skImgLine4" width="230" height="2" x="0" y="71" source="recharge_chg@58"/>
+			<cui:ScaleButton id="menuBtn4" skinName="ScaleBtnSkin" icon="recharge_chg@7" x="9" y="0" width="273" height="81"/>
+			</cui:Group>
+			<cui:Group id="skGoldBuy5Grp" width="273" height="82" x="0" y="490" anchorOffsetY="0" anchorOffsetX="0">
+			<cui:Image id="skMenuImg5" source="recharge_chg@14" width="273" height="81" x="7" y="0"/>
+			<game:UIDBAni id="skHot5" dbNm="recharge_rementubiao" autoPlay="true" x="210" y="40"/>
+			<cui:Image id="skImgLine5" width="230" height="2" x="0" y="71" source="recharge_chg@58"/>
+			<cui:ScaleButton id="menuBtn5" skinName="ScaleBtnSkin" icon="recharge_chg@12" x="9" y="0" width="273" height="81"/>
+			</cui:Group>
+			<cui:Group id="skGoldBuy6Grp" width="273" height="82" x="0" y="350" anchorOffsetY="0" anchorOffsetX="0">
+			<cui:Image id="skMenuImg6" source="recharge_chg@31" width="273" height="81" x="7" y="0"/>
+			<game:UIDBAni id="skHot6" dbNm="recharge_rementubiao" autoPlay="true" x="210" y="40"/>
+			<cui:Image id="skImgLine6" width="230" height="2" x="0" y="71" source="recharge_chg@58"/>
+			<cui:ScaleButton id="menuBtn6" skinName="ScaleBtnSkin" icon="recharge_chg@29" x="9" y="0" width="273" height="81"/>
+			</cui:Group>
+			<cui:Group id="skGoldBuy7Grp" width="273" height="82" x="0" y="560" anchorOffsetY="0" anchorOffsetX="0">
+			<cui:Image id="skMenuImg7" source="recharge_chg@24" width="273" height="81" x="7" y="0"/>
+			<game:UIDBAni id="skHot7" dbNm="recharge_rementubiao" autoPlay="true" x="210" y="40"/>
+			<cui:Image id="skImgLine7" width="230" height="2" x="0" y="71" source="recharge_chg@58"/>
+			<cui:ScaleButton id="menuBtn7" skinName="ScaleBtnSkin" icon="recharge_chg@22" x="9" y="0" width="273" height="81"/>
+			</cui:Group>
+			<cui:Group id="skGoldBuy8Grp" width="273" height="82" x="0" y="420" anchorOffsetY="0" anchorOffsetX="0">
+			<cui:Image id="skMenuImg8" source="recharge_chg@11" width="273" height="81" x="7" y="0"/>
+			<game:UIDBAni id="skHot8" dbNm="recharge_rementubiao" autoPlay="true" x="210" y="40"/>
+			<cui:Image id="skImgLine8" width="230" height="2" x="0" y="71" source="recharge_chg@58"/>
+			<cui:ScaleButton id="menuBtn8" skinName="ScaleBtnSkin" icon="recharge_chg@9" x="9" y="0" width="273" height="81"/>
+			</cui:Group>
+			<cui:Group id="skGoldBuy9Grp" width="273" height="82" x="0" y="630" anchorOffsetY="0" anchorOffsetX="0">
+			<cui:Image id="skMenuImg9" source="recharge_chg@btn_shangcheng_qqqianbao_yunshanfu_xuanzhong" width="273" height="81" x="7" y="0"/>
+			<game:UIDBAni id="skHot9" dbNm="recharge_rementubiao" autoPlay="true" x="210" y="40"/>
+			<cui:Image id="skImgLine9" width="230" height="2" x="0" y="71" source="recharge_chg@58"/>
+			<cui:ScaleButton id="menuBtn9" skinName="ScaleBtnSkin" icon="recharge_chg@btn_shangcheng_qqqianbao_yunshanfu" x="9" y="0" width="273" height="81"/>
+			</cui:Group>
+		</cui:Group>
+		</cui:Scroller>
+	</cui:Group>
+ 
+
+ 
+</e:Skin>

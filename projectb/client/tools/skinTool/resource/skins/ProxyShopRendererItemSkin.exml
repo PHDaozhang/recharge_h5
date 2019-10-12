@@ -1,0 +1,9 @@
+<e:Skin class="ProxyShopRendererItemSkin" width="366" height="93" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+	<cui:Group width="366" height="93" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<cui:Image width="366" height="93" x="0" y="0"/>
+		<cui:Image width="366" height="93" x="0" y="0" source="recharge_chg@65"/>
+		<cui:ScaleButton id="skCopy" label="" x="215" y="12" width="144" height="58" skinName="ScaleBtnSkin" icon="recharge_chg@34"/>
+		<cui:Label id="skItemDesc" text="133248965" x="88" y="52" size="24"/>
+		<cui:Label id="skItemName" text="代理充值" x="97" y="7" bold="true" size="25" textColor="0xfff1ae"/>
+	</cui:Group>
+</e:Skin>

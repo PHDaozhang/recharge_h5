@@ -1,0 +1,4 @@
+<e:Skin class="ItemTileSkin" width="232" height="216" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+	<cui:Image id="skIcon" left="0" right="0" top="0" bottom="0"/>
+    
+</e:Skin>

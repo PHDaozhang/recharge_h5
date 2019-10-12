@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="recharge_safeBoxNewSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16b6da47cbe" visible="false"/>
+
+	<cui:Group id="skBgGrp" left="0" right="0" top="0" bottom="0">
+		<cui:Image width="1280" height="720" y="0" horizontalCenter="-90" source="recharge_box@pic_shangcheng_bg"/>
+		<cui:Image width="250" height="94" source="recharge_box@pic_shangcheng_lihe02" bottom="0" left="283"/>
+		<cui:Image id="skImgBgLeft" width="335" height="720" source="recharge_box@pic_shangcheng_zuobian_diban" bottom="0" left="0"/>
+		<cui:Image id="skImgBgTopRight" width="1557" height="94" right="0" top="0" source="recharge_box@pic_shangcheng_wuyan"/>
+		<cui:Image id="skImgBgRight" width="340" height="720" right="0" bottom="0" source="recharge_box@pic_shangcheng_youbian_diban"/>
+		<cui:Image width="321" height="135" source="recharge_box@pic_shangcheng_biaoti_diban" left="0" top="0"/>
+		<cui:Image width="324" height="125" source="recharge_box@pic_shangcheng_caideng" right="0" top="50"/>
+		<cui:Image width="475" height="300" source="recharge_box@pic_shangcheng_lihe" right="0" bottom="0"/>
+		<cui:Image width="172" height="72" x="62" y="-2" source="recharge_safeBox@pic_shouyi_biaoti_shouyi"/>
+	</cui:Group>
+	<cui:Group id="skFrameGrp" left="0" right="0" bottom="0" top="0">
+		<cui:Group id="skTop" height="127" top="0" left="0" right="-2">
+			<cui:ScaleButton id="skExit"  y="3.86" skinName="ScaleBtnSkin" icon="recharge_chg@4" width="162" height="97" right="0"/>
+			<cui:Group id="skGoldBGGrp" width="275" height="58" x="430.68" y="9.89">
+				<cui:Image width="275" height="58" x="0" y="0" source="recharge_reCommon@dating_jinbi_db"/>
+				<cui:Image width="61" height="55" x="-16.59" y="2.51" source="common@gold"  visible="false"/>
+				 <cui:UIMovieClip x="22.63" y="23.34" aniName="hallGold" autoPlay="true"/>
+				<cui:BitmapLabel id="skPlayerGold" width="159.67" height="41.33" x="61.56" y="9.74" text="66666" anchorOffsetX="0" font="gold" anchorOffsetY="0"/>
+				<cui:ScaleButton id="skBuyGold" skinName="ScaleBtnSkin" icon="hall@jia" x="218" y="0.66" width="56" height="53"/>
+			</cui:Group>
+			<cui:Group id="skVipRotGrp" width="252" height="38" x="770.65" y="66.3" visible="false">
+				<cui:Image width="252" height="38" x="0" y="-43.93" source="recharge_reCommon@pic_shangcheng_vip_jingyantiao_db"/>
+				<cui:ProgressBar id="skVipBar" width="200" height="25" x="12.36" y="-38.78" skinName="loadingBarSkin1"/>
+				<cui:Image width="87" height="48" x="-27.66" y="-59.31" source="vip@vipB"/>
+				<cui:Image width="87" height="48" x="197.22" y="-58.13" source="vip@vipB"/>
+				<cui:Image width="17" height="25" x="232.49" y="-42.78" source="recharge_reCommon@pic_shangcheng_vip_jingyantiao_tou"/>
+
+				<cui:Image id="skVipFront" width="30" height="21" x="-2.04" y="-46.18" source="vip@v0"/>
+				<cui:Image id="skVipNext" width="30" height="21" x="225.47" y="-43.16" source="vip@v6"/>
+				<cui:Image id="skShowTips" width="162" height="28" x="41.53" y="-13.71" source="recharge_reCommon@txt_shengcheng_vip_jingyan_wenzi"/>
+
+				<cui:Image id="skVip6LevelBG" width="87" height="48" x="104" y="-18.3" source="vip@vipB"/>
+				<cui:Image id="skVip6Level" width="30" height="21" x="131" y="-3.61" source="vip@v6"/>
+				<cui:BitmapLabel id="skVipProgress" width="167" height="32" x="44.85" y="-37.49" text="0x100" font="difenNum" anchorOffsetX="0" textAlign="center"/>
+			</cui:Group>
+			<cui:ScaleButton id="skBtnCustomer" label="" width="74" height="76" skinName="ScaleBtnSkin" icon="recharge_safeBox@btn_shouyi_bangdingyinhangka_kefu" right="180" top="16"/>
+		</cui:Group>
+		<cui:Group id="skLeft" width="200" left="0" top="127" bottom="0">
+			<cui:Group id="skGoldSellAlipay" width="240" height="82" x="0" y="0">
+				<cui:Image width="230" height="2" x="0" y="78" source="recharge_reCommon@pic_shangcheng_fengexian"/>
+				<cui:ScaleButton id="skMenuIconAli" label="" x="0" y="0" width="273" height="86" skinName="ScaleBtnSkin" icon="recharge_safeBox@btn_shouyi_zhifubao" />
+				<cui:Image id="skImgAli" width="273" height="86" x="0" y="0" source="recharge_safeBox@btn_shouyi_zhifubao_xuanzhong"/>
+			</cui:Group>
+			<cui:Group id="skGoldSellBank" width="240" height="82" x="0" y="72">
+				<cui:Image width="230" height="2" x="0" y="78" source="recharge_reCommon@pic_shangcheng_fengexian"/>
+				<cui:ScaleButton id="skMenuIconBank" label="" x="0" y="0" width="273" height="86" skinName="ScaleBtnSkin" icon="recharge_safeBox@btn_shouyi_yinhangka"/>
+				<cui:Image id="skImgUnion" width="273" height="86" x="0" y="0" source="recharge_safeBox@btn_shouyi_yinhangka_xuanzhong"/>
+			</cui:Group>
+		</cui:Group>
+		<cui:Group id="skRight" width="220" top="127" right="0" bottom="0">
+			<cui:Scroller id="skRightScroll" height="460" left="0" right="0" top="0" width="220" anchorOffsetY="0">
+				<cui:DataGroup id="skRightScrollDataGroup"  width="220" height="100%">
+					<e:layout>
+						<cui:TileLayout isHorizontal="false" verticalGap="0" horizontalGap="0" itemH="46" itemW="219" />
+					</e:layout>
+				</cui:DataGroup>
+			</cui:Scroller>
+		</cui:Group>
+		<cui:Group id="skCenter" width="860" height="593" y="127" horizontalCenter="0">
+			<cui:Group id="skNoBindAlipayPanel" left="0" right="0" top="0" bottom="0" visible="false">
+				<cui:Group width="500" height="40" x="100.6" y="97.85">
+					<cui:Label text="真实姓名:" x="0" textColor="0xf3ac3d"/>
+					<cui:Image width="350" height="61" x="162.31" y="-11.27" source="recharge_safeBox@pic_shouyi_bangdingyinhangka_shurukuang_db"/>
+					<cui:EditableText id="skRealNameInput" width="326.67" height="35" text="" x="182.34" y="4.4" prompt="请输入真实姓名" promptColor="0xd2adab" anchorOffsetX="0"/>
+				</cui:Group>
+                <cui:Group width="550" height="40" x="70.3" y="182.7">
+					<cui:Label text="支付宝账号:" x="0" textColor="0xf3ac3d"/>
+					<cui:Image width="350" height="61" x="192.61" y="-12.79" source="recharge_safeBox@pic_shouyi_bangdingyinhangka_shurukuang_db"/>
+					<cui:EditableText id="skBindAccountInput" width="322.67" height="35" text="" x="213.6" y="4.59" prompt="请输入支付宝账号" promptColor="0xd2adab" anchorOffsetX="0"/>
+				</cui:Group>
+				<cui:ScaleButton id="skBindAlipay" label="" y="272.09" icon="recharge_safeBox@btn_shouyi_lijibangding" width="214" height="74" skinName="ScaleBtnSkin" horizontalCenter="0"/>
+				<cui:Image width="375" height="67" x="235" y="-15" source="recharge_safeBox@pic_shouyi_zhifubao_biaoti_zhifubao"/>
+				<cui:Label id="skNoBindAliWithrawTip" text="使用收益功能，必须先绑定支付宝，一个支付宝账号对应一个游戏帐号，支付宝绑定后不可以随便修改，如需修改请联系客服，每次兑换收取兑换金额2%的手续费" y="373.85" anchorOffsetX="0" width="661.88" anchorOffsetY="0" height="146.67" textColor="0xffe095" horizontalCenter="0"/>
+			</cui:Group>
+            
+			<cui:Group id="skNoBindBankPanel" left="0" right="0" bottom="0" top="0">
+				<cui:Label id="skNoBindBankWithrawTip" text="请输入正确信息，为了您的财产安全，绑定后不能随意修改，如需修改请联系客服，每次兑换收取兑换金额1.5%的手续费" y="448.18" anchorOffsetX="0" width="699.76" anchorOffsetY="0" height="122.42" textColor="0xffe095" horizontalCenter="0"/>
+				<cui:Group id="skNBBRealNameGrp" width="350" height="61" x="90" y="91">
+					<cui:Image width="350" height="61" x="0" y="0" source="recharge_safeBox@pic_shouyi_bangdingyinhangka_shurukuang_db"/>
+					<cui:Label text="姓名" x="140" y="-33" textColor="0xf3ac3d"/>
+					<cui:EditableText id="skNBBRealNameInput" width="322" height="35" text="" x="10" y="20" anchorOffsetX="0" prompt="持卡人姓名..." promptColor="0xd2adab"/>
+					<cui:Label id="skNBBRealNameShowText" text="" x="9" y="18" width="320" height="35" textColor="0xd2adab"/>
+				</cui:Group>
+				<cui:Group id="skNBBPlayerCode" width="350" height="61" x="455" y="91">
+					<cui:Image width="350" height="61" x="0" y="0" scaleX="1" scaleY="1" source="recharge_safeBox@pic_shouyi_bangdingyinhangka_shurukuang_db"/>
+					<cui:EditableText id="skNBBPlayerCodeInput" width="322" height="35" text="" x="10" y="20" anchorOffsetX="0" prompt="请输入身份证号码..." promptColor="0xd2adab"/>
+					<cui:Label text="身份证号码" x="93" y="-32" textColor="0xf3ac3d"/>
+					<cui:Label id="skNBBPlayerCodeShowText" text="" x="10" y="20" width="320" height="35" textColor="0xd2adab"/>
+				</cui:Group>
+				<cui:Group id="skNBBBankAccount" width="350" height="61" x="90" y="192">
+					<cui:Image width="350" height="61" x="0" y="0" scaleX="1" scaleY="1" source="recharge_safeBox@pic_shouyi_bangdingyinhangka_shurukuang_db"/>
+					<cui:EditableText id="skNBBBankAccoutInput" width="322" height="35" text="" x="10" y="20" anchorOffsetX="0" prompt="请输入银行卡账号..." promptColor="0xd2adab"/>
+					<cui:Label text="银行卡账号" x="115" y="-27" textColor="0xf3ac3d"/>
+					<cui:Label id="skNBBBankAccountShowText" text="" x="10" y="20" width="320" height="35" textColor="0xd2adab"/>
+				</cui:Group>
+				<cui:Group id="skNBBReBankAccount" width="350" height="61" x="90" y="296.36">
+					<cui:Image width="350" height="61" x="0" y="0" scaleX="1" scaleY="1" source="recharge_safeBox@pic_shouyi_bangdingyinhangka_shurukuang_db"/>
+					<cui:EditableText id="skNBBReBankAccountInput" width="322" height="35" text="" x="10" y="20" anchorOffsetX="0" prompt="请再次输入银行卡账号..." promptColor="0xd2adab"/>
+					<cui:Label text="确认银行卡账号" x="77" y="-28" textColor="0xf3ac3d"/>
+					<cui:Label id="skNBBReBankAccountShowText" text="" x="10" y="20" width="320" height="35" textColor="0xd2adab"/>
+				</cui:Group>
+				<cui:ScaleButton id="skBindBank" label="" x="314.73" y="371.47" width="242" height="87" skinName="ScaleBtnSkin" icon="recharge_safeBox@btn_shouyi_lijibangding"/>
+				<cui:Group id="skNBBBankTypeGrp" width="348" height="277" x="455" y="192" anchorOffsetX="0" anchorOffsetY="0">
+					<cui:Label text="开户行" x="131" y="-29" textColor="0xf3ac3d"/>
+					<cui:Image width="350" height="61" x="0" y="0" scaleX="1" scaleY="1" source="recharge_safeBox@pic_shouyi_bangdingyinhangka_shurukuang_db"/>
+					<cui:ScaleButton id="skSelectBank" label="" x="284.67" y="6.65" width="60" height="51" skinName="ScaleBtnSkin" icon="recharge_safeBox@btn_shouyi_bangdingyinhangka_kaihuhang_xiala_down"/>
+					<cui:Label id="skBankTypeInput" text="" x="8.03" y="12.9" anchorOffsetX="0" width="271.21" anchorOffsetY="0" height="35" textColor="0xd2adab"/>
+
+					<cui:Label id="skNBBReBankTypeShowText" text="" x="2" y="14" height="35" anchorOffsetX="0" width="278.79" textColor="0xd2adab"/>
+					<cui:Image id="skImgScrollerBG" width="350" height="228" x="-2" y="59" source="recharge_safeBox@pic_shouyi_bangdingyinhangka_kaihuihang_xiala_db" touchEnabled="false"/>
+					<cui:Scroller id="skBankListView" width="340" height="207" x="5.36" y="61.88" anchorOffsetX="0" anchorOffsetY="0">
+						<cui:DataGroup id="skBankListViewDataGroup"  width="340" height="100%">
+							<e:layout>
+								<cui:TileLayout isHorizontal="false" verticalGap="0" horizontalGap="0" itemH="46" itemW="340" />
+							</e:layout>
+						</cui:DataGroup>
+					</cui:Scroller>
+
+					<cui:SimpleButton id="skNBBSimpleBtn" width="286" height="52" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0"/>
+				</cui:Group>
+
+				<cui:Image width="375" height="67" x="235" y="-15" source="recharge_safeBox@pic_shouyi_biaoti_bangdingyinhangka"/>
+
+			</cui:Group>
+			<cui:Group id="skAlipayPanel" left="0" right="0" top="-1" bottom="1"  visible="false">
+                <cui:Group id="skAliGoldTxtGrp" width="764.34" height="39" x="136.75" y="133.69" anchorOffsetY="0" anchorOffsetX="0">
+					<cui:Label text="兑换金额：" x="-27.08" y="4.29" size="24" textColor="0xdaa249" bold="true"/>
+					<cui:Image width="350" height="61" x="137.64" y="-15.03" source="recharge_safeBox@pic_shouyi_bangdingyinhangka_shurukuang_db"/>
+					<cui:EditableText id="skAliGoldInput" width="312" height="34" text="" x="150.31" y="1" promptColor="0xd2adab"/>
+					<cui:Label text="元" x="451.05" y="-0.1"/>
+					<cui:ScaleButton id="skAliGoldClear" label="" x="491.75" y="-15.14" width="174" height="58" skinName="ScaleBtnSkin" icon="recharge_safeBox@btn_shouyi_qingling"/>
+				</cui:Group>
+				<cui:ScaleButton id="skAliGoldSell" label="" x="334.37" y="312.16" skinName="ScaleBtnSkin" icon="recharge_safeBox@btn_shouyi_bangdingyinhangka_queding"/>
+				<cui:Group id="skAliChip1" width="109" height="100" x="122.26" y="192">
+					<cui:ScaleButton id="skAliChipBtn1" label="" x="0" y="0" width="92" height="99" skinName="ScaleBtnSkin" icon="recharge_chg@51"/>
+					<!--<cui:Label id="skAliBitmapFontLabel_5" text="50" x="39" y="28.98" textColor="0x000000" bold="true"/>-->
+					<cui:BitmapLabel id="skAliBitmapFontLabel_5" width="70" height="30" x="12" y="28" text="50" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma"/>
+				</cui:Group>
+                <cui:Group id="skAliChip2" width="109" height="100" x="268.6" y="192">
+					<cui:ScaleButton id="skAliChipBtn2" label="" x="0" y="0" width="92" height="99" skinName="ScaleBtnSkin" icon="recharge_chg@49"/>
+					<!--<cui:Label id="skAliBitmapFontLabel_6" text="100" x="26.34" y="28.98" textColor="0x000000" bold="true"/>-->
+					<cui:BitmapLabel id="skAliBitmapFontLabel_6" width="70" height="30" x="12" y="28" text="100" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma"/>
+				</cui:Group>
+                <cui:Group id="skAliChip3" width="109" height="100" x="407.82" y="192">
+					<cui:ScaleButton id="skAliChipBtn3" label="" x="0" y="0" width="92" height="99" skinName="ScaleBtnSkin" icon="recharge_chg@52"/>
+					<!--<cui:Label id="skAliBitmapFontLabel_7" text="500" x="26.34" y="28.98" textColor="0x000000" bold="true"/>-->
+					<cui:BitmapLabel id="skAliBitmapFontLabel_7" width="70" height="30" x="12" y="28" text="500" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma"/>
+				</cui:Group>
+                <cui:Group id="skAliChip4" width="109" height="100" x="542.05" y="192">
+					<cui:ScaleButton id="skAliChipBtn4" label="" x="0" y="0" width="92" height="99" skinName="ScaleBtnSkin" icon="recharge_chg@48"/>
+					<!--<cui:Label id="skAliBitmapFontLabel_8" text="1千" x="26.34" y="28.98" textColor="0x000000" bold="true"/>-->
+					<cui:BitmapLabel id="skAliBitmapFontLabel_8" width="70" height="30" x="12" y="28" text="1000" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma"/>
+				</cui:Group>
+                <cui:Group id="skAliChip5" width="109" height="100" x="670.2" y="192">
+					<cui:ScaleButton id="skAliChipBtn5" label="" x="0" y="0" width="92" height="99" skinName="ScaleBtnSkin" icon="recharge_chg@50"/>
+					<!--<cui:Label id="skAliBitmapFontLabel_9" text="5千" x="29" y="28.98" textColor="0x000000" bold="true"/>-->
+					<cui:BitmapLabel id="skAliBitmapFontLabel_9" width="70" height="30" x="12" y="28" text="50000" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma"/>
+				</cui:Group>
+				<cui:Group id="skAliRealNameGrp" width="398.54" height="46.67" x="97.15" y="2.74" anchorOffsetX="0" anchorOffsetY="0">
+					<cui:Label text="支付宝ID:" x="0" y="8" textColor="0xdaa249"/>
+					<cui:EditableText id="skAliBankAccount" width="300" height="29.33" text="" x="130.3" y="7" anchorOffsetY="0"/>
+				</cui:Group>
+				<cui:Group id="skAliBankAccountGrp" width="340" height="40" x="551.05" y="9.85" anchorOffsetY="0" anchorOffsetX="0">
+					<cui:Label text="真实姓名：" x="0" y="0" textColor="0xdaa249" width="300"/>
+					<cui:Label id="skAliRealName" text="" x="152" y="9" width="120" height="30"/>
+
+				</cui:Group>
+				<cui:Group id="skAligoldTxt_0Grp" width="602.66" height="53.34" x="196.12" y="53.7" anchorOffsetY="0" anchorOffsetX="0">
+					<cui:Label text="当前可兑换金额：" x="9.01" y="11.66" textColor="0xdaa249"/>
+					<cui:Image width="246" height="65" x="257.37" y="-5.46" source="recharge_safeBox@pic_shouyi_bangdingyinhangka_jinbi_db"/>
+					<cui:Label id="skAlipayMaxGold" text="000" x="321.32" y="14.87" width="150"/>
+					<cui:Label text="元" x="462.65" y="16.32"/>
+				</cui:Group>
+				<cui:Label id="skAliPayWithrawTip" text="1.兑换五分钟到账，若未到账请及时与客服联系。 2.兑换下限为100元，兑换金额必须为50的整倍数，手续费为兑换金额的2%。" x="80" y="414" anchorOffsetX="0" width="672.49" anchorOffsetY="0" height="142.12" textColor="0xffe095"/>
+				<cui:ScaleButton id="skBtnResetTrId" label="Button" x="469.15" y="6.74" scaleX="1" scaleY="1" width="75" height="48" icon="recharge_safeBox@btn_shouyi_zhifubao_xiugai"/>
+				<cui:ScaleButton id="skBtnResetTrName" label="Button" x="820" y="6.74" scaleX="1" scaleY="1" width="75" height="48" icon="recharge_safeBox@btn_shouyi_zhifubao_xiugai"/>
+            </cui:Group>
+			<cui:Group id="skBankPanel" left="45" right="-45" top="-30" bottom="30" visible="false">
+				<cui:Group id="skGoldTxtGrp" width="764.34" height="39" x="79.19" y="163.99" anchorOffsetY="0" anchorOffsetX="0">
+					<cui:Label text="兑换金额：" x="1.7" y="7.33" size="24" textColor="0xdaa249" bold="true"/>
+					<cui:Image width="350" height="61" x="143.72" y="-13.51" source="recharge_safeBox@pic_shouyi_bangdingyinhangka_shurukuang_db"/>
+					<cui:EditableText id="skBankGoldInput" width="312" height="34" text="" x="150.31" y="1"/>
+					<cui:Label text="" x="454.09" y="-0.05"/>
+					<cui:ScaleButton id="skBankGoldClear" label="" x="509.94" y="-13.62" width="174" height="58" skinName="ScaleBtnSkin" icon="recharge_safeBox@btn_shouyi_qingling"/>
+				</cui:Group>
+				<cui:ScaleButton id="skBankGoldSell" label="" x="287.4" y="348.54" skinName="ScaleBtnSkin" icon="recharge_safeBox@btn_shouyi_bangdingyinhangka_queding"/>
+				<cui:Group id="skChip1" width="109" height="100" x="79.85" y="224">
+					<cui:ScaleButton id="skBankChipBtn1" label="" x="0" y="0" width="92" height="99" skinName="ScaleBtnSkin" icon="recharge_chg@51"/>
+					<!--<cui:Label id="skBitmapFontLabel_5" text="50" x="39.67" y="28.98" textColor="0x000000" bold="true"/>-->
+					<cui:BitmapLabel id="skBitmapFontLabel_5" width="70" height="30" x="12" y="28" text="50" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma"/>
+				</cui:Group>
+                <cui:Group id="skChip2" width="109" height="100" x="223.15" y="224">
+					<cui:ScaleButton id="skBankChipBtn2" label="" x="0" y="0" width="92" height="99" skinName="ScaleBtnSkin" icon="recharge_chg@49"/>
+					<!--<cui:Label id="skBitmapFontLabel_6" text="100" x="26.34" y="28.98" textColor="0x000000" bold="true"/>-->
+					<cui:BitmapLabel id="skBitmapFontLabel_6" width="70" height="30" x="12" y="28" text="100" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma"/>
+				</cui:Group>
+                <cui:Group id="skChip3" width="109" height="100" x="353.3" y="224">
+					<cui:ScaleButton id="skBankChipBtn3" label="" x="0" y="0" width="92" height="99" skinName="ScaleBtnSkin" icon="recharge_chg@52"/>
+					<!--<cui:Label id="skBitmapFontLabel_7" text="500" x="26.34" y="28.98" textColor="0x000000" bold="true"/>-->
+					<cui:BitmapLabel id="skBitmapFontLabel_7" width="70" height="30" x="12" y="28" text="500" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma"/>
+				</cui:Group>
+                <cui:Group id="skChip4" width="109" height="100" x="496.6" y="224">
+					<cui:ScaleButton id="skBankChipBtn4" label="" x="0" y="0" width="92" height="99" skinName="ScaleBtnSkin" icon="recharge_chg@48"/>
+					<!--<cui:Label id="skBitmapFontLabel_8" text="1千" x="26.34" y="28.98" textColor="0x000000" bold="true"/>-->
+					<cui:BitmapLabel id="skBitmapFontLabel_8" width="70" height="30" x="12" y="28" text="1000" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma"/>
+				</cui:Group>
+                <cui:Group id="skChip5" width="109" height="100" x="624.75" y="224">
+					<cui:ScaleButton id="skBankChipBtn5" label="" x="0" y="0" width="92" height="99" skinName="ScaleBtnSkin" icon="recharge_chg@53"/>
+					<!--<cui:Label id="skBitmapFontLabel_9" text="5千" x="29" y="28.98" textColor="0x000000" bold="true"/>-->
+					<cui:BitmapLabel id="skBitmapFontLabel_9" width="92" height="30" x="3" y="28" text="50000" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" font="zhuomianchouma"/>
+				</cui:Group>
+				<cui:Group id="skRealNameGrp" width="210.66" height="46" x="51.7" y="33" anchorOffsetX="0" anchorOffsetY="0">
+					<cui:Label text="银行卡" x="0" y="8" textColor="0xdaa249"/>
+					<cui:EditableText id="skBankAccount" width="280.3" height="40" text="" x="115.15" y="8" anchorOffsetY="0" anchorOffsetX="0"/>
+				</cui:Group>
+				<cui:Group id="skBankAccountGrp" width="340" height="46" x="445" y="33" anchorOffsetY="0" anchorOffsetX="0">
+					<cui:Label text="开户人" x="27" y="8" textColor="0xdaa249"/>
+					<cui:EditableText id="skRealName" width="178.67" height="34.67" text="" x="151" y="8" anchorOffsetY="0" anchorOffsetX="0"/>
+				</cui:Group>
+				<cui:Group id="skgoldTxt_0Grp" width="602.66" height="53.34" x="150.67" y="84" anchorOffsetY="0" anchorOffsetX="0">
+					<cui:Label text="当前可兑换金额：" x="9.01" y="11.66" textColor="0xdaa249"/>
+					<cui:Image width="246" height="62" x="257.37" y="-5.46" source="recharge_safeBox@pic_shouyi_bangdingyinhangka_jinbi_db"/>
+					<cui:Label id="skBankMaxGold" text="000" x="325.88" y="11.88" width="150"/>
+					<cui:Label text="" x="461.18" y="10.84"/>
+				</cui:Group>
+				<cui:Label id="skBankWithrawTip" text="1.兑换五分钟到账，若未到账请及时与客服联系。 2.兑换下限为100元，兑换金额必须为50的整倍数，手续费为兑换金额的2%。" x="46.09" y="430.36" anchorOffsetX="0" width="670.97" anchorOffsetY="0" height="155.76" textColor="0xffe095"/>
+			</cui:Group>
+		</cui:Group>
+		<cui:Group id="skTipsPanel" scaleX="1" scaleY="1" left="2" right="-2" top="0" bottom="0" visible="false">
+			<cui:Group width="570" height="417" horizontalCenter="0" verticalCenter="0">
+				<cui:Image width="570" height="417" x="0" y="0" source="recharge_txt_pic_tishikuang_db"/>
+				<cui:ScaleButton id="skTipClose" label="" x="491" y="5" skinName="ScaleBtnSkin" icon="common@close" width="80" height="82"/>
+				<cui:Label text="请确认姓名与账号" x="167" y="95" textColor="0xff0000"/>
+				<cui:Label id="skTipNameBG" text="真实姓名" x="91" y="155"/>
+				<cui:Label id="skTipAccountBG" text="支付宝ID" x="94" y="224"/>
+
+
+				<cui:ScaleButton id="skTipPanelOk" label="" x="164" y="325" skinName="ScaleBtnSkin" icon="common@txt_ok" width="242" height="87"/>
+				<cui:Label id="skTipName" text="Label" x="263" y="155" width="200" height="30"/>
+				<cui:Label id="skTipAccount" text="afefeafefa\nefaefaefaefaefafeafeafeafefaef" x="260" y="224" width="264" height="30" anchorOffsetX="0"/>
+			</cui:Group>
+		
+		</cui:Group>
+	</cui:Group>
+</e:Skin>

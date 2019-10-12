@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WaitPaySkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+	<cui:Group left="0" right="0" top="0" bottom="0">
+		<cui:Group width="570" height="417" horizontalCenter="0" verticalCenter="0">
+			<cui:Image width="570" height="417" x="0" y="0" source="recharge_txt_pic_tishikuang_db"/>
+			<cui:ScaleButton id="skClose" label="Button" x="495" y="-2" skinName="ScaleBtnSkin" icon="common@close" width="80" height="82"/>
+			<cui:ScaleButton id="skConfirm" label="" y="318" icon="common@txt_ok" skinName="ScaleBtnSkin" width="242" height="87" horizontalCenter="0"/>
+			<cui:Label id="skConfirmMsg" text="正在打开支付界面，支付完成后请点击确定获取资金，网络波动时到账会有延迟。（若浏览器无法打开，请尝试其他充值方式）" x="61" y="119" anchorOffsetX="0" width="441" anchorOffsetY="0" height="146" size="35" textColor="0xfffff0"/>
+		</cui:Group>
+	</cui:Group>
+    
+</e:Skin>

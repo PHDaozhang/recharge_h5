@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FirstChargeItemRenderer" width="167" height="175" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing" xmlns:game="game.*">
+    <game:UIDBAni id="skAni" autoPlay="true" y="180" x="105" scaleX="0.8" scaleY="0.8"/>
+</e:Skin>

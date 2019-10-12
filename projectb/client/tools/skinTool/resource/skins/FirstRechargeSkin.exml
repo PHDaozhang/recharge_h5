@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FirstRechargeSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+	<cui:Group id="panel" top="0" bottom="0" width="1280" horizontalCenter="0">
+		<cui:Group id="mainGrop" width="793.64" height="652" y="26" anchorOffsetX="0" horizontalCenter="83">
+			<cui:Image width="767.88" height="652" x="0" y="0" source="recharge_firstRecharge@pic_shouchongyouli_db" scaleX="1" scaleY="1" anchorOffsetX="0"/>
+			<cui:ScaleButton id="skRunRight" x="669.3" y="226" width="33" height="126" skinName="ScaleBtnSkin" icon="recharge_firstRecharge@pic_shouchongyouli_huadongjiantou" />
+			<cui:ScaleButton id="skRunLeft" scaleX="-1" x="90" y="226" width="33" height="126" skinName="ScaleBtnSkin" icon="recharge_firstRecharge@pic_shouchongyouli_huadongjiantou" />
+			<cui:Scroller id="skGameList" width="556" height="218" x="106" y="171.33" scaleX="1" scaleY="1" scrollPolicyH="on" scrollPolicyV="off" anchorOffsetX="0" anchorOffsetY="0" >
+				
+				<cui:DataGroup id="skGameListDataGroup"  width="556" height="290" anchorOffsetX="0">
+					<e:layout>
+						<cui:TileLayout verticalGap="0" horizontalGap="0" itemH="290" itemW="190" />
+					</e:layout>
+				</cui:DataGroup>
+				
+			</cui:Scroller>
+			<cui:Image width="306" height="559" x="-161" y="92" source="recharge_firstRecharge@pic_shouchongyouli_nv"/>
+			<cui:ScaleButton id="skRecharge_WX" width="136" height="134"  x="118" y="461" skinName="ScaleBtnSkin" icon="recharge_firstRecharge@btn_shouchongyouli_weixin" />
+			<cui:ScaleButton id="skRecharge_ZFB" width="136" height="134"  x="237" y="461" skinName="ScaleBtnSkin" icon="recharge_firstRecharge@btn_shouchongyouli_zhifubao" />
+			<cui:ScaleButton id="skRecharge_QQ" width="136" height="134"  x="361" y="461" skinName="ScaleBtnSkin" icon="recharge_firstRecharge@btn_shouchongyouli_qqqianbao" />
+			<cui:ScaleButton id="skRecharge_UnionPay" width="136" height="134" x="483" y="461" skinName="ScaleBtnSkin" icon="recharge_firstRecharge@btn_shouchongyouli_yinlian" />
+			<cui:ScaleButton id="skClose" label="Button" x="679" y="85" skinName="ScaleBtnSkin" icon="common@close"  width="80" height="82"/>
+		</cui:Group>
+	</cui:Group>
+	<w:Config id="16b5ae5cc7b"/>
+    
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CHRMainUI" width="338" height="46" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+	<cui:Image id="skBankBG" width="340" height="47" y="0" x="0" source="recharge_safeBox@pic_shouyi_bangdingyinhangka_kaihuihang_xiala_xuanzhong"/>
+	<cui:Label id="skBankName" text="Label" left="0" right="0" top="9" bottom="2" size="30" anchorOffsetY="0" textColor="0xd2adab"/>
+    
+</e:Skin>

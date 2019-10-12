@@ -1,0 +1,11 @@
+{
+  "name": "conftool",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js client ./xlsx ./out"
+  },
+  "author": "",
+  "license": "ISC"
+}

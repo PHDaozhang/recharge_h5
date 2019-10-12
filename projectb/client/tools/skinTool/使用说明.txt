@@ -1,0 +1,60 @@
+
+简介：
+
+	将项目下的皮肤exml打包处理成json文件。
+此工具会生成两个json文件，分别为[initTheme.json]和[theme.json]。
+[initTheme.json]：包含项目初始运行需要的皮肤。需进入游戏前就加载。例如：登录界面
+[theme.json]：包含项目后续界面皮肤，可在进入游戏时再加载。
+	
+
+运行说明:
+1.运行 [run.bat] 批处理即可
+
+
+配置、代码说明:
+login.thm.json：用于生成initTheme.json的皮肤列表
+
+[main.js]：
+方法 handSkinToJs()中，含有输出 exml转未压缩的js代码。 默认是注释起来的。如果皮肤有问题，
+需要查看未压缩的js代码时，可解注释。然后查看输出的js代码
+
+[deps/UIEXMLParser.js]
+
+	由于是外部来解析exml，所以自定义的组件不能自动识别。需增加配置来帮助解析。
+	
+	propTypeList:属性类型对照表.
+		填写新增加的属性。一些自定义的组件的属性，在这里手动填写。
+		例如UIMovieClip控件使用的aniName属性就属于无法自动识别。在这里填写上 string:["aniName"]
+		
+	ctrl2eui:自定义组件继承关系表
+		填写自定义组件到白鹭的eui的继承关系。注意这里填写的是继承到eui的继承关系。
+		例如：在项目 MenuGroup extends UIGroup。但这边写的继承关系是 {MenuGroup:"Group"}
+		
+		
+		
+
+错误处理：
+	此工具使用的是nodejs，需要使用第三方库[uglify-js][xmldom][xml2js]
+	1.如果运行时提示缺少库文件。可通过命令行 npm install 来安装。
+	
+	1.在工具目录下，按住shift+鼠标右键弹出命令选择 [在此处打开命令窗口]
+	
+	2.依次输入命令行 "npm install uglify-js -g"
+	"npm install xmldom -g"
+	"npm install xml2js -g"
+	
+	
+		
+		
+	
+
+
+
+
+
+
+
+
+
+
+

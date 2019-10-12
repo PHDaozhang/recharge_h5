@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CHRHelpSkin"  width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*"
+        xmlns:w="http://ns.egret.com/wing">
+
+    <cui:Group width="1280" height="720" y="0" horizontalCenter="0">
+ 
+
+		<cui:Image source="ruleBg" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<cui:Image source="common@txt_rules" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="-286.5"/>
+		<cui:ScaleButton id="skBack"  icon="recharge_chg@4" label="Button" skinName="ScaleBtnSkin" scaleX="1" scaleY="1" horizontalCenter="315" verticalCenter="-251.5" anchorOffsetX="0" width="176"/>
+		<cui:Image source="common@decoration" scaleX="1" scaleY="1" horizontalCenter="0.5" verticalCenter="-226"/>
+  
+  </cui:Group>
+
+
+
+</e:Skin>

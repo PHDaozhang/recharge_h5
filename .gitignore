@@ -359,6 +359,7 @@ MigrationBackup/
 .wing
 bin-debug
 bin-release
+node_modules
 
 /projectb/client/benzbmw/
 /projectb/client/game_baijiale/
@@ -374,7 +375,7 @@ bin-release
 /projectb/client/game_qznn/
 /projectb/client/game_zhajinhua/
 /projectb/client/recharge/
-/projectb/client/tools/
+
 /projectb/publish/
 
 
@@ -385,3 +386,6 @@ bin-release
 /projectb/client/game_xxx/newExcel/
 /projectb/client/game_xxx/excel/
 /projectb/client/game_xxx/mainSkin/res-main/tmp/
+
+
+/projectb/client/tools/skinTool/out/

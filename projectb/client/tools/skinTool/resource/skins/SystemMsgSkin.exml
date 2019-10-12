@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SystemMsg" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+	<cui:Group left="0" right="0" top="0" bottom="0">
+		<cui:Group width="570" height="417" horizontalCenter="0" verticalCenter="0">
+			<cui:Group id="skInfoPanel" width="570" height="417" y="0" x="0">
+				<cui:Label id="skMessageInfo" text="登陆中" horizontalCenter="0" verticalCenter="0"/>
+			</cui:Group>
+            <cui:Group id="skConfirmPanel" width="570" height="417" x="0" y="0">
+                <cui:Image width="570" height="417" x="0" y="0" source="recharge_txt_pic_tishikuang_db"/>
+
+                <cui:ScaleButton id="skConfirm" label="" y="318" icon="common@txt_ok" skinName="ScaleBtnSkin" width="242" height="87" horizontalCenter="0"/>
+                <cui:Label id="skConfirmMsg" text="我是系统提示" x="61" y="119" anchorOffsetX="0" width="441" anchorOffsetY="0" height="146" size="35" textColor="0xfffff0"/>
+            </cui:Group>
+
+
+
+		</cui:Group>
+	</cui:Group>
+    
+</e:Skin>
