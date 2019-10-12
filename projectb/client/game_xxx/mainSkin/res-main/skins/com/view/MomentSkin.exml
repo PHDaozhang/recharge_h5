@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MomentSkin" width="1200" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+<cui:Image source="hallBg" width="100%" height="100%"/>
+<cui:Group verticalCenter="0" horizontalCenter="0" width="1104" height="698"  anchorOffsetX="0" anchorOffsetY="0"> 
+    <cui:Image source="momentBg" x="48" y="44"/>
+    <cui:ScaleButton id="skClose" icon="common@close" skinName="ScaleBtnSkin" x="1016" y="47" width="80" height="82"/>
+    <cui:Image id="skTitle"  x="389" y="-44.5"/>
+    <cui:ScaleButton id="skQBtn" icon="common@txt_quickMa" skinName="ScaleBtnSkin" x="782" y="104"/>
+    <cui:Scroller width="931" height="439" y="188.5" x="89" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="on">
+        <cui:DataGroup id="skList"  width="931" height="439" >
+            <e:layout>
+                <cui:DataLineLayout isHorizontal="false" gap="5" itemH="121" itemW="931"/>
+            </e:layout>
+        </cui:DataGroup>
+    </cui:Scroller>
+</cui:Group>
+</e:Skin>

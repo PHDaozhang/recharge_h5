@@ -1,0 +1,9 @@
+<e:Skin class="ChatTileSkin" width="870" height="136" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Image x="17" y="10" source="chat@head_bg"/>
+    <cui:Image id="skHead" x="17" y="10"/>
+    <cui:Image x="17" y="10" source="chat@head" />
+    <cui:Label id="skNm" x="90" y="30" size="24" textColor="0xFFDE00" stroke="2" strokeColor="0x161616" text="11"/>
+    <cui:Label id="skMsg" x="90" y="60" width="710" height="60" size="22" text="11" textColor="0xc6e5e4" stroke="1" strokeColor="0x161616" anchorOffsetY="0"/>
+    <cui:Label id="skTm" x="747" y="30" width="80" height="20" size="18" text="11" textColor="0xbbbbbb" textAlign="right"/>
+    <cui:Image x="35" y="127" width="800" source="chat@line" />
+</e:Skin>

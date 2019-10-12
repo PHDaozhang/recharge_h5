@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="chipComSkin" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:game="game.*" height="120" width="705">
+    <game:ItemTile  skinName="chipTileSkin" x="68" y="30"/>
+    <game:ItemTile  skinName="chipTileSkin" x="178" y="30"/>
+    <game:ItemTile  skinName="chipTileSkin" x="290" y="30"/>
+    <game:ItemTile  skinName="chipTileSkin" x="403" y="30"/>
+    <game:ItemTile  skinName="chipTileSkin" x="513" y="30"/>
+    <cui:Image source="pic_chipdizuo" y="103"/>
+</e:Skin>

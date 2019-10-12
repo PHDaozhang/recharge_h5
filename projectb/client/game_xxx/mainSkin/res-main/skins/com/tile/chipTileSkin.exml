@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="chipTileSkin" width="128" height="133" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+<cui:Image id="skIcon" source="chip@1" x="18" y="23"/>
+<cui:Image id="skSel" source="chip@chipchoose"/>
+<cui:BitmapLabel id="skFont" font="chipNum"  textAlign="center" text="111" width="128" y="49"/>
+</e:Skin>

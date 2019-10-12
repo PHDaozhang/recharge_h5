@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NHRoomItemSkin" width="390" height="157" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:game="game.*" xmlns:w="http://ns.egret.com/wing">
+    <cui:Image id="skBg"  source="txt_newScene1" horizontalCenter="18" verticalCenter="0"/>
+    <cui:ScaleButton id="skBtn" label="" x="35" y="0" width="354" height="157" skinName="ScaleBtnSkin">
+            
+    </cui:ScaleButton>
+    <game:UIDBAni id="skDb"  y="99" x="81" autoPlay="true"/>
+    <!--<cui:Image id="skImgAdd" width="191" height="168" anchorOffsetX="0" anchorOffsetY="0" source="doudizhu_room@pic_xuanchang_doudizhu_5" x="-10" y="-11"/>-->
+
+    <cui:BitmapLabel id="skDfFont" x="186" y="21" font="xuanchangDiFen" text="dfa600" scaleX="0.8" scaleY="0.8"/>
+    <cui:BitmapLabel id="skIdTxt" x="299" y="56" font="moment1" text="99"/>
+    <cui:BitmapLabel id="skRcFont" x="189" y="110" font="ruChangFen" text="rca600"/>
+</e:Skin>

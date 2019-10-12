@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="redPointSkin" width="29" height="29" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+	<cui:Image source="activity@xyd"/>
+	<cui:BitmapLabel id="skCount" width="25" y="6.5" font="unRead" text="1" x="2" textAlign="center"/>
+</e:Skin>

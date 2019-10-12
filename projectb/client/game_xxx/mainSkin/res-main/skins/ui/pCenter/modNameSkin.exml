@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="modNameSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+<cui:Image id="rmv_modName" source="rmv_sg" width="1280" height="720" x="-1"/>
+<cui:Image  source="txt_modNameBg"  width="529" height="388" horizontalCenter="0" verticalCenter="0"/>
+<cui:ScaleButton id="skBack" icon="common@close" skinName="ScaleBtnSkin" y="148" width="80" height="82" x="840"/>
+<cui:EditableText id="skName" text="" x="442" y="319" anchorOffsetX="0" width="402" size="24" height="24" textColor="0x715a5a"/>
+<cui:Image id="skFirstLab" source="pCenter@txt_firstAlter" y="268" width="143" height="23" horizontalCenter="0.5" visible="false"/>
+<cui:Group id="skSecondGp" anchorOffsetY="0" height="34" y="261" anchorOffsetX="0" width="280" horizontalCenter="26">
+    <cui:Image  source="pCenter@txt_secondAlter"  width="189" height="38" x="0" y="0"/>
+    <cui:Label id="skGold"  size="24" text="111" textColor="0x00ff5a" x="191" y="11" anchorOffsetX="0" width="101"/>
+</cui:Group>
+<cui:ScaleButton id="skSure" icon="pCenter@txt_sure" x="409" y="432" width="208" height="78" skinName="ScaleBtnSkin"/>
+<cui:ScaleButton id="skCancel" icon="pCenter@txt_cancel" width="208" height="78" skinName="ScaleBtnSkin" x="661.5" y="432"/>
+</e:Skin>

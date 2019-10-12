@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="newMoment1Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:game="game.*">
+<cui:Image source="hallBg" width="100%" height="100%"/>
+<cui:ScaleButton id="skRouteIn" icon="common@txt_pljj" width="83" height="63" skinName="ScaleBtnSkin" x="1050" y="23" right="139"/>
+<cui:ScaleButton id="skBack" icon="common@back" skinName="ScaleBtnSkin" y="12" x="1174" right="20" anchorOffsetX="0" width="86" anchorOffsetY="0" height="86"/>
+<cui:Group id="skNotify" width="45.2%" height="38" top="42" left="351"/>
+<cui:Image id="skTitle" x="0" y="0"/>
+<cui:Scroller id="skScroller" scrollPolicyH="off" scrollPolicyV="off" verticalCenter="35.5" width="1270" height="583" y="101"  horizontalCenter="0">
+    <game:UIRouteList id="skList" width="100%" height="583"/>
+</cui:Scroller>
+</e:Skin>

@@ -1,0 +1,6 @@
+<e:Skin class="Skil3TileSkin" width="108" height="117" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Image id="skIcon" y="5" width="108" height="85"/>
+    <cui:Image id="skBg" width="108" height="117" source="card@sk_1"/>
+    <cui:Image id="skUse" x="38" y="0" source="card@txt_use"/>
+    <cui:Label id="skNm" x="5" y="90" width="101" height="21" size="20" textAlign="center" stroke="1" strokeColor="0x7c7c7c"/>
+</e:Skin>

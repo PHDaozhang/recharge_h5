@@ -1,0 +1,178 @@
+import "client2world_msg_type.proto";
+import "msg_type_def.proto";
+import "msg_info_def.proto";
+
+package client2world_protocols;
+
+message msg_activity_bind_player
+{
+	optional int32 pid = 1;				//玩家ID
+	optional int64 index = 2;			//中奖索引
+	optional string name = 3;			//玩家名字	
+	optional int64 gold = 4;			//中奖金额
+}
+
+//活动 红点
+message packetc2w_activity_check
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_activity_check];
+}
+
+//活动 红点返回
+message packetw2c_activity_check_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_activity_check_result];	
+	optional bool ac_bind = 2 [default=false];							//绑定有礼
+	optional bool ac_recharge = 3 [default=false];						//首充
+	optional bool ac_recharge_award = 4 [default=false];				//首充 已领取奖励
+	optional bool ac_chest = 5 [default=false];							//聚宝盆 宝箱可开
+	optional bool ac_chest_new = 6 [default=false];						//聚宝盆 新宝箱
+	optional bool yun_isshow = 7 [default=false];						//云闪付show
+	optional int32 yun_rebate = 8 [default=0];							//云闪付rebate
+	optional bool month_card = 9 [default=false];						//是否有待领月卡返利
+}
+
+//绑定有礼活动
+message packetc2w_bind_get_info
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_activity_bind];
+}
+
+//绑定有礼活动信息返回
+message packetw2c_bind_get_info_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_activity_bind_result];
+	optional int32 ts = 2;							//今日起始时间戳
+	optional bool bind = 3;							//是否已绑定
+	optional int32 count = 4;						//今日已抽奖次数
+	optional int32 countlimit = 5;					//今日可抽奖次数
+	repeated msg_activity_bind_player players = 6;	//中奖玩家信息列表
+}
+
+//绑定有礼活动 抽奖
+message packetc2w_bind_lottery
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_activity_bind_lottery];
+}
+
+//绑定有礼活动抽奖返回
+message packetw2c_bind_lottery_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_activity_bind_lottery_result];	
+	optional msg_type_def.e_msg_result_def result=2 [default=e_rmt_fail];
+	optional int32 index = 3;	//中奖索引
+	optional int32 count = 4;	//今日已抽奖次数	
+}
+
+//首充活动
+message packetc2w_recharge_get_info
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_activity_recharge];
+}
+
+//首充活动信息返回
+message packetw2c_recharge_get_info_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_activity_recharge_result];
+	optional bool recharged = 2;			//单笔充值100是否达成
+	optional bool bound = 3;				//是否绑定
+	optional int64 process = 4;				//进度
+	optional int32 countbegin = 5;			//参与人数
+	optional int32 countend = 6;			//参与人数
+	optional bool awarded = 7;				//是否已领取奖励
+}
+
+//首充活动 领奖
+message packetc2w_recharge_award
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_activity_recharge_award];
+}
+
+//首充活动 领奖返回
+message packetw2c_recharge_award_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_activity_recharge_award_result];	
+	optional msg_type_def.e_msg_result_def result=2 [default=e_rmt_fail];
+}
+
+//宝箱信息
+message msg_activity_chest
+{
+	optional int32 slot = 1;			//宝箱位置0.1.2
+	optional int32 index = 2;			//宝箱类型0.无 1.银 2.金
+	optional int64 ts = 3;				//生成时间戳（银宝箱开箱校验）
+	optional int64 ts_open = 4;			//开启时间戳（银宝箱可开时间）
+}
+
+//聚宝盆活动
+message packetc2w_chest_get_info
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_activity_chest];
+}
+
+//聚宝盆信息返回
+message packetw2c_chest_get_info_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_activity_chest_result];
+	repeated msg_activity_chest chests = 2;			//宝箱
+	repeated msg_activity_bind_player players = 3;	//中奖玩家信息列表
+	repeated int32 games = 4;						//本期游戏列表（缺省为空，表示所有游戏）
+}
+
+//聚宝盆活动 开箱
+message packetc2w_chest_open
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_activity_chest_open];
+	optional int32 slot = 2;	//开箱位置
+}
+
+//聚宝盆活动 开箱返回
+message packetw2c_chest_open_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_activity_chest_open_result];	
+	optional msg_type_def.e_msg_result_def result=2 [default=e_rmt_fail];
+	optional int64 gold = 3;	//返奖	
+	optional int32 slot = 4;	//打开位置	
+}
+
+
+//宝箱信息
+message msg_activity_agent_process
+{
+	optional int32 id = 1;				//id
+	optional int64 recharge = 2;		//充值金额
+	optional int64 process = 3;			//当前进度
+	optional int64 process_end = 4;		//进度上限
+	optional int64 reward = 5;			//奖励金额
+	optional int32 state = 6;			//0.未领取 1.已领取
+}
+
+//代理分红
+message packetc2w_agent_get_info
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_activity_agent];
+}
+
+//信息返回
+message packetw2c_agent_get_info_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_activity_agent_result];
+	repeated msg_activity_agent_process process_list = 2;	//进度列表
+	repeated msg_activity_bind_player players = 3;			//中奖玩家信息列表
+}
+
+//代理分红 领奖
+message packetc2w_agent_reward
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_activity_agent_reward];
+	optional int32 id = 2;	//领奖id
+}
+
+//代理分红 领奖返回
+message packetw2c_agent_reward_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_activity_agent_reward_result];	
+	optional msg_type_def.e_msg_result_def result=2 [default=e_rmt_fail];
+	optional int32 id = 3;		//领奖id	
+	optional int64 gold = 4;	//返奖金额	
+}

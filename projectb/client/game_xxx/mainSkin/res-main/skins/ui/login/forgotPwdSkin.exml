@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="forgotPwdSkin" width="712" height="630" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+<cui:Image id="rmv_fgPwd" source="rmv_forgotPwd" width="1280" height="720" x="-295" y="-27" visible="false"/>
+<cui:Image source="txt_forgotPwdBg" width="712" height="630" horizontalCenter="0" verticalCenter="0"/>
+<cui:Group width="605" height="450" horizontalCenter="-17.5" verticalCenter="34" anchorOffsetX="0">
+    <cui:Label id="skLPhone" text="" x="27" y="18" size="32"  width="166" height="36" anchorOffsetX="0" anchorOffsetY="0" textColor="0xffecce"/>
+    <cui:Image source="login@longBottom" x="197" y="0.5" width="397" height="65"/>
+    <cui:EditableText id="skPhone" text="" x="205" y="18" anchorOffsetX="0" width="373" height="35" anchorOffsetY="0" textColor="0xffffff"  promptColor="0xa58989"/>
+    <cui:Label id="skLCode" text="" x="27" y="106" size="32"  width="166" height="40" anchorOffsetX="0" anchorOffsetY="0" textColor="0xffecce"/>
+    <cui:Image source="login@shortBottom" x="197" y="93.5" width="253" height="61"/>
+    <cui:EditableText id="skCode" text="" x="205" y="110" anchorOffsetX="0" width="228" height="36" anchorOffsetY="0" textColor="0xffffff"  promptColor="0xa58989"/>
+    <cui:Label id="skLPwd" text="" x="27" y="194" size="32"  width="166" height="36" anchorOffsetX="0" anchorOffsetY="0" textColor="0xffecce"/>
+    <cui:Image source="login@longBottom" x="196" y="178.5" width="397" height="65"/>
+    <cui:EditableText id="skPwd" text="" x="205" y="197" anchorOffsetX="0" width="373" height="44" anchorOffsetY="0" textColor="0xffffff"  promptColor="0xa58989"/>
+    <cui:Label id="skLAgainPwd" text="" x="27" y="281" size="32" width="166" height="36" anchorOffsetX="0" anchorOffsetY="0" textColor="0xffecce"/>
+    <cui:Image source="login@longBottom" x="196" y="265.5" width="397" height="65"/>
+    <cui:EditableText id="skAgainPwd" text="" x="205" y="284" anchorOffsetX="0" width="373" height="36" anchorOffsetY="0" textColor="0xffffff"  promptColor="0xa58989"/>
+    <cui:ScaleButton id="skGetCode" icon="login@txt_getBtn" skinName="ScaleBtnSkin" width="144" height="58" x="452" y="98.5"/>
+    <cui:ScaleButton id="skSure" icon="login@txt_sureBtn" skinName="ScaleBtnSkin"  y="382" width="242" height="67" x="191"/>
+</cui:Group>
+<cui:ScaleButton id="skClose" skinName="CloseBtnSkin" y="19" x="637"/>
+</e:Skin>

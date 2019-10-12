@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="chooseSceneBar" width="610" height="5" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+<cui:Image id="thumb" source="pic_xuanchangBar"/>
+</e:Skin>

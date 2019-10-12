@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="menuItemSkin" width="19" height="19" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" >
+    <cui:Image source="common@circleDark"/>
+    <cui:Image source.up="" source.down="common@circleBright" x="2" y="2"/>
+</e:Skin>

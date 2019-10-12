@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="innerAllSkin" width="831" height="136" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:game="game.*">
+    <cui:Image source="txt_pailuBg" y="29"/>
+    <cui:Image source="common@txt_zhuangxian" x="759" y="0.5"/>
+    <game:RouteCom id="skZPL" skinName="ZInnerSkin" itemSkinName="zInnerTileSkin" y="29" x="0" anchorOffsetX="0" width="143"/>
+    <game:RouteCom id="skDL" skinName="DInnerSkin" itemSkinName="dInnerTileSkin" y="29" x="145" anchorOffsetX="0" width="324"/>
+    <game:RouteCom id="skDYZL" skinName="DYInnerSkin" itemSkinName="dInnerTileSkin" y="29" x="470" anchorOffsetX="0" width="162"/>
+    <game:RouteCom id="skXL" skinName="XInnerSkin" itemSkinName="xInnerTileSkin" y="27.5" x="632" height="48" width="124"/>
+    <game:RouteCom id="skXQL" skinName="XInnerSkin" itemSkinName="xqInnerTileSkin" y="85" x="632" height="48" width="124"/>
+    <cui:Image id="skWin0" source="route@dlInner_1"  y="26" x="764"/>
+    <cui:Image id="skWin1" source="route@bjlInner_1" y="26" x="787"/>
+    <cui:Image id="skWin2" source="route@xqlInner_1"  y="26" x="811"/>
+    <cui:Image id="skLose0" y="65" x="764"/>
+    <cui:Image id="skLose1" y="65" x="787"/>
+    <cui:Image id="skLose2"  y="65" x="811"/>
+</e:Skin>

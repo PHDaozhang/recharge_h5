@@ -1,0 +1,7 @@
+<e:Skin class="BagTileSkin" width="96" height="96" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Image id="skBg" width="96" height="96" source="item@bg1"/>
+    <cui:Image id="skSel" source="item@sel" visible="false"/>
+    <cui:Image id="skHead" x="15" y="14" width="64" height="64"/>
+    <cui:Image id="skIcon" x="15" y="14" width="64" height="64"/>
+    <cui:Label id="skCnt" x="15" y="55" width="65" height="24" size="24" textAlign="right" stroke="2" strokeColor="0x161616" anchorOffsetX="0"/>
+</e:Skin>

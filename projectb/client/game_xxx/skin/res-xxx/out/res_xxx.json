@@ -1,0 +1,10 @@
+{
+    "groups": [],
+    "resources": [
+        {
+            "name": "doudizhu_hall",
+            "type": "st",
+            "url": "sheets/doudizhu_hall.st"
+        }
+    ]
+}

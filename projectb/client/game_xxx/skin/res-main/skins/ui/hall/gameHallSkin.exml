@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameHallSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+    <cui:Image id="rmv_hall" source="rmv_hall" width="1280" height="720" y="0" visible="false"/>
+    <cui:Image source="hallBg" x="0"  y="0" width="100%" height="100%"/>
+    <cui:Group y="133" left="0" verticalCenter="30" width="338" height="586">
+        <cui:Image source="role" bottom="-125" left="-72"  width="410" height="711"/>
+        <cui:Image source="hall@question" x="0" y="0" width="207" height="189"/>
+        <cui:Label id="skRoleTalk" text="官网地址已复制~帮人家分享一下嘛" x="22" y="56" size="18" textColor="0xffc1b3" anchorOffsetY="0" height="96" anchorOffsetX="0" width="132"/>
+    </cui:Group>
+    <cui:Image source="hall@nameBottom" x="78" y="18"/>
+    <cui:Image id="skHeadImg" width="83" height="83"  x="18" y="11"/>
+    <cui:Image id="skHeadFrame" width="117" height="111"/>
+    <cui:Label id="skName" text="1111" x="133" y="28" anchorOffsetX="0" width="162" size="25" height="25" textColor="0xffeba5"/>
+    <cui:Label id="skId" text="111" x="138" y="72.5" size="24" height="24" anchorOffsetX="0" width="157" textColor="0xfbf6ac"/>
+    <cui:Group id="skNotify" width="703" height="38" y="110" horizontalCenter="0"/>
+    <cui:SimpleButton id="skBHead" width="335" height="110"/>
+    <cui:ScaleButton y="14" right="20" id="skBSet" width="69" height="80" icon="hall@txt_set" skinName="ScaleBtnSkin"/>
+    <cui:Group x="360" y="16" width="242" height="50">
+        <cui:Image source="hall@goldBottom"/>
+        <cui:UIMovieClip x="25" y="25" aniName="gold" autoPlay="true"/>
+        <cui:BitmapLabel id="skGold" font="gold"  text="100.0y" width="166" x="65" anchorOffsetY="0" height="30" anchorOffsetX="0" textAlign="right" verticalCenter="0"/>
+    </cui:Group>
+    <cui:Scroller x="338" width="70%" height="550" scrollPolicyH="on" scrollPolicyV="off" verticalCenter="30">
+        <cui:DataGroup id="skGames" width="100%" height="550" anchorOffsetX="0">
+            <e:layout>
+                <cui:TileLayout paddingTop="5" paddingLeft="5" verticalGap="5" horizontalGap="5" itemW="290" itemH="270"/>
+            </e:layout>
+        </cui:DataGroup>
+    </cui:Scroller>
+</e:Skin>

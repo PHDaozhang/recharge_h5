@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="actBycjItemSkin" width="310" height="34" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+	<cui:Label id="skDesc0" text="" x="0" y="8" size="18" fontFamily="SimHei" textColor="0xcfb886" width="93" height="18" textAlign="center" />
+	<cui:Label id="skDesc1" text="" x="94" y="8" size="18" fontFamily="SimHei" textColor="0xCFB886" width="93" height="18" textAlign="center"/>
+	<cui:Label id="skDesc2" text="" x="187" y="8" size="18" fontFamily="SimHei" textColor="0xCFB886" width="93" height="18" textAlign="center"/>
+</e:Skin>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameSelfYejiListSkin" width="906" height="45" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+	<cui:Image  source="biaoge_xian" y="-10"/>
+	<cui:Group id="skself" width="906" height="45">
+		<cui:Label id="skmyRank" textColor="0xD8A160" size="26" text="" width="60" textAlign="center" y="13" x="82"/>
+		<cui:Label id="skmyname" textColor="0xD8A160" size="26" text="" width="160" textAlign="center" y="14" x="262"/>
+		<cui:Label id="skmyid" textColor="0xD8A160" size="26" text="" width="160" textAlign="center" y="14" x="490"/>
+		<cui:Label id="skmygold" textColor="0xD8A160" size="26" text="" width="160" textAlign="center" y="14" x="716"/>
+	</cui:Group>
+	<cui:Group id="skother" width="906" height="45">
+		<cui:Label id="skotherRank" textColor="0xD8A160" size="26" text="" width="60" textAlign="center" y="13" x="65"/>
+		<cui:Label id="skothername" textColor="0xD8A160" size="26" text="" width="160" textAlign="center" y="14" x="230"/>
+		<cui:Label id="skotherid" textColor="0xD8A160" size="26" text="" width="160" textAlign="center" y="14" x="421"/>
+		<cui:Label id="skothergold" textColor="0xD8A160" size="26" text="" width="160" textAlign="center" y="14" x="594"/>
+		<cui:Label id="skotheryj" textColor="0xD8A160" size="26" text="" width="160" textAlign="center" y="14" x="750"/>
+	</cui:Group>
+</e:Skin>

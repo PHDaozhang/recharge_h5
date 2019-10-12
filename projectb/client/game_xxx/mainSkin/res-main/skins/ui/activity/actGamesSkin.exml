@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="actGamesSkin" width="870" height="660" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+	<cui:Image source="gameBg"/>
+	<cui:ScaleButton id="skClose" skinName="CloseBtnSkin" x="790" y="18"/>
+    <cui:Scroller width="700" height="450" x="72" y="134" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="off">
+		<cui:DataGroup id="skGames" width="700" height="450" anchorOffsetX="0" x="0" y="0" anchorOffsetY="0">
+		<e:layout>
+			<cui:TileLayout isHorizontal="false" itemW="130" itemH="190" horizontalGap="10" verticalGap="20"/>
+		</e:layout>
+		</cui:DataGroup>
+	</cui:Scroller>
+	<cui:Image x="316" y="15" source="activity@txt_gtitle"/>
+</e:Skin>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="actMainSkin" width="1300" height="680" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*"
+        xmlns:w="http://ns.egret.com/wing" xmlns:game="game.*">
+	<cui:Image source="activityDB" x="102.68" />
+	<cui:Image x="125.68" y="118.64" source="activityInnerDB" />
+	<cui:Group id="skGpInfo" width="930" height="570" x="349.98" y="84.67" />
+	<cui:ScaleButton id="skClose" skinName="CloseBtnSkin" x="1187.01" y="22" />
+	<cui:Scroller y="95" x="125.01" scrollPolicyV="on" anchorOffsetX="0" width="230" anchorOffsetY="0" height="520">
+		<cui:MenuGroup id="skMenuAct" keepSelect="true" anchorOffsetY="0" height="520" anchorOffsetX="0" width="230"></cui:MenuGroup>
+	</cui:Scroller>
+	<cui:Group id="skGpNotice" width="1100" height="527" x="126.35" y="117.99" />
+	<cui:MenuGroup id="skBtns" keepSelect="true" height="400" width="70" x="55.68" y="131.81">
+		<cui:MenuItemImage tag="0" width="70" height="119" y="1" x="0">
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="activity@txt_xsh" source.down="activity@txt_xsl"
+				         source.up="activity@txt_xsh" />
+			</e:Skin>
+		</cui:MenuItemImage>
+		<!--<cui:MenuItemImage tag="1" width="70" height="119" y="139" x="0">
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="activity@txt_hdh" source.down="activity@txt_hdl"
+			         source.up="activity@txt_hdh" />
+		</e:Skin>
+	</cui:MenuItemImage>
+	-->
+	<cui:MenuItemImage tag="2" width="70" height="119" y="139" x="0">
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="activity@txt_ggh" source.down="activity@txt_ggl"
+			         source.up="activity@txt_ggh" />
+			
+		</e:Skin>
+	</cui:MenuItemImage>
+</cui:MenuGroup>
+<game:RedPoint id="skGgRed" skinName="redPointSkin" x="101" y="264.71" />
+	<game:RedPoint id="skXsRed" skinName="redPointSkin" x="101" y="125.79"/>
+<cui:Image id="skTitle" x="623.17" y="10" width="117" height="53" />
+</e:Skin>

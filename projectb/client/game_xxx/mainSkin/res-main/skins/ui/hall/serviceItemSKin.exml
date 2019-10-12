@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="serviceItemSKin" width="613" height="149" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+<cui:Group id="skGroup" width="613" height="149">
+    <cui:Image source="pic_daan_db" />
+    <cui:Label text="1111" size="24" textColor="0xe0d5bd" x="37" y="50.5" anchorOffsetX="0" width="503" anchorOffsetY="0" height="87"/>
+</cui:Group>
+<cui:Image id="skImg" source="pic_wentiDB" height="49" width="613"/>
+<cui:Label id="skTitleLab" text="1111" size="30" textColor="0x6b0505" x="37" y="8.5" anchorOffsetX="0" width="503"/>
+<cui:ScaleButton id="skBtn" icon="kefu@btn_more" skinName="ScaleBtnSkin" width="32" height="32" x="559" y="8.5"/>
+</e:Skin>

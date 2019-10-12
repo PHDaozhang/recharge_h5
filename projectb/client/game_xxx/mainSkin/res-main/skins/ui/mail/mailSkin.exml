@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mailSkin" width="716" height="466" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Image id="rmv_mail" source="rmv_mail" x="-286" y="-122"/>
+    <cui:Image source="txt_mailBg"/>
+    <cui:ScaleButton id="skClose" skinName="CloseBtnSkin" x="631" y="15"/>
+    <cui:Scroller id="skScroller" width="615" height="322" scrollPolicyV="on" scrollPolicyH="off" anchorOffsetX="0" anchorOffsetY="0" x="36" y="92">
+        <cui:DataGroup id="skList" width="615" height="322" x="-1" y="5">
+            <e:layout>
+                <cui:DataLineLayout isHorizontal="false" gap="5" itemW="612" itemH="91"/>
+            </e:layout>
+        </cui:DataGroup>
+    </cui:Scroller>
+    <cui:Image id="skNoHaveImg" source="mail@txt_notHave" x="290" y="194"/>
+</e:Skin>

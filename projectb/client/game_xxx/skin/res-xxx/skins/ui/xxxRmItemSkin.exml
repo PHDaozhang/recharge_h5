@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="xxxRmItemSkin" width="383" height="184" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+<cui:Image id="skBg" width="354" height="157" x="27" y="22"/>
+<cui:Image id="skIcon" x="0" y="0" width="191" height="168"/>
+<cui:BitmapLabel id="skDfFont" font="xuanchangDiFen" text="" width="176" height="35" x="191" y="36"/>
+<cui:BitmapLabel id="skRcFont" font="ruChangFen" text="" width="190" height="23" x="191" y="133" anchorOffsetX="0"/>
+<cui:BitmapLabel id="skIdTxt" font="moment2" text="" x="293" y="78" width="87" height="43" anchorOffsetX="0"/>
+<cui:SimpleButton id="skBtn" width="383" height="184"/>
+</e:Skin>

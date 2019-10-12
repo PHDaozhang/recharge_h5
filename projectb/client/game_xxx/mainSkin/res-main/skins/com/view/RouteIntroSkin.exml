@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RouteIntroSkin" width="867" height="660" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+<cui:Image source="routeIntroBg"/>
+<cui:ScaleButton id="skClose" skinName="CloseBtnSkin" x="786" y="21"/>
+<cui:ScaleButton id="skLeftBtn" tag="0" icon="common@btnLeft" skinName="ScaleBtnSkin"  width="36" height="82" x="15" y="289"/>
+<cui:ScaleButton id="skRightBtn" tag="1" icon="common@btnLeft" skinName="ScaleBtnSkin"  width="36" height="82" x="833" y="289" scaleX="-1"/>
+<cui:Group id="skInGrp" width="743" height="466" x="53" anchorOffsetY="0" y="122"/>
+<cui:MenuGroup id="skImgGrp" keepSelect="true"  height="19" width="100" y="599" >
+    
+</cui:MenuGroup>
+</e:Skin>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipPromptSkin" width="1002" height="75" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Image source="tipBg" x="24"/>
+    <cui:Label id="skTxt" filterNm="grayFW" width="1002" size="40" textAlign="center" y="0" text="aaaa" height="75" verticalAlign="middle"/>
+</e:Skin>

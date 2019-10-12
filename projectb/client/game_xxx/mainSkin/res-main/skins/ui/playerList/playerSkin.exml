@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="playerSkin" width="758" height="686" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+<cui:Image   source="txt_wjdb" x="19" y="-1"/>
+<cui:Image   x="57.5" source="txt_wjnd" y="115.33"/>
+<cui:Image id="skplyHead"   x="82.18"  y="122.89" source="head@nan_1" width="70.55" height="70.55"/>
+<cui:Image id="skplyHeadF"   x="67.5"  y="114.67" width="99.45" height="94.35" source="headList@6"/>
+<cui:Label id="skDushen"  text="001" size="24" textColor="0xede2bf" x="188" y="123.89" width="160" textAlign="center"/>
+<cui:Label  text="获胜" size="20" textColor="0xede2bf" x="427" y="127" anchorOffsetX="0" width="40" anchorOffsetY="0"/>
+	<cui:Label text="局" size="20" textColor="0xEDE2BF" x="507" y="127" anchorOffsetX="0" width="20" anchorOffsetY="0"/>
+<cui:Label id="skwinCount"   size="20"  textColor="0x8aff00" text="14" x="464.5" y="126.5" textAlign="center" anchorOffsetX="0" width="35" anchorOffsetY="0"/>
+<cui:Label text="最近" size="20" textColor="0xEDE2BF" x="564" y="127" anchorOffsetX="0" width="40" anchorOffsetY="0"/>
+	<cui:Label text="局" size="20" textColor="0xEDE2BF" x="645" y="127" anchorOffsetX="0" width="20" anchorOffsetY="0"/>
+<cui:Label id="skplayCount" size="20" text="20" x="600.5" y="127.5" textColor="0xff5a00" textAlign="center" anchorOffsetX="0" width="40" anchorOffsetY="0"/>
+<cui:BitmapLabel id="skgold"  text="123y" font="goldNum" width="120" x="222" y="163.83" textAlign="center" />
+<cui:BitmapLabel id="skbets" text="123y" font="goldNum" width="120" x="547" y="164.83" textAlign="center" />
+<cui:Image  source="common@txt_dushen" x="64.46" y="94.5" width="104" height="48"/>
+<cui:ScaleButton id="skBack" icon="common@close" skinName="ScaleBtnSkin" y="23.33" width="80" height="82" x="680"/>
+<cui:Scroller width="643" height="415" y="213.5" x="57" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="on">
+	<cui:DataGroup id="skList"  width="643" height="415" >
+		<e:layout>
+			<cui:DataLineLayout isHorizontal="false" itemH="95" itemW="643"/>
+		</e:layout>
+	</cui:DataGroup>
+</cui:Scroller>
+</e:Skin>

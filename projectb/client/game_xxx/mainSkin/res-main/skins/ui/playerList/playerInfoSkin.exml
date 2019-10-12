@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="playerInfoSkin" width="95" height="120" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+    <cui:Group id="skAniGp" width="100%" height="100%">
+			<cui:Image id="skbackGuang" x="-7" y="-5" source="common@wanjiakuang"/>
+        <cui:Image id="skHead"  width="78.85" height="78.85" x="8.5" y="9.5" source=""/>
+		<cui:Image id="skHeadFrame" x="4.2" y="6" source=""/>
+        <cui:Image id="skJiao"  x="2" y="3" source="common@jiaobiao"/>
+        <cui:BitmapLabel id="skFont"  textAlign="center" y="4" text="" font="BJLfuping" height="20" width="14" x="4.5"/>
+			<cui:BitmapLabel id="skwinFont" textAlign="center" y="46" text=""  x="47.5" font="loseMoney" width="200" anchorOffsetX="100"/>
+        <cui:Label id="skNickName"  textColor="0xfbda8a" size="19" text="" x="0" y="94.5" textAlign="center" width="95" height="20" cacheAsBitmap="true"/>
+			<cui:Label id="skgold" textColor="0xFBDA8A" size="19" text="24000" x="0" y="118" textAlign="center" width="95" cacheAsBitmap="true"/>
+			<cui:Image id="skteshu" x="-12" y="-36" source=""/>
+    </cui:Group>
+</e:Skin>

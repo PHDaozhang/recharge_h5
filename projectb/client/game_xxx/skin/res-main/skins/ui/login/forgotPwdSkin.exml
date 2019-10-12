@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="forgotPwdSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+<cui:Image id="rmv_fgPwd" source="rmv_forgotPwd" width="1280" height="720"/>
+<cui:SimpleButton id="skClose" width="1280" height="720"/>
+<cui:Image source="forgotPwdBg" width="712" height="630" horizontalCenter="0" verticalCenter="0"/>
+<cui:Group width="570" height="450" horizontalCenter="0" verticalCenter="0">
+    <cui:Label text="手机号码：" x="11" y="22" size="32" textColor="0xdaa249" fontFamily="Arial" width="160" height="32"/>
+    <cui:Image source="login@longBottom" x="165" y="3.5" width="397" height="65"/>
+    <cui:EditableText id="skPhone" text="" x="181" y="23" textColor="0x715a5a" anchorOffsetX="0" width="373" height="30"/>
+    <cui:Label text="验证码：" x="11" y="111" size="32" textColor="0xdaa249" fontFamily="Arial" width="160" height="32"/>
+    <cui:Image source="login@shortBottom" x="165" y="96.5" width="253" height="61"/>
+    <cui:EditableText id="skCode" text="" x="181" y="112" textColor="0x715a5a" anchorOffsetX="0" width="228" height="30"/>
+    <cui:Label text="输入密码：" x="11" y="201" size="32" textColor="0xdaa249" fontFamily="Arial" width="160" height="32"/>
+    <cui:Image source="login@longBottom" x="165" y="182.5" width="397" height="65"/>
+    <cui:EditableText id="skPwd" text="" x="181" y="202" textColor="0x715a5a" anchorOffsetX="0" width="373" height="30"/>
+    <cui:Label text="确认密码：" x="11" y="287" size="32" textColor="0xdaa249" fontFamily="Arial" width="160" height="32"/>
+    <cui:Image source="login@longBottom" x="165" y="268.5" width="397" height="65"/>
+    <cui:EditableText id="skAgainPwd" text="" x="181" y="288" textColor="0x715a5a" anchorOffsetX="0" width="373" height="30"/>
+    <cui:ScaleButton id="skGetCode" icon="login@txt_getBtn" skinName="ScaleBtnSkin" width="144" height="58" x="417" y="100.5"/>
+    <cui:ScaleButton id="skSure" icon="login@txt_sureBtn" skinName="ScaleBtnSkin"  x="156" y="382" width="242" height="67"/>
+</cui:Group>
+</e:Skin>

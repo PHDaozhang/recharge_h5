@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="noticeHallSkin" width="1100" height="527" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+	<cui:Image id="skNoticeBg" source="activityInnerDB" y="0" x="0"/>
+    <cui:ScaleButton id="skBtn" icon="notice@txt_Jump" skinName="ScaleBtnSkin" y="401" width="178" height="69" x="571"/>
+    <cui:Label id="skTitle1" text="" x="241" y="39" anchorOffsetX="0" width="847" anchorOffsetY="0" textAlign="center" size="24" textColor="0xefdea8" height="24"/>
+     <cui:Label id="skTitle2" text="" x="264" y="114" anchorOffsetX="0" width="803" anchorOffsetY="0" textAlign="left" size="24" textColor="0xecdede" height="287"/>
+     <cui:Label id="skTitle3" text="" x="241" y="363" anchorOffsetX="0" width="847" anchorOffsetY="0" size="24" textColor="0xefdea8" textAlign="right" height="24"/>
+    <cui:Image id="skIcon" source="notice@txt_noNotice" verticalCenter="0" horizontalCenter="0" visible="false"/>
+    <cui:Scroller y="24" x="13" scrollPolicyV="on" anchorOffsetX="0" width="202" anchorOffsetY="0" height="477">
+        <cui:MenuGroup id="skMenuNotice" keepSelect="true"  anchorOffsetY="0" height="477" anchorOffsetX="0" width="202"  x="2">
+
+        </cui:MenuGroup>
+    </cui:Scroller>
+</e:Skin>

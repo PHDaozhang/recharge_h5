@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="loadingBarSkin" width="1280" height="8" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+<cui:Image source="login@loading" width="1280" height="8" scale9Grid="1,1,6,6"/>
+</e:Skin>

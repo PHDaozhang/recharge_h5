@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BlueBtnSkin" width="201" height="69" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Group id="skAniGp" width="201" height="69" >
+        <cui:Image id="iconDisplay" source="btn@blue"/>
+        <cui:Label id="labelDisplay" y="13" width="201" size="30" textAlign="center" filterNm="blackFW"/>
+    </cui:Group>
+</e:Skin>

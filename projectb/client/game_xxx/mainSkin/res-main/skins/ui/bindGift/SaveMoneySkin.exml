@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SaveMoneySkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*"
+        xmlns:w="http://ns.egret.com/wing">
+    <cui:Image y="49" source="txt_saveMoneyBG" x="60" />
+    <cui:ScaleButton id="skBtnClose" x="967" y="110" skinName="CloseBtnSkin" />
+	<cui:ScaleButton id="skBtnSave" icon="saveMoney@txt_save" x="690" y="352" skinName="ScaleBtnSkin" width="180" height="230"/>
+    <cui:ScaleButton id="skBtnCharge" icon="saveMoney@txt_charge" x="484" y="352" skinName="ScaleBtnSkin"  width="180" height="230"/>
+	<cui:Label id="skLabCount" text="" y="584" size="15" bold="true" horizontalCenter="153"/>
+	<cui:Label id="skLabCondition" text="" y="605" size="12" bold="true" horizontalCenter="156.5"/>
+    <cui:Image id="rmv_money" source="rmv_saveMoney" visible="false"/>
+</e:Skin>

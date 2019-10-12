@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameDLListSkin" width="906" height="41" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+	<cui:Image  source="biaoge_xian" y="-14"/>
+	<cui:Label id="skRank" text="" size="26" textColor="0xD8A160" y="8" x="37" width="60" textAlign="center" height="26"/>
+	<cui:Label id="skNickname" text="" size="26" textColor="0xD8A160" y="8" x="174" anchorOffsetX="0" width="120" textAlign="center" height="26"/>
+	<cui:Label id="skId" text="" size="26" textColor="0xD8A160" y="8" x="319" anchorOffsetX="0" width="110" textAlign="center" height="26"/>
+	<cui:Label id="skyj" text="" size="26" textColor="0xD8A160" y="8" x="469" anchorOffsetX="0" width="130" textAlign="center" height="26"/>
+	<cui:Label id="skTeamNum" text="" size="26" textColor="0xD8A160" y="8" x="622" anchorOffsetX="0" width="130" textAlign="center" height="26"/>
+	<cui:Label id="skBaodi" text="" size="26" textColor="0xD8A160" y="8" x="765" anchorOffsetX="0" width="130" textAlign="center" height="26"/>
+</e:Skin>

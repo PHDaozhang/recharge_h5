@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DayItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing" width="192" height="117">
+	<cui:Image id="skImgBG" source="sevenReward@pic_qiri_tianshudi" x="14" y="14"/>
+	<cui:Image id="skImgDay" x="66" y="42" source="sevenReward@txt_qiri_day1"/>
+	<cui:Image id="skImgSelect" source="sevenReward@pic_qiri_tianshugaoliang"/>
+</e:Skin>

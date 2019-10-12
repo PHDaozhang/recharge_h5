@@ -1,0 +1,723 @@
+{
+    "groups": [
+        {
+            "keys": "loginBg,resConf,lang",
+            "name": "preload"
+        },
+        {
+            "keys": "login",
+            "name": "loading"
+        },
+        {
+            "keys": "hall,hallBg",
+            "name": "hall"
+        }
+    ],
+    "resources": [
+        {
+            "name": "login",
+            "type": "st",
+            "url": "sheets/login.st"
+        },
+        {
+            "name": "role",
+            "type": "image",
+            "url": "imgs/role.png"
+        },
+        {
+            "name": "loginBg",
+            "type": "image",
+            "url": "imgs/loginBg.png"
+        },
+        {
+            "name": "rukou1",
+            "type": "image",
+            "url": "imgs/rukou1.png"
+        },
+        {
+            "name": "rukou4",
+            "type": "image",
+            "url": "imgs/rukou4.png"
+        },
+        {
+            "name": "rukou5",
+            "type": "image",
+            "url": "imgs/rukou5.png"
+        },
+        {
+            "name": "hall",
+            "type": "st",
+            "url": "sheets/hall.st"
+        },
+        {
+            "name": "gold",
+            "type": "font",
+            "url": "fonts/gold.fnt"
+        },
+        {
+            "name": "hallBg",
+            "type": "image",
+            "url": "imgs/hallBg.png"
+        },
+        {
+            "name": "resConf",
+            "type": "json",
+            "url": "conf/resConf.json"
+        },
+        {
+            "name": "lang",
+            "type": "json",
+            "url": "conf/lang.json"
+        },
+        {
+            "name": "headFrame",
+            "type": "st",
+            "url": "sheets/headFrame.st"
+        },
+        {
+            "name": "common",
+            "type": "st",
+            "url": "sheets/common.st"
+        },
+        {
+            "name": "tipBg",
+            "type": "image",
+            "url": "imgs/tipBg.png"
+        },
+        {
+            "name": "pCenter",
+            "type": "st",
+            "url": "sheets/pCenter.st"
+        },
+        {
+            "name": "rukou32",
+            "type": "image",
+            "url": "imgs/rukou32.png"
+        },
+        {
+            "name": "rukou10",
+            "type": "image",
+            "url": "imgs/rukou10.png"
+        },
+        {
+            "name": "rukou12",
+            "type": "image",
+            "url": "imgs/rukou12.png"
+        },
+        {
+            "name": "rukou16",
+            "type": "image",
+            "url": "imgs/rukou16.png"
+        },
+        {
+            "name": "rukou17",
+            "type": "image",
+            "url": "imgs/rukou17.png"
+        },
+        {
+            "name": "winMon",
+            "type": "font",
+            "url": "fonts/winMon.fnt"
+        },
+        {
+            "name": "tiger",
+            "type": "font",
+            "url": "fonts/tiger.fnt"
+        },
+        {
+            "name": "topJu",
+            "type": "font",
+            "url": "fonts/topJu.fnt"
+        },
+        {
+            "name": "quartetWin",
+            "type": "font",
+            "url": "fonts/quartetWin.fnt"
+        },
+        {
+            "name": "remain",
+            "type": "font",
+            "url": "fonts/remain.fnt"
+        },
+        {
+            "name": "ruleRatio",
+            "type": "font",
+            "url": "fonts/ruleRatio.fnt"
+        },
+        {
+            "name": "publicMup",
+            "type": "font",
+            "url": "fonts/publicMup.fnt"
+        },
+        {
+            "name": "quartetLose",
+            "type": "font",
+            "url": "fonts/quartetLose.fnt"
+        },
+        {
+            "name": "playerGold",
+            "type": "font",
+            "url": "fonts/playerGold.fnt"
+        },
+        {
+            "name": "playerList",
+            "type": "font",
+            "url": "fonts/playerList.fnt"
+        },
+        {
+            "name": "playerRk",
+            "type": "font",
+            "url": "fonts/playerRk.fnt"
+        },
+        {
+            "name": "match",
+            "type": "font",
+            "url": "fonts/match.fnt"
+        },
+        {
+            "name": "moment",
+            "type": "font",
+            "url": "fonts/moment.fnt"
+        },
+        {
+            "name": "loseMon",
+            "type": "font",
+            "url": "fonts/loseMon.fnt"
+        },
+        {
+            "name": "loseMup",
+            "type": "font",
+            "url": "fonts/loseMup.fnt"
+        },
+        {
+            "name": "lhdJu",
+            "type": "font",
+            "url": "fonts/lhdJu.fnt"
+        },
+        {
+            "name": "lhdTotal",
+            "type": "font",
+            "url": "fonts/lhdTotal.fnt"
+        },
+        {
+            "name": "lhdBet",
+            "type": "font",
+            "url": "fonts/lhdBet.fnt"
+        },
+        {
+            "name": "closeWin",
+            "type": "font",
+            "url": "fonts/closeWin.fnt"
+        },
+        {
+            "name": "dragon",
+            "type": "font",
+            "url": "fonts/dragon.fnt"
+        },
+        {
+            "name": "endPoint",
+            "type": "font",
+            "url": "fonts/endPoint.fnt"
+        },
+        {
+            "name": "closeLose",
+            "type": "font",
+            "url": "fonts/closeLose.fnt"
+        },
+        {
+            "name": "closeMup",
+            "type": "font",
+            "url": "fonts/closeMup.fnt"
+        },
+        {
+            "name": "chip",
+            "type": "font",
+            "url": "fonts/chip.fnt"
+        },
+        {
+            "name": "clock",
+            "type": "font",
+            "url": "fonts/clock.fnt"
+        },
+        {
+            "name": "cardPerCentB",
+            "type": "font",
+            "url": "fonts/cardPerCentB.fnt"
+        },
+        {
+            "name": "cardPerCentS",
+            "type": "font",
+            "url": "fonts/cardPerCentS.fnt"
+        },
+        {
+            "name": "cardRoad",
+            "type": "font",
+            "url": "fonts/cardRoad.fnt"
+        },
+        {
+            "name": "cardJu",
+            "type": "font",
+            "url": "fonts/cardJu.fnt"
+        },
+        {
+            "name": "cardOutCome",
+            "type": "font",
+            "url": "fonts/cardOutCome.fnt"
+        },
+        {
+            "name": "bjlJu",
+            "type": "font",
+            "url": "fonts/bjlJu.fnt"
+        },
+        {
+            "name": "bjlXian",
+            "type": "font",
+            "url": "fonts/bjlXian.fnt"
+        },
+        {
+            "name": "cardClock",
+            "type": "font",
+            "url": "fonts/cardClock.fnt"
+        },
+        {
+            "name": "betG",
+            "type": "font",
+            "url": "fonts/betG.fnt"
+        },
+        {
+            "name": "betY",
+            "type": "font",
+            "url": "fonts/betY.fnt"
+        },
+        {
+            "name": "beadRoad",
+            "type": "font",
+            "url": "fonts/beadRoad.fnt"
+        },
+        {
+            "name": "winMup",
+            "type": "font",
+            "url": "fonts/winMup.fnt"
+        },
+        {
+            "name": "zhuangXianHe",
+            "type": "font",
+            "url": "fonts/zhuangXianHe.fnt"
+        },
+        {
+            "name": "and",
+            "type": "font",
+            "url": "fonts/and.fnt"
+        },
+        {
+            "name": "vip",
+            "type": "st",
+            "url": "sheets/vip.st"
+        },
+        {
+            "name": "rule",
+            "type": "image",
+            "url": "imgs/rule.png"
+        },
+        {
+            "name": "ruleBg",
+            "type": "image",
+            "url": "imgs/ruleBg.png"
+        },
+        {
+            "name": "scene1",
+            "type": "image",
+            "url": "imgs/scene1.png"
+        },
+        {
+            "name": "scene2",
+            "type": "image",
+            "url": "imgs/scene2.png"
+        },
+        {
+            "name": "scene3",
+            "type": "image",
+            "url": "imgs/scene3.png"
+        },
+        {
+            "name": "scene4",
+            "type": "image",
+            "url": "imgs/scene4.png"
+        },
+        {
+            "name": "scene5",
+            "type": "image",
+            "url": "imgs/scene5.png"
+        },
+        {
+            "name": "scene6",
+            "type": "image",
+            "url": "imgs/scene6.png"
+        },
+        {
+            "name": "tablesBg",
+            "type": "image",
+            "url": "imgs/tablesBg.png"
+        },
+        {
+            "name": "zhuangList",
+            "type": "image",
+            "url": "imgs/zhuangList.png"
+        },
+        {
+            "name": "zhuangListBg",
+            "type": "image",
+            "url": "imgs/zhuangListBg.png"
+        },
+        {
+            "name": "diban",
+            "type": "image",
+            "url": "imgs/diban.png"
+        },
+        {
+            "name": "dingbu",
+            "type": "image",
+            "url": "imgs/dingbu.png"
+        },
+        {
+            "name": "jieSuan",
+            "type": "image",
+            "url": "imgs/jieSuan.png"
+        },
+        {
+            "name": "momentBg",
+            "type": "image",
+            "url": "imgs/momentBg.png"
+        },
+        {
+            "name": "list",
+            "type": "font",
+            "url": "fonts/list.fnt"
+        },
+        {
+            "name": "listTable",
+            "type": "image",
+            "url": "imgs/listTable.png"
+        },
+        {
+            "name": "head",
+            "type": "st",
+            "url": "sheets/head.st"
+        },
+        {
+            "name": "poker46",
+            "type": "image",
+            "url": "imgs/poker46.png"
+        },
+        {
+            "name": "poker47",
+            "type": "image",
+            "url": "imgs/poker47.png"
+        },
+        {
+            "name": "poker48",
+            "type": "image",
+            "url": "imgs/poker48.png"
+        },
+        {
+            "name": "poker49",
+            "type": "image",
+            "url": "imgs/poker49.png"
+        },
+        {
+            "name": "poker50",
+            "type": "image",
+            "url": "imgs/poker50.png"
+        },
+        {
+            "name": "poker51",
+            "type": "image",
+            "url": "imgs/poker51.png"
+        },
+        {
+            "name": "poker52",
+            "type": "image",
+            "url": "imgs/poker52.png"
+        },
+        {
+            "name": "poker53",
+            "type": "image",
+            "url": "imgs/poker53.png"
+        },
+        {
+            "name": "poker54",
+            "type": "image",
+            "url": "imgs/poker54.png"
+        },
+        {
+            "name": "poker0",
+            "type": "image",
+            "url": "imgs/poker0.png"
+        },
+        {
+            "name": "poker1",
+            "type": "image",
+            "url": "imgs/poker1.png"
+        },
+        {
+            "name": "poker2",
+            "type": "image",
+            "url": "imgs/poker2.png"
+        },
+        {
+            "name": "poker3",
+            "type": "image",
+            "url": "imgs/poker3.png"
+        },
+        {
+            "name": "poker4",
+            "type": "image",
+            "url": "imgs/poker4.png"
+        },
+        {
+            "name": "poker5",
+            "type": "image",
+            "url": "imgs/poker5.png"
+        },
+        {
+            "name": "poker6",
+            "type": "image",
+            "url": "imgs/poker6.png"
+        },
+        {
+            "name": "poker7",
+            "type": "image",
+            "url": "imgs/poker7.png"
+        },
+        {
+            "name": "poker8",
+            "type": "image",
+            "url": "imgs/poker8.png"
+        },
+        {
+            "name": "poker9",
+            "type": "image",
+            "url": "imgs/poker9.png"
+        },
+        {
+            "name": "poker10",
+            "type": "image",
+            "url": "imgs/poker10.png"
+        },
+        {
+            "name": "poker11",
+            "type": "image",
+            "url": "imgs/poker11.png"
+        },
+        {
+            "name": "poker12",
+            "type": "image",
+            "url": "imgs/poker12.png"
+        },
+        {
+            "name": "poker13",
+            "type": "image",
+            "url": "imgs/poker13.png"
+        },
+        {
+            "name": "poker14",
+            "type": "image",
+            "url": "imgs/poker14.png"
+        },
+        {
+            "name": "poker15",
+            "type": "image",
+            "url": "imgs/poker15.png"
+        },
+        {
+            "name": "poker16",
+            "type": "image",
+            "url": "imgs/poker16.png"
+        },
+        {
+            "name": "poker17",
+            "type": "image",
+            "url": "imgs/poker17.png"
+        },
+        {
+            "name": "poker18",
+            "type": "image",
+            "url": "imgs/poker18.png"
+        },
+        {
+            "name": "poker19",
+            "type": "image",
+            "url": "imgs/poker19.png"
+        },
+        {
+            "name": "poker20",
+            "type": "image",
+            "url": "imgs/poker20.png"
+        },
+        {
+            "name": "poker21",
+            "type": "image",
+            "url": "imgs/poker21.png"
+        },
+        {
+            "name": "poker22",
+            "type": "image",
+            "url": "imgs/poker22.png"
+        },
+        {
+            "name": "poker23",
+            "type": "image",
+            "url": "imgs/poker23.png"
+        },
+        {
+            "name": "poker24",
+            "type": "image",
+            "url": "imgs/poker24.png"
+        },
+        {
+            "name": "poker25",
+            "type": "image",
+            "url": "imgs/poker25.png"
+        },
+        {
+            "name": "poker26",
+            "type": "image",
+            "url": "imgs/poker26.png"
+        },
+        {
+            "name": "poker27",
+            "type": "image",
+            "url": "imgs/poker27.png"
+        },
+        {
+            "name": "poker28",
+            "type": "image",
+            "url": "imgs/poker28.png"
+        },
+        {
+            "name": "poker29",
+            "type": "image",
+            "url": "imgs/poker29.png"
+        },
+        {
+            "name": "poker30",
+            "type": "image",
+            "url": "imgs/poker30.png"
+        },
+        {
+            "name": "poker31",
+            "type": "image",
+            "url": "imgs/poker31.png"
+        },
+        {
+            "name": "poker32",
+            "type": "image",
+            "url": "imgs/poker32.png"
+        },
+        {
+            "name": "poker33",
+            "type": "image",
+            "url": "imgs/poker33.png"
+        },
+        {
+            "name": "poker34",
+            "type": "image",
+            "url": "imgs/poker34.png"
+        },
+        {
+            "name": "poker35",
+            "type": "image",
+            "url": "imgs/poker35.png"
+        },
+        {
+            "name": "poker36",
+            "type": "image",
+            "url": "imgs/poker36.png"
+        },
+        {
+            "name": "poker37",
+            "type": "image",
+            "url": "imgs/poker37.png"
+        },
+        {
+            "name": "poker38",
+            "type": "image",
+            "url": "imgs/poker38.png"
+        },
+        {
+            "name": "poker39",
+            "type": "image",
+            "url": "imgs/poker39.png"
+        },
+        {
+            "name": "poker40",
+            "type": "image",
+            "url": "imgs/poker40.png"
+        },
+        {
+            "name": "poker41",
+            "type": "image",
+            "url": "imgs/poker41.png"
+        },
+        {
+            "name": "poker42",
+            "type": "image",
+            "url": "imgs/poker42.png"
+        },
+        {
+            "name": "poker43",
+            "type": "image",
+            "url": "imgs/poker43.png"
+        },
+        {
+            "name": "poker44",
+            "type": "image",
+            "url": "imgs/poker44.png"
+        },
+        {
+            "name": "poker45",
+            "type": "image",
+            "url": "imgs/poker45.png"
+        },
+        {
+            "name": "cardTableFen",
+            "type": "font",
+            "url": "fonts/cardTableFen.fnt"
+        },
+        {
+            "name": "remember",
+            "type": "font",
+            "url": "fonts/remember.fnt"
+        },
+        {
+            "name": "zjhEndPoint",
+            "type": "font",
+            "url": "fonts/zjhEndPoint.fnt"
+        },
+        {
+            "name": "txt_pCenterBg",
+            "type": "image",
+            "url": "imgs/txt_pCenterBg.png"
+        },
+        {
+            "name": "txt_registeredBg",
+            "type": "image",
+            "url": "imgs/txt_registeredBg.png"
+        },
+        {
+            "name": "txt_forgotPwdBg",
+            "type": "image",
+            "url": "imgs/txt_forgotPwdBg.png"
+        },
+        {
+            "name": "txt_modNameBg",
+            "type": "image",
+            "url": "imgs/txt_modNameBg.png"
+        },
+        {
+            "name": "card",
+            "type": "st",
+            "url": "sheets/card.st"
+        }
+    ]
+}

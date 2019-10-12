@@ -1,0 +1,997 @@
+{
+	"c2s":[
+		{
+			"id":301,
+			"name":"c2g_heartbeat",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":301 }
+			}
+		},
+		{
+			"id":5001,
+			"name":"c2s_connect",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5001 },
+				"account":{"tag":2, "type":"string", "isOption":1 },
+				"token":{"tag":3, "type":"string", "isOption":1 },
+				"sign":{"tag":4, "type":"string", "isOption":1 },
+				"platform":{"tag":5, "type":"string", "isOption":1 },
+				"login_platform":{"tag":6, "type":"string", "isOption":1 },
+				"machine_code":{"tag":7, "type":"string", "isOption":1 },
+				"machine_type":{"tag":8, "type":"string", "isOption":1 },
+				"channelid":{"tag":9, "type":"int32", "isOption":1 }
+			}
+		},
+		{
+			"id":5003,
+			"name":"c2s_asklogin",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5003 },
+				"channelid":{"tag":2, "type":"string", "isOption":1 }
+			}
+		},
+		{
+			"id":5004,
+			"name":"c2s_enter_game",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5004 },
+				"gameid":{"tag":2, "type":"int32", "isOption":1},
+				"gamever":{"tag":3, "type":"int32", "isOption":1},
+				"roomid":{"tag":4, "type":"int32", "isOption":1, "default":-1 }
+			}
+		},
+		{
+			"id":5005,
+			"name":"c2s_command",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5005 },
+				"command":{"tag":2, "type":"string", "isOption":1}
+			}
+		},
+		{
+			"id":5006,
+			"name":"c2s_ask_check_payment",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5006 },
+				"orderid":{"tag":2, "type":"string", "isOption":1}
+			}
+		},
+		{
+			"id":5007,
+			"name":"c2s_ask_test_payment",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5007 },
+				"pay_type":{"tag":2, "type":"int32", "isOption":1},
+				"pay_value":{"tag":3, "type":"int32", "isOption":1}
+			}
+		},
+		{
+			"id":5008,
+			"name":"c2s_leave_game",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5008 }
+			}
+		},
+		{
+			"id":5010,
+			"name":"c2s_update_playerhead",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5010 },
+				"headStr":{"tag":2, "type":"string", "isOption":1 }
+			}
+		},		
+		{
+			"id":5011,
+			"name":"c2s_update_nickname",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5011 },
+				"nickName":{"tag":2, "type":"string", "isOption":1 }
+			}
+		},		
+		{
+			"id":5012,
+			"name":"c2s_update_sex",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5012},
+				"sex":{"tag":2, "type":"int32", "isOption":1}
+			}
+		},
+		{
+			"id":5037,
+			"name":"c2s_beneifts",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5037 }
+			}
+		},		
+		{
+			"id":5058,
+			"name":"c2s_get_questlist",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5058 }
+			}
+		},		
+		{
+			"id":5059,
+			"name":"c2s_receive_questreward",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5059 },
+				"questid":{"tag":2, "type":"int32", "isOption":1 }
+			}
+		},	
+		{
+			"id":5080,
+			"name":"c2s_ask_message",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5080 }
+			}
+		},
+		{
+			"id":5081,
+			"name":"c2s_delete_message",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5081 },
+				"delete_list":{"tag":2, "type":"string", "isArr":1 }
+			}
+		},
+		{
+			"id":5082,
+			"name":"c2s_read_message",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5082 },
+				"id":{"tag":2, "type":"string", "isOption":1 }
+			}
+		},
+		{
+			"id":5091,
+			"name":"c2s_receive_share_reward",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5091 }
+			}
+		},
+        {
+			"id":5092,
+			"name":"c2s_req_faq",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5092}
+			}
+        },
+		{
+			"id":5093,
+			"name":"c2s_req_faq_detail",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5093},
+				"index":{"tag":2, "type":"int32", "isOption":1 }
+			}
+        },
+		{
+			"id":5094,
+			"name":"c2s_req_cs_contact",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5094}
+			}
+        },
+		{
+			"id":5097,
+			"name":"c2s_suggestion",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5097},
+				"text":{"tag":2, "type":"string", "isOption":1 }
+			}
+        },
+		{
+			"id":5098,
+			"name":"c2s_req_suggest",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5098}
+			}
+        },		
+		{
+			"id":5100,
+			"name":"c2s_wechat_share_task",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5100 }
+			}
+		},
+		{
+			"id":5120,
+			"name":"c2s_performance_list",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5120 }
+			}
+		},
+		{
+			"id":5121,
+			"name":"c2s_performance_gain",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5121 }
+			}
+		},
+		{
+			"id":5122,
+			"name":"c2s_performance_child",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5122 },
+				"player_id":{"tag":2, "type":"int32", "isOption":1 }
+			}
+		},
+		{
+			"id":5123,
+			"name":"c2s_performance_check_gain",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5123 }
+			}
+		},
+		{
+			"id":5124,
+			"name":"c2s_performance_team_create",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5124 },
+				"count":{"tag":2, "type":"int32", "isOption":1 },
+				"nick_name":{"tag":3, "type":"string", "isOption":1 }
+			}
+		},
+		{
+			"id":5125,
+			"name":"c2s_performance_team_list",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5125 }
+			}
+		},
+		{
+			"id":5126,
+			"name":"c2s_performance_team_info",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5126 },
+				"team_id":{"tag":3, "type":"int32", "isOption":1 }
+			}
+		},
+		{
+			"id":5127,
+			"name":"c2s_performance_team_update",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5127 },
+				"optype":{"tag":2, "type":"int32", "isOption":1 },
+				"team_id":{"tag":3, "type":"int32", "isOption":1 },
+				"limit":{"tag":4, "type":"int32", "isOption":1 },
+				"nick_name":{"tag":5, "type":"string", "isOption":1 }
+			}
+		},
+		{
+			"id":5128,
+			"name":"c2s_performance_info",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5128 }
+			}
+		},
+		{
+			"id":5129,
+			"name":"c2s_performance_info_self_today",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5129 }
+			}
+		},
+		{
+			"id":5130,
+			"name":"c2s_performance_info_self_yesterday",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5130 }
+			}
+		},
+		{
+			"id":5131,
+			"name":"c2s_performance_info_agent_today",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5131 }
+			}
+		},
+		{
+			"id":5132,
+			"name":"c2s_performance_info_agent_yesterday",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5132 }
+			}
+		},
+		{
+			"id":5150,
+			"name":"c2s_req_vip_info",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5150 }
+			}
+		},
+		{
+			"id":30001,
+			"name":"c2gs_player_connect",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":30001 },
+				"playerid":{"tag":2, "type":"int32", "isOption":1 },
+				"gameid":{"tag":3, "type":"int32", "isOption":1 }
+			}
+		},
+		{
+			"id":30002,
+			"name":"c2gs_player_disconnect",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":30002 },
+				"playerid":{"tag":2, "type":"int32", "isOption":1 }
+			}
+		},
+		{
+			"id":30003,
+			"name":"c2gs_game_history",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":30003 },
+				"gameid":{"tag":2, "type":"int32", "isOption":1 }
+			}
+		},
+		{
+			"id":5155,
+			"name":"c2gs_activity_accumulate_rmb_info",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5155 }
+			}
+		},
+		{
+			"id":5156,
+			"name":"c2gs_activity_accumulate_rmb_apply",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5156 }
+			}
+		},
+		{
+			"id":5157,
+			"name":"c2gs_activity_accumulate_rmb_reward",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5157 }
+			}
+		},
+		{
+			"id":5143,
+			"name":"c2gs_activity_check",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5143 }
+			}
+		},
+		{
+			"id":5158,
+			"name":"c2gs_activity_accumulate_per_info",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5158 }
+			}
+		},
+		{
+			"id":5159,
+			"name":"c2gs_activity_accumulate_per_apply",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5159 }
+			}
+		},
+		{
+			"id":5160,
+			"name":"c2gs_activity_accumulate_per_reward",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5160 }
+			}
+		}
+	],
+	"s2c":[
+		{
+			"id":401,
+			"name":"s2c_send_msglist",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":401 },
+				"msgpaks":{"tag":3, "type":"msg_list", "isArr":1 }
+			}
+		},
+		{
+			"id":404,
+			"name":"g2c_heartbeat",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":404 }
+			}
+		},
+		{
+			"id":444,
+			"name":"msg_t2t_start",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":444 }
+			}
+		},
+		{
+			"id":7501,
+			"name":"s2c_connect_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":5001 },
+				"result":{"tag":2, "type":"int32", "isOption":1 },
+				"servertime":{"tag":3, "type":"int32", "isOption":1 },
+				"gaming":{"tag":4, "type":"int32", "isOption":1, "default":0 },
+				"ver":{"tag":5, "type":"string", "isOption":1 }
+			}
+		},
+		{
+			"id":7503,
+			"name":"s2c_asklogin_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7503 },
+				"account_info":{"tag":2, "type":"msg_account_info", "isOption":1 },
+				"game_list":{"tag":3, "type":"msg_game_info", "isArr":1 },
+				"gaming":{"tag":4, "type":"int32", "isOption":1, "default":0 }
+			}
+		},
+		{
+			"id":7504,
+			"name":"s2c_enter_game_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7504 },
+				"result":{"tag":2, "type":"int32", "isOption":1,"default":2 }
+			}
+		},
+		{
+			"id":7505,
+			"name":"s2c_command_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7505 },
+				"result":{"tag":2, "type":"int32", "isOption":1,"default":2 }
+			}
+		},
+		{
+			"id":7506,
+			"name":"s2c_ask_check_payment_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7506 },
+				"result":{"tag":2, "type":"int32", "isOption":1,"default":2 },
+				"pay_type":{"tag":3, "type":"int32", "isOption":1 },
+				"pay_value":{"tag":4, "type":"int32", "isOption":1 },
+				"vip_exp":{"tag":5, "type":"int32", "isOption":1 },
+				"orderid":{"tag":6, "type":"string", "isOption":1 }
+			}
+		},
+		{
+			"id":7507,
+			"name":"s2c_leave_game_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7507 },
+				"shutdown":{"tag":2, "type":"bool", "isOption":1,"default":0 }
+			}
+		},
+		{
+			"id":7509,
+			"name":"s2c_update_playerhead_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7509 },
+				"headstr":{"tag":2, "type":"string", "isOption":1 },
+				"result":{"tag":3, "type":"int32", "isOption":1 }
+			}
+		},
+		{
+			"id":7510,
+			"name":"s2c_update_nickname_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7510 },
+				"nickName":{"tag":2, "type":"string", "isOption":1 },
+				"result":{"tag":3, "type":"int32", "isOption":1 }
+			}
+		},
+		{
+			"id":7511,
+			"name":"s2c_update_sex_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7511},
+				"sex":{"tag":2, "type":"int32", "isOption":1},
+				"result":{"tag":3, "type":"int32", "isOption":1}
+			}
+		},
+		{
+			"id":7523,
+			"name":"s2c_w2c_notify",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7523 },
+				"content":{"tag":2, "type":"string", "isOption":1 },
+				"notifyType":{"tag":3, "type":"int32", "isOption":1 },
+				"talkerNickName":{"tag":4, "type":"string", "isOption":1 },
+				"playerId":{"tag":5, "type":"int32", "isOption":1 },
+				"talkerVIPLevel":{"tag":6, "type":"int32", "isOption":1 },
+				"hasMonthCard":{"tag":7, "type":"bool", "isOption":1 },
+				"repCount":{"tag":8, "type":"int32", "isOption":1, "default":1, "desc":"重复次数，本条消息从左到右共滚动次数" },
+				"interval":{"tag":9, "type":"int32", "isOption":1, "default":0, "desc":"重复间隔，条条消息2次滚动之间间隔" },
+				"moneyNum":{"tag":10, "type":"int32", "isOption":1 }
+			}
+		},
+		{
+			"id":7539,
+			"name":"s2c_benefits_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7539 },
+				"result":{"tag":2, "type":"int32", "isOption":1 , "default":0}
+			}
+		},
+		{
+			"id":7561,
+			"name":"s2c_get_questlist_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7561 },
+				"questlist":{"tag":2, "type":"msg_quest_info", "isArr":1 },
+				"is_new":{"tag":3, "type":"bool", "isOption":1 }
+			}
+		},
+		{
+			"id":7562,
+			"name":"s2c_receive_questreward_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7562 },
+				"questid":{"tag":2, "type":"int32", "isOption":1 },
+				"result":{"tag":3, "type":"int32", "isOption":1 }
+			}
+		},
+		{
+			"id":7563,
+			"name":"s2c_change_quest",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7563 },
+				"qinfo":{"tag":3, "type":"msg_quest_info", "isOption":1 }
+			}
+		},
+		{
+			"id":7586,
+			"name":"s2c_ask_message_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7586 },
+				"result":{"tag":2, "type":"bool", "isOption":1,"default":0 },
+				"msg_list":{"tag":3, "type":"msg_some_info", "isArr":1 }
+			}
+		},
+		{
+			"id":7587,
+			"name":"s2c_delete_message_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7587 },
+				"result":{"tag":2, "type":"bool", "isOption":1}
+			}
+		},
+		{
+			"id":7588,
+			"name":"s2c_read_message_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7588 },
+				"result":{"tag":2, "type":"int32", "isOption":1,"default":0},
+				"id":{"tag":3, "type":"string", "isOption":1}
+			}
+		},
+		{
+			"id":7589,
+			"name":"s2c_bind_reward",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7589 },
+				"reward_gold":{"tag":2, "type":"int32", "isOption":1}
+			}
+		},
+		{
+			"id":7599,
+			"name":"s2c_notify_share",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7599 },
+				"game_id":{"tag":2, "type":"int32", "isOption":1 },
+				"room_id":{"tag":3, "type":"int32", "isOption":1 },
+				"win_gold":{"tag":4, "type":"int64", "isOption":1 },
+				"share_reward":{"tag":5, "type":"int32", "isOption":1 }
+			}
+		},
+		{
+			"id":7600,
+			"name":"s2c_receive_share_reward_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7600 },
+				"result":{"tag":2, "type":"int32", "isOption":1 , "default":0},
+				"reward":{"tag":3, "type":"int64", "isOption":1 }
+			}
+		},
+		{
+			"id":7601,
+			"name":"s2c_req_faq_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7601},
+				"faq_list":{"tag":2, "type":"msg_faq_def", "isArr":1 }
+			}
+		},
+		{
+			"id":7602,
+			"name":"s2c_req_faq_detail_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7602},
+				"faq":{"tag":2, "type":"msg_faq_def", "isOption":1 }
+			}
+		},
+		{
+			"id":7603,
+			"name":"s2c_req_cs_contact_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7603},
+				"qq":{"tag":2, "type":"string", "isOption":1 }
+			}
+		},
+		{
+			"id":7606,
+			"name":"s2c_suggestion_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7606},
+				"result":{"tag":2, "type":"int32", "isOption":1 },
+				"suggest":{"tag":3, "type":"msg_suggest", "isOption":1}
+			}
+		},
+		{
+			"id":7607,
+			"name":"s2c_req_suggest_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7607},
+				"list":{"tag":2, "type":"msg_suggest", "isArr":1}
+			}
+		},
+		{
+			"id":7609,
+			"name":"s2c_notify_task_reflush",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7609 }
+			}
+		},
+		{
+			"id":7631,
+			"name":"s2c_performance_list_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7631 },
+				"info":{"tag":2, "type":"msg_performance_info", "isArr":1 }
+			}
+		},
+		{
+			"id":7632,
+			"name":"s2c_performance_gain_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7632 },
+				"result":{"tag":2, "type":"int32", "isOption":1 },
+				"gain":{"tag":3, "type":"int64", "isOption":1 }
+			}
+		},
+		{
+			"id":7633,
+			"name":"s2c_performance_child_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7633 },
+				"info":{"tag":2, "type":"msg_performance_info", "isOption":1 }
+			}
+		},
+		{
+			"id":7634,
+			"name":"s2c_performance_check_gain_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7634 },
+				"gain":{"tag":2, "type":"int64", "isOption":1 }
+			}
+		},
+		{
+			"id":7635,
+			"name":"s2c_performance_team_create_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7635 },
+				"result":{"tag":2, "type":"int32", "isOption":1 },
+				"team_id":{"tag":3, "type":"int32", "isOption":1 },
+				"count":{"tag":4, "type":"int32", "isOption":1 },
+				"nick_name":{"tag":5, "type":"string", "isOption":1 },
+				"code_tag":{"tag":6, "type":"int32", "isOption":1 }
+			}
+		},
+		{
+			"id":7636,
+			"name":"s2c_performance_team_list_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7636 },
+				"teams":{"tag":2, "type":"msg_performance_team", "isArr":1 }
+			}
+		},
+		{
+			"id":7637,
+			"name":"s2c_performance_team_info_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7637 },
+				"team":{"tag":2, "type":"msg_performance_team", "isArr":1 }
+			}
+		},
+		{
+			"id":7638,
+			"name":"s2c_performance_team_update_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7638 },
+				"result":{"tag":2, "type":"int32", "isOption":1 },
+				"optype":{"tag":3, "type":"int32", "isOption":1 },
+				"team_id":{"tag":4, "type":"int32", "isOption":1 },
+				"limit":{"tag":5, "type":"int32", "isOption":1 },
+				"nick_name":{"tag":5, "type":"string", "isOption":1 },
+				"code_tag":{"tag":5, "type":"int32", "isOption":1 }
+			}
+		},
+		{
+			"id":7639,
+			"name":"s2c_performance_info_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7639 },
+				"commission_today_team":{"tag":2, "type":"int64", "isOption":1 },
+				"commission_today_self":{"tag":3, "type":"int64", "isOption":1 },
+				"commission_today_agent":{"tag":4, "type":"int64", "isOption":1 },
+				"commission_yesterday_team":{"tag":5, "type":"int64", "isOption":1 },
+				"commission_yesterday_self":{"tag":6, "type":"int64", "isOption":1 },
+				"commission_yesterday_agent":{"tag":7, "type":"int64", "isOption":1 },
+				"per_today_team":{"tag":8, "type":"int64", "isOption":1 },
+				"per_today_self":{"tag":9, "type":"int64", "isOption":1 },
+				"per_today_agent":{"tag":10, "type":"int64", "isOption":1 },
+				"per_yesterday_team":{"tag":11, "type":"int64", "isOption":1 },
+				"per_yesterday_self":{"tag":12, "type":"int64", "isOption":1 },
+				"per_yesterday_agent":{"tag":13, "type":"int64", "isOption":1 },
+				"per_today":{"tag":14, "type":"int64", "isOption":1 },
+				"per_this_week":{"tag":15, "type":"int64", "isOption":1 },
+				"rebate_today":{"tag":16, "type":"int64", "isOption":1 },
+				"rebate_this_week":{"tag":17, "type":"int64", "isOption":1 },
+				"per_b_self_today":{"tag":18, "type":"int64", "isOption":1 },
+				"per_b_child_today":{"tag":19, "type":"int64", "isOption":1 },
+				"per_b_self_yesterday":{"tag":20, "type":"int64", "isOption":1 },
+				"per_b_child_yesterday":{"tag":21, "type":"int64", "isOption":1 },
+				"ac":{"tag":22, "type":"int32", "isOption":1 },
+				"ac_inc":{"tag":23, "type":"int32", "isOption":1 },
+				"ac_inc_yd":{"tag":24, "type":"int32", "isOption":1 },
+				"ac_inc_tw":{"tag":25, "type":"int32", "isOption":1 },
+				"ac_inc_lw":{"tag":26, "type":"int32", "isOption":1 },
+				"ac_inc_tm":{"tag":27, "type":"int32", "isOption":1 },
+				"ac_inc_lm":{"tag":28, "type":"int32", "isOption":1 }
+			}
+		},
+		{
+			"id":7640,
+			"name":"s2c_performance_info_self_today_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7640 },
+				"result":{"tag":2, "type":"int32", "isOption":1 }
+			}
+		},
+		{
+			"id":7641,
+			"name":"s2c_performance_info_self_yesterday_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7641 },
+				"result":{"tag":2, "type":"int32", "isOption":1 }
+			}
+		},
+		{
+			"id":7642,
+			"name":"s2c_performance_info_agent_today_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7642 },
+				"result":{"tag":2, "type":"int32", "isOption":1 }
+			}
+		},
+		{
+			"id":7643,
+			"name":"s2c_performance_info_agent_yesterday_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7643 },
+				"result":{"tag":2, "type":"int32", "isOption":1 }
+			}
+		},
+		{
+			"id":7660,
+			"name":"s2c_req_vip_info_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7660 },
+				"viplv":{"tag":2, "type":"int32", "isOption":1 },
+				"vipexp":{"tag":3, "type":"int64", "isOption":1 }
+			}
+		},
+		
+		{
+			"id":31001,
+			"name":"gs2c_player_connect_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":31001 },
+				"result":{"tag":2, "type":"int32", "isOption":1}
+			}
+		},
+		{
+			"id":31002,
+			"name":"gs2c_player_disconnect_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":31002 },
+				"result":{"tag":2, "type":"int32", "isOption":1}
+			}
+		},
+		{
+			"id":7665,
+			"name":"gs2c_activity_accumulate_rmb_info_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7665 },
+				"bound":{"tag":2, "type":"bool", "isOption":1, "default":"false"},
+				"applied":{"tag":3, "type":"bool", "isOption":1, "default":"false"},
+				"accumulation":{"tag":4, "type":"int64", "isOption":1, "default":0},
+				"index":{"tag":5, "type":"int32", "isOption":1, "default":0},
+				"index_reward":{"tag":6, "type":"int32", "isOption":1, "default":0},
+				"ts_ready":{"tag":7, "type":"int32", "isOption":1, "default":0},
+				"ts_begin":{"tag":8, "type":"int32", "isOption":1, "default":0},
+				"ts_end":{"tag":9, "type":"int32", "isOption":1, "default":0},
+				"ts_off":{"tag":10, "type":"int32", "isOption":1, "default":0}
+			}
+		},
+		{
+			"id":7666,
+			"name":"gs2c_activity_accumulate_rmb_apply_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7666 },
+				"result":{"tag":2, "type":"int32", "isOption":1}
+			}
+		},
+		{
+			"id":7667,
+			"name":"gs2c_activity_accumulate_rmb_reward_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7667 },
+				"result":{"tag":2, "type":"int32", "isOption":1},
+				"reward":{"tag":3, "type":"int64", "isOption":1},
+				"index":{"tag":4, "type":"int32", "isOption":1}
+			}
+		},
+		{
+			"id":7649,
+			"name":"gs2c_activity_check_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7649 },
+				"ac_bind":{"tag":2, "type":"bool", "isOption":1, "default":"false"},
+				"ac_recharge":{"tag":3, "type":"bool", "isOption":1, "default":"false"},
+				"ac_recharge_award":{"tag":4, "type":"bool", "isOption":1, "default":"false"},
+				"ac_chest":{"tag":5, "type":"bool", "isOption":1, "default":"false"},
+				"ac_chest_new":{"tag":6, "type":"bool", "isOption":1, "default":"false"},
+				"yun_isshow":{"tag":7, "type":"bool", "isOption":1, "default":"false"},
+				"yun_rebate":{"tag":8, "type":"int32", "isOption":1, "default":0},
+				"month_card":{"tag":9, "type":"bool", "isOption":1, "default":"false"},
+				"activities":{"tag":10, "type":"int32", "isArr":1}
+			}
+		},
+		{
+			"id":7668,
+			"name":"gs2c_activity_accumulate_per_info_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7668 },
+				"bound":{"tag":2, "type":"bool", "isOption":1, "default":"false"},
+				"applied":{"tag":3, "type":"bool", "isOption":1, "default":"false"},
+				"accumulation":{"tag":4, "type":"int64", "isOption":1, "default":0},
+				"index":{"tag":5, "type":"int32", "isOption":1, "default":0},
+				"index_reward":{"tag":6, "type":"int32", "isOption":1, "default":0},
+				"ts_ready":{"tag":7, "type":"int32", "isOption":1, "default":0},
+				"ts_begin":{"tag":8, "type":"int32", "isOption":1, "default":0},
+				"ts_end":{"tag":9, "type":"int32", "isOption":1, "default":0},
+				"ts_off":{"tag":10, "type":"int32", "isOption":1, "default":0}
+			}
+		},
+		{
+			"id":7669,
+			"name":"gs2c_activity_accumulate_per_apply_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7669 },
+				"result":{"tag":2, "type":"int32", "isOption":1}
+			}
+		},
+		{
+			"id":7670,
+			"name":"gs2c_activity_accumulate_per_reward_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":7670 },
+				"result":{"tag":2, "type":"int32", "isOption":1},
+				"reward":{"tag":3, "type":"int64", "isOption":1},
+				"index":{"tag":4, "type":"int32", "isOption":1}
+			}
+		}
+	],
+	"type":{
+		"msg_list":{
+			"msgid":{"tag":1, "type":"int32", "isOption":1},
+			"msginfo":{"tag":2, "type":"bytes", "isOption":1 }
+		},
+		"msg_game_info":{
+			"gameid":{"tag":1, "type":"int32", "isOption":1},
+			"gamever":{"tag":2, "type":"int32", "isOption":1 },
+			"curOnlineNum":{"tag":3, "type":"int32", "isOption":1 },
+			"isHot":{"tag":4, "type":"bool", "isOption":1 },
+			"sort":{"tag":5, "type":"int32", "isOption":1 }
+		},
+		"msg_account_info":{
+			"aid":{"tag":1, "type":"int32", "isOption":1},
+			"channelId":{"tag":2, "type":"string", "isOption":1 },
+			"nickname":{"tag":3, "type":"string", "isOption":1 },
+			"gold":{"tag":4, "type":"int64", "isOption":1 },
+			"viplvl":{"tag":5, "type":"int32", "isOption":1 },
+			"vipexp":{"tag":6, "type":"int32", "isOption":1 },
+			"icon_custom":{"tag":8,"type":"string","isOption":1},
+			"sex":{"tag":9, "type":"int32", "isOption":1 },
+			"Ticket":{"tag":14, "type":"int32", "isOption":1 },
+			"curPhotoFrameId":{"tag":16, "type":"int32", "isOption":1 },
+			"payids":{"tag":19, "type":"int32", "isArr":1 },
+			"isSafeDepositBoxPwdEmpty":{"tag":20, "type":"bool", "isOption":1 },
+			"safeBoxGold":{"tag":21, "type":"int64", "isOption":1 },
+			"collected":{"tag":22, "type":"int32", "isOption":1 },
+			"updateNicknameCount":{"tag":26, "type":"int32", "isOption":1 },
+			"isBindMobilePhone":{"tag":27, "type":"bool", "isOption":1 },
+			"create_time":{"tag":36, "type":"int32", "isOption":1 },
+			"Privilege":{"tag":44, "type":"int32", "isOption":1 },
+			"lastGameId":{"tag":46, "type":"int32", "isOption":1 },
+			"isFormal":{"tag":47, "type":"bool", "isOption":1, "default":1 },
+			"BindInfo":{"tag":48, "type":"string", "isOption":1 },
+			"RealName":{"tag":49, "type":"string", "isOption":1 },
+			"Recharged":{"tag":52, "type":"int32", "isOption":1 },
+			"inviter_id":{"tag":53, "type":"int32", "isOption":1 },
+			"water":{"tag":54, "type":"int32", "isOption":1 },
+			"inviter_reward_count":{"tag":55, "type":"int32", "isOption":1 },
+			"withdraw":{"tag":56, "type":"int32", "isOption":1 },
+			"sevenday_done":{"tag":57, "type":"bool", "isOption":1 },
+			"quest_list":{"tag":58, "type":"int32", "isArr":1 },
+			"limit_time_photo":{"tag":59, "type":"int32", "isOption":1 },
+			"ipinfo":{"tag":60, "type":"string", "isOption":1 },
+			"inviter_reward":{"tag":61, "type":"int64", "isOption":1 },
+			"performance":{"tag":62, "type":"int64", "isOption":1 },
+			"ts_ac_bind":{"tag":63, "type":"int32", "isOption":1 },
+			"can_bind_alipay":{"tag":64, "type":"bool", "isOption":1 },
+			"cs_token":{"tag":65, "type":"string", "isOption":1 }
+		},
+		"msg_quest_info":{
+			"questid":{"tag":1, "type":"int32", "isOption":1},
+			"count":{"tag":2, "type":"int32", "isOption":1 },
+			"received":{"tag":3, "type":"bool", "isOption":1 }
+		},
+		"msg_some_info":{
+			"id":{"tag":1, "type":"string", "isOption":1},
+			"userId":{"tag":2, "type":"int32", "isOption":1 },
+			"timeValue":{"tag":3, "type":"int64", "isOption":1 },
+			"msgInfo":{"tag":4, "type":"string", "isOption":1 },
+			"read":{"tag":5, "type":"int32", "isOption":1 },
+			"items":{"tag":6, "type":"msg_item", "isArr":1 }
+		},
+		"msg_item":{
+			"id":{"tag":1, "type":"int32", "isOption":1},
+			"count":{"tag":2, "type":"int32", "isOption":1 }
+		},
+		"msg_faq_def":{
+			"index":{"tag":1, "type":"int32", "isOption":1},
+			"text":{"tag":2, "type":"string", "isOption":1}
+		},
+		"msg_suggest":{
+			"text":{"tag":1, "type":"string", "isOption":1},
+			"time":{"tag":2, "type":"int64", "isOption":1}
+		},
+		"msg_performance_info":{
+			"player_id":{"tag":1, "type":"int32", "isOption":1},
+			"photo_frame":{"tag":2, "type":"int32", "isOption":1},
+			"nick_name":{"tag":3, "type":"string", "isOption":1},
+			"parent":{"tag":4, "type":"int32", "isOption":1},
+			"per_today":{"tag":5, "type":"int64", "isOption":1},
+			"per_yesterday":{"tag":6, "type":"int64", "isOption":1},
+			"per_sub_today":{"tag":7, "type":"int64", "isOption":1},
+			"per_sub_yesterday":{"tag":8, "type":"int64", "isOption":1},
+			"per_tw":{"tag":9, "type":"int64", "isOption":1},
+			"per_lw":{"tag":10, "type":"int64", "isOption":1},
+			"per_sub_tw":{"tag":11, "type":"int64", "isOption":1},
+			"per_sub_lw":{"tag":12, "type":"int64", "isOption":1},
+			"ts_create":{"tag":13, "type":"int32", "isOption":1},
+			"ac":{"tag":14, "type":"int32", "isOption":1},
+			"ac_inc":{"tag":15, "type":"int32", "isOption":1},
+			"ac_inc_yd":{"tag":16, "type":"int32", "isOption":1},
+			"ac_inc_tw":{"tag":17, "type":"int32", "isOption":1},
+			"ac_inc_lw":{"tag":18, "type":"int32", "isOption":1},
+			"ac_inc_tm":{"tag":19, "type":"int32", "isOption":1},
+			"ac_inc_lm":{"tag":20, "type":"int32", "isOption":1},
+			"gain_yd":{"tag":21, "type":"int64", "isOption":1},
+			"gain_tw":{"tag":22, "type":"int64", "isOption":1},
+			"gain_lw":{"tag":23, "type":"int64", "isOption":1},
+			"gain":{"tag":24, "type":"int64", "isOption":1}
+		},
+		"msg_performance_team":{
+			"id":{"tag":1, "type":"int32", "isOption":1},
+			"name":{"tag":2, "type":"string", "isOption":1},
+			"count":{"tag":3, "type":"int32", "isOption":1},
+			"count_limit":{"tag":4, "type":"int32", "isOption":1},
+			"code_tag":{"tag":5, "type":"int32", "isOption":1},
+			"ac_inc":{"tag":6, "type":"int32", "isOption":1},
+			"member_infos":{"tag":7, "type":"msg_performance_info", "isArr":1}
+		}
+	}
+}

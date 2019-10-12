@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DLSkin" width="757" height="108" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:TableScroller id="skTbScroller" scrollPolicyH="on" scrollPolicyV="off"  width="757" height="108" >
+        <e:viewport>
+        <cui:DataGroup id="skList" width="757" height="108" >
+            <e:layout>
+                <cui:TileLayout isHorizontal="true" itemW="18" itemH="18" />
+            </e:layout>
+        </cui:DataGroup>
+        </e:viewport>
+    </cui:TableScroller>
+</e:Skin>

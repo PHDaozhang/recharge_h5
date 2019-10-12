@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MomentItemSkin" width="931" height="121" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+<cui:Image id="skBg" source=""/>
+<cui:Image source="common@txt_df" x="349" y="20.5"/>
+<cui:BitmapLabel id="skLab1" font="moment" text="111%" y="24.5" x="436.5"/>
+<cui:Image source="common@txt_rc" x="349" y="66"/>
+<cui:BitmapLabel id="skLab2" font="moment" text="111%" y="68.5" x="436.5"/>
+<cui:Image source="common@txt_y" x="531" y="24.5"/>
+<cui:Image source="common@txt_y" x="531" y="67.5"/>
+<cui:ScaleButton id="skBtn" icon="common@txt_enter" skinName="ScaleBtnSkin" width="193" height="64" x="702" y="31.5"/>
+</e:Skin>

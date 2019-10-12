@@ -1,0 +1,11 @@
+<e:Skin class="CardOffSkin" width="123" height="160" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Image id="skBg" width="123" height="160" source="card@q4"/>
+    <cui:Image id="skIcon" x="37" y="23" width="72" height="92"/>
+    <cui:Image id="skPos" x="12" y="42" width="22" height="41" />
+    <cui:Image id="skTTp" x="81" y="104" source="card@txt_t1"/>
+    <cui:Label id="skNm" x="7" y="128" width="110" height="24"  size="16" text="11" textAlign="center" stroke="1" strokeColor="0x7c7c7c"/>
+    <cui:Label id="skKpi" x="10" y="7" size="20" text="11" stroke="1" strokeColor="0x161616" anchorOffsetY="0"/>
+    <cui:BitmapLabel id="skWis" x="-2" y="97" font="num_s3" text="11" width="50" textAlign="center" />
+    <cui:Image id="skTick" x="58" y="5" source="card@gou" visible="false"/>
+    <cui:Image id="skRed" source="main@red"  x="101" visible="false"/>
+</e:Skin>

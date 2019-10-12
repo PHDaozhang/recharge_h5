@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RouteZPLSkin" width="242" height="167" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+
+<cui:TableScroller id="skTbScroller" scrollPolicyH="on" scrollPolicyV="off"  width="242" height="167" >
+     <e:viewport>
+        <cui:DataGroup id="skList" width="100%" height="167" >
+            <cui:Image id="skImg" source="route@bg_zpl" fillMode="repeat"  width="27" height="167"/>>
+            <e:layout>
+                <cui:TileLayout isHorizontal="true" itemW="27" itemH="27.8"/>
+            </e:layout>
+        </cui:DataGroup>
+     </e:viewport>
+</cui:TableScroller>
+</e:Skin>

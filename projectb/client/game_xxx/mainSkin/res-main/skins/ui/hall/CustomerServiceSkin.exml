@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CustomerServiceSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" height="455" width="742">
+<cui:Image id="rmv_KeFu" source="rmv_kefu" y="-1" anchorOffsetX="0" width="738" anchorOffsetY="0" height="470" visible="false"/>
+<cui:Image source="txt_kefuBg" x="4" y="2"/>
+<cui:Scroller scrollPolicyH="off" scrollPolicyV="on" width="613" height="264" x="54" y="88" anchorOffsetY="0">
+    <cui:DataGroup id="skList" width="613" height="264">
+        <e:layout>
+            <cui:DataLineLayout isHorizontal="false" gap="2" itemW="613"/>
+        </e:layout>
+    </cui:DataGroup>
+</cui:Scroller>
+<cui:ScaleButton id="skClose" icon="common@close" skinName="ScaleBtnSkin" x="657.5" y="11" anchorOffsetX="0" width="86" anchorOffsetY="0" height="86"/>
+<cui:ScaleButton id="skConsultation" icon="kefu@txt_zixun" skinName="ScaleBtnSkin" x="88" y="373" width="201" height="69"/>
+<cui:ScaleButton id="skSuggestion" icon="kefu@txt_suggestions" skinName="ScaleBtnSkin" x="449.5" y="369" width="201" height="69"/>
+</e:Skin>

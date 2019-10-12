@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameWuxianListSkin" width="906" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+	<cui:Image  source="dailibiao" y="0"/>
+	<cui:Image id="skXian" y="0" source="dailibiaoX"/>
+	<cui:Label id="skWXgold"  size="26" textColor="0xd8a160" text="" y="4.08" x="0" width="298" textAlign="center" height="26"/>
+	<cui:Label id="skWXlv" size="26" textColor="0xD8A160" text="" y="4.08" x="380" width="140" textAlign="center"/>
+	<cui:Label id="skWXget" size="26" textColor="0xD8A160" text="" y="4.08" x="680" width="140" textAlign="center"/>
+</e:Skin>

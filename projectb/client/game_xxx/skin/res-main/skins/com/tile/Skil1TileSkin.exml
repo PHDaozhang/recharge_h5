@@ -1,0 +1,8 @@
+<e:Skin class="Skil1TileSkin" width="135" height="147" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Image id="skBg" width="108" height="117"/>
+    <cui:Image id="skIcon" width="108" height="85"/>
+    <cui:Image id="skSel" x="39" y="1" width="69" height="69" visible="false"/>
+    <cui:Label id="skNm" y="87" width="108" height="24" size="20" textAlign="center"/>
+    <cui:BitmapLabel id="skLvl" x="30" y="62" text="11" font="num_s4"/>
+    <cui:Image id="skRed" source="main@red"/>
+</e:Skin>

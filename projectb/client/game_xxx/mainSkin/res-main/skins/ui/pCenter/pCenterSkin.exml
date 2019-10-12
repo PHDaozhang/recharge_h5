@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="pCenterSkin" width="740" height="495" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+    <cui:Image id="rmv_gm" x="-293" y="-91" source="rmv_grzx1"/>
+    <cui:Image source="txt_pCenterBg"/>
+    <cui:ScaleButton id="skBack" icon="common@close" skinName="ScaleBtnSkin" y="13" width="80" height="82" x="661"/>
+    <cui:Image id="skIconImg"  x="123" y="130"/>
+    <cui:Image id="skIconFrame"  x="104" y="112" anchorOffsetX="0" anchorOffsetY="0"/>
+    <cui:Image source="pCenter@bottomBg" width="205" height="34" x="57.5" y="257"/>
+    <cui:Label id="skName" size="24" text="111" textColor="0xf5f1c4" x="57" y="261" anchorOffsetX="0" width="163" height="24" textAlign="center"/>
+    <cui:ScaleButton id="skMod" icon="pCenter@modify" skinName="ScaleBtnSkin" width="45" height="32" x="218" y="257"/>
+    <cui:Image source="pCenter@bottomBg" width="205" height="34" x="57.5" y="310"/>
+    <cui:Label id="skId" size="24" text="111" textColor="0xf5f1c4" x="57" y="315" anchorOffsetX="0" width="163" height="24" textAlign="center"/>
+    <cui:ScaleButton id="skCopyId" icon="pCenter@copy" skinName="ScaleBtnSkin" x="218" y="311" width="45" height="32"/>
+    <cui:Image source="pCenter@landMarkB" width="202" height="32" x="56.5" y="362"/>
+    <cui:Image source="pCenter@landMark" width="20" height="26" y="367" x="126.5"/>
+    <cui:Label id="skAddresss" size="24" text="111" textColor="0xf5f1c4" x="151.5" y="367" anchorOffsetX="0" width="111"/>
+	<cui:Scroller id="skHeadScr" width="364" height="293" x="301" y="144" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="off" visible="false">
+		<cui:DataGroup id="skList" width="364" height="293" anchorOffsetX="0" x="0" y="0" anchorOffsetY="0">
+		<e:layout>
+			<cui:TileLayout isHorizontal="false" itemW="90" itemH="90" horizontalGap="1" verticalGap="10"/>
+		</e:layout>
+		</cui:DataGroup>
+	</cui:Scroller>
+    <cui:MenuGroup id="skMenuBtn" keepSelect="true" y="95" x="311" anchorOffsetX="0" width="231" height="41">
+        <cui:MenuItemImage tag="1" x="0" width="115" height="41">
+            <e:Skin states="up,down,disabled">
+                <cui:Image source.up="pCenter@vipBtn1" source.down="pCenter@vipBtn2" source="pCenter@vipBtn1" />
+            </e:Skin>
+        </cui:MenuItemImage >
+        <cui:MenuItemImage tag="2" x="114" width="115" height="41">
+            <e:Skin states="up,down,disabled">
+                <cui:Image source.up="pCenter@txt_head1" source.down="pCenter@txt_head2" source="pCenter@txt_head1" />
+            </e:Skin>
+        </cui:MenuItemImage >
+    </cui:MenuGroup>
+    <cui:Group id="skVipGroup" y="145" x="305" anchorOffsetX="0" width="357" anchorOffsetY="0" height="290">
+        <cui:Image source="pCenter@txt_tips" x="135" y="1"/>
+        <cui:Image source="pCenter@txt_fllowWater" x="155" y="42"/>
+        <cui:Image source="pCenter@vipImg2" x="7" y="24" width="84" height="84"/>
+        <cui:Image source="pCenter@vipImg1" x="270" y="24" width="84" height="84"/>
+        <cui:Image source="txt_vipPrivilegeDB" x="13" y="105"/>
+        <cui:Image source="pCenter@txt_waitMore" x="30" y="160"/>
+        <cui:Image source="pCenter@txt_waitMore" x="138" y="160"/>
+        <cui:Image source="pCenter@txt_waitMore" x="245" y="160"/>
+        <cui:BitmapLabel id="skLeftlab" y="67" x="42" font="VipNum" text="8"/>
+        <cui:BitmapLabel id="skRightlab" y="67" x="306" font="VipNum" text="9"/>
+        <!--<cui:ScaleButton id="skAwardBtn" icon="pCenter@goldBtn1" skinName="ScaleBtnSkin" y="239" x="24" width="96" height="38"/>-->
+        <!--<cui:ScaleButton id="skAwardBtn" icon="pCenter@txt_receive1" skinName="ScaleBtnSkin" y="239" x="24" width="96" height="38"/>
+        <cui:ScaleButton id="skReceive1" icon="pCenter@txt_receive1" skinName="ScaleBtnSkin" width="96" height="38" y="239" x="133" />
+        <cui:ScaleButton id="skReceive2" icon="pCenter@txt_receive1" skinName="ScaleBtnSkin" width="96" height="38" y="240" x="244"/>-->
+        <cui:Image id="skReceiveD1" source="pCenter@txt_Received" x="143" y="240" visible="false"/>
+        <cui:Image id="skReceiveD2" source="pCenter@txt_Received" x="252" y="240" visible="false"/>
+        <!--<cui:BitmapLabel id="skGoldLab" text="99999y"  font="pCenterGold1" x="31" y="247" anchorOffsetX="0" width="82" anchorOffsetY="0" height="16" textAlign="center"/>-->
+        <cui:ProgressBar id="skBar" skinName="VipBarSkin"  x="74" y="68"/>
+        <cui:Label id="skBarLabel" text="111"  size="16" textColor="0xffffff" y="70" x="83" anchorOffsetX="0" width="190" anchorOffsetY="0" height="17" textAlign="center"/>
+        <cui:SimpleButton id="skLeftbtn" y="164" x="4" width="21" height="49">
+            <e:Skin>
+                <cui:Image source="pCenter@arrow" x="0" y="0"/>
+            </e:Skin>
+        </cui:SimpleButton>
+         <cui:SimpleButton id="skRightbtn" y="164" x="353" width="21" height="49" scaleX="-1">
+            <e:Skin>
+                <cui:Image source="pCenter@arrow" x="0" y="0"/>
+            </e:Skin>
+        </cui:SimpleButton>
+    
+    </cui:Group>
+</e:Skin>

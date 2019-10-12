@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DetailShareSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+	<cui:Image source="txt_fenxiang_beijing"/>
+	<cui:Image x="129" y="245" source="share@txt_fenxiang_wozai" rotation="355."/>
+	<cui:Image source="txt_fenxiang_bairenniuniu" x="307" y="233" rotation="355."/>
+	<cui:Image source="txt_fenxiang_yibayingle" x="7" y="358" rotation="355."/>
+	<cui:Image source="share@txt_fenxiang_yuan" x="674" y="306" rotation="355."/>
+	<cui:Image source="txt_fenxiang_jizhishuangkuai" x="218" y="458" rotation="355."/>
+	<cui:Image source="share@pic_fenxiang_erweimadi" x="1083" y="535"/>
+	<cui:Image source="share@pic_fenxiang_erweima" x="1096" y="548"/>
+	<cui:Label text="" x="1042" y="677" size="24" bold="true"/>
+	<cui:Image source="txt_fenxiang_bairenniuniu" x="142" y="654" scaleX="0.47" scaleY="0.47"/>
+	<cui:Image source="share@pic_fenxiang_erweimadi" x="41" y="612" scale9Grid="17,17,102,102" scaleX="0.61" scaleY="0.61"/>
+	<cui:Image source="head@nan_1" x="47" y="618" scaleX="0.85" scaleY="0.85"/>
+	<cui:Label text="" y="625" size="22" textColor="0xead6b4" horizontalCenter="-420.5"/>
+	<cui:Image id="rmv_share" alpha="0.5" source="rmv_share2" visible="false"/>
+</e:Skin>

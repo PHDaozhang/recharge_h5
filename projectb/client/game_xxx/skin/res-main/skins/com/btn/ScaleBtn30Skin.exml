@@ -1,0 +1,6 @@
+<e:Skin class="ScaleBtn30Skin" width="201" height="69" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Group id="skAniGp" width="100%" height="100%">
+        <cui:Image id="iconDisplay" verticalCenter="0" horizontalCenter="0"/>
+        <cui:Label id="labelDisplay" size="36" verticalCenter="0" horizontalCenter="0" filterNm="blackFW"/>
+    </cui:Group>
+</e:Skin>

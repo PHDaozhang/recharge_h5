@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AchieveShareSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+	<cui:Image source="txt_fenxiang_di" x="151" y="17"/>
+	<cui:ScaleButton id="skBtnClose" label="Button" x="1037" y="66" skinName="CloseBtnSkin"/>
+	<cui:ScaleButton id="skBtnP" icon="share@pic_fenxiang_pengyouquan" x="336" y="522" skinName="ScaleBtnSkin" width="70"/>
+	<cui:ScaleButton id="skBtnW" icon="share@pic_fenxiang_weixin" x="424" y="522" skinName="ScaleBtnSkin" width="70"/>
+	<cui:Image source="txt_fenxiang_duyunhengtong" x="211" y="213" visible="false"/>
+	<cui:Image source="share@txt_xianshishiyong_zi" x="540" y="542"/>
+	<cui:Image source="share@touxiang_caishen" x="704" y="516"/>
+	<cui:Image source="share@touxiang_caishenpo" x="790" y="516"/>
+	<cui:Label id="skLabMan" text="" x="681" y="581" size="19" textColor="0xfff9b8"/>
+	<cui:Label id="skLabWoman" text="" x="780" y="581" size="19" textColor="0xFFF9B8"/>
+	<cui:Label id="skLabTip" text="" y="624" size="28" textColor="0xc3c3c3" x="316"/>
+	<cui:BitmapLabel id="skBitGold" y="619" font="shareJiaGe" text="3" x="558"/>
+	<cui:BitmapLabel id="skBitNum" y="619" font="shareJiaGe" text="1" x="861"/>
+	<cui:Image x="333" y="231" source="share@txt_fenxiang_wozai" rotation="355" scaleX="0.71" scaleY="0.71"/>
+	<cui:Image id="skImgGame" x="471" y="220" rotation="355" scaleX="0.71" scaleY="0.71" source="txt_fenxiang_baijiale"/>
+	<cui:Image id="skImgGet" source="txt_fenxiang_yibayingle" x="209" y="321" rotation="355" scaleX="0.71" scaleY="0.71"/>
+	<cui:Image id="skimgKind" source="share@txt_fenxiang_yuan" x="750" y="277" rotation="355" scaleX="0.71" scaleY="0.71"/>
+	<cui:Image source="txt_fenxiang_jizhishuangkuai" x="429" y="375" rotation="355" scaleX="0.71" scaleY="0.71"/>
+	<cui:BitmapLabel id="skBitMoney" y="302" font="shareHuaSe" text="4608.25" rotation="355" horizontalCenter="-41.5"/>
+	<cui:Image source="share@pic_fenxiang_erweimadi" x="934" y="428"/>
+	<cui:Base64Img id="skerwei" source="" x="941" y="435" width="122" height="121"/>
+	<cui:Image id="rmv_share" alpha="0.5" source="rmv_share3" visible="false"/>
+</e:Skin>

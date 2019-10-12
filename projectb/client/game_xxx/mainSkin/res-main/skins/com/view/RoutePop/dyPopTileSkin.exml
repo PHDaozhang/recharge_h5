@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="dyPopTileSkin" width="10" height="10" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+    <cui:Image id="skBg" source="route@bigeyesPop_1"/>
+</e:Skin>

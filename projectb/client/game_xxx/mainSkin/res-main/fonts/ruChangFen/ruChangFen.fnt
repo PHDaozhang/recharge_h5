@@ -1,0 +1,16 @@
+{"file":"ruChangFen.png","frames":{
+".":{"x":0,"y":107,"w":8,"h":8,"offX":0,"offY":13,"sourceW":8,"sourceH":23},
+"0":{"x":0,"y":70,"w":15,"h":19,"offX":0,"offY":2,"sourceW":15,"sourceH":23},
+"1":{"x":50,"y":0,"w":10,"h":19,"offX":0,"offY":2,"sourceW":10,"sourceH":23},
+"2":{"x":17,"y":88,"w":14,"h":19,"offX":0,"offY":2,"sourceW":14,"sourceH":23},
+"3":{"x":17,"y":67,"w":15,"h":19,"offX":0,"offY":2,"sourceW":15,"sourceH":23},
+"4":{"x":24,"y":25,"w":16,"h":19,"offX":0,"offY":2,"sourceW":16,"sourceH":23},
+"5":{"x":34,"y":67,"w":15,"h":19,"offX":0,"offY":2,"sourceW":16,"sourceH":23},
+"6":{"x":42,"y":25,"w":15,"h":19,"offX":0,"offY":2,"sourceW":16,"sourceH":23},
+"7":{"x":24,"y":46,"w":15,"h":19,"offX":0,"offY":2,"sourceW":15,"sourceH":23},
+"8":{"x":41,"y":46,"w":15,"h":19,"offX":0,"offY":2,"sourceW":15,"sourceH":23},
+"9":{"x":0,"y":49,"w":15,"h":19,"offX":0,"offY":2,"sourceW":15,"sourceH":23},
+"a":{"x":0,"y":91,"w":8,"h":14,"offX":0,"offY":7,"sourceW":8,"sourceH":23},
+"c":{"x":0,"y":0,"w":23,"h":23,"offX":0,"offY":0,"sourceW":23,"sourceH":23},
+"r":{"x":25,"y":0,"w":23,"h":23,"offX":0,"offY":0,"sourceW":23,"sourceH":23},
+"y":{"x":0,"y":25,"w":22,"h":22,"offX":0,"offY":1,"sourceW":22,"sourceH":23}}}

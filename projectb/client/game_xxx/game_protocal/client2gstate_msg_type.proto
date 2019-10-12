@@ -1,0 +1,41 @@
+package client2gstate_protocols;
+
+enum e_server_msg_type {
+	//客户端到服务端
+    e_mst_gs_start_c2gs = 30000;
+	e_mst_c2gs_player_connect = 30001;				//玩家连接gstate
+	e_mst_c2gs_player_disconnect = 30002;			//玩家断开连接 gstate
+	e_mst_c2gs_game_history = 30003;				//获取游戏牌路	
+
+	// 服务端到客户端---------------------------------------------------------------------------
+	e_mst_start_gs2c = 31000;	
+	e_mst_gs2c_player_connect_result	= 31001;		//玩家连接返回
+	e_mst_gs2c_player_disconnect_result = 31002;		//玩家断开连接返回	
+	e_mst_gs2c_shcd_history_result		= 31004;		//返回黑红梅方牌路结果		
+	e_mst_gs2c_cows_history_result		= 31005;		//返回牛牛牌路结果
+	e_mst_gs2c_baccarat_history_result	= 31006;		//返回百家乐牌路结果
+	e_mst_gs2c_goldshark_history_result	= 31007;		//返回金鲨银鲨牌路结果
+	e_mst_gs2c_lhd_history_result		= 31008;		//返回龙虎斗牌路结果
+	e_mst_gs2c_benzbmw_history_result	= 31009;		//返回奔驰宝马牌路结果
+	e_mst_gs2c_multiredblack_history_result = 31010;	//返回百人红黑牌路结果
+	e_mst_gs2c_ebg_history_result		= 31011;		//返回二八杠牌路结果
+	e_mst_gs2c_dice_history_result		= 31012;		//返回欢乐骰宝牌路结果
+	e_mst_gs2c_qznn_history_result		= 31013;		//返回抢庄牛牛彩金结果
+	e_mst_gs2c_carsmagnate_history_result	= 31014;	//豪车大亨
+	e_mst_gs2c_multitexas_history_result	= 31015;	//万人德州
+	e_mst_gs2c_fruits_history_result	= 31016;		//水果缤纷
+	e_mst_gs2c_forest_history_result	= 31017;		//森林舞会
+	e_mst_gs2c_fourcolorball_history_result	= 31018;	//四色球
+	e_mst_gs2c_happySupremacy_history_result= 31019;	//欢乐至尊
+	e_mst_gs2c_tbnn_history_result		= 31020;		//返回通比牛牛彩金结果
+	e_mst_gs2c_ttz_history_result		= 31021;		//推筒子
+	e_mst_gs2c_roulette_history_result	= 31022;		//轮盘
+	e_mst_gs2c_rouletteak_history_result	= 31023;	//AK轮盘
+	e_mst_gs2c_roulettelucky_history_result	= 31024;	//幸运轮盘
+	e_mst_gs2c_famousball_history_result	= 31025;	//一球成名
+	e_mst_gs2c_lol_history_result	= 31026;			//英雄联盟时时彩
+	e_mst_gs2c_godbeast_history_result		= 31027;	//返回神兽之战牌路结果
+	
+
+	e_mst_gs_end_index = 32000;
+  }

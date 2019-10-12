@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mailItemSkin" width="612" height="91" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+<cui:Image source="mailDb"/>
+<cui:Image id="skIcon" source="mail@unRead"  x="13" y="6"/>
+<cui:Label id="skTime" text="aaaa" size="24" x="114" y="6" textColor="0xf2af68" height="24" anchorOffsetX="0" width="325"/>
+<cui:Label id="skInfo" text="aaaa" size="24" x="114" y="49" height="24" textColor="0xd68837" anchorOffsetX="0" width="325"/>
+<cui:ScaleButton id="skRmvMail" icon="mail@txt_close" skinName="ScaleBtnSkin" width="130" height="55" x="469" y="23"/>
+<cui:SimpleButton id="skReadBtn" width="452" height="91" anchorOffsetX="0"/>
+</e:Skin>

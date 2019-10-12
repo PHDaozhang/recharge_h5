@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="loadingSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing" xmlns:game="game.*">
+<cui:Image id="rmv_load" source="rmv_loading" width="1280" height="720" visible="false"/>
+<cui:Image id="skImgLogin" source="" width="100%" height="100%"/>
+<game:UIDBAni id="skAniLogin"  dbNm="" autoPlay="true" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"/>
+<cui:Group  bottom="0" width="100%" height="67">
+    <cui:Label id="skBarLab" text="" textColor="0xe9e8e8" size="25" height="25" anchorOffsetX="0" width="408" x="1" y="5"/>
+    <cui:ProgressBar id="skBar" skinName="loadingBarSkin"  x="0" width="100%" verticalCenter="7"/>
+    <cui:Image id="skLoadB" source="login@loadingBright" x="-70" height="52" y="15" width="70"/>
+</cui:Group>
+</e:Skin>

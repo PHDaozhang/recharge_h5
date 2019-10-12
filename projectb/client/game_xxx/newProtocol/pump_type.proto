@@ -1,0 +1,158 @@
+// 金币礼券的变化原因
+enum PropertyReasonType
+{
+	//缺省
+	type_default = -1;
+	// 每日登录转盘抽奖
+	type_reason_dial_lottery = 1;
+
+	// 在线奖励
+	type_reason_online_reward = 2;
+
+	// 保险箱存入
+	type_reason_deposit_safebox = 3;
+
+	// 保险箱取出
+	type_reason_draw_safebox = 4;
+
+	// 赠送礼物
+	type_reason_send_gift = 5;
+
+	// 接收礼物
+	type_reason_accept_gift = 6;
+
+	// 玩家发小喇叭，全服通告
+	type_reason_player_notify = 7;
+	
+	// 玩家兑换礼物
+	type_reason_exchange = 8;
+
+	// 购买商品获得
+	type_reason_buy_commodity_gain = 9;
+
+	// 领取救济金
+	type_reason_receive_alms = 10;
+
+	// 单局结算
+	type_reason_single_round_balance = 11;
+
+	// 购买商品消耗
+	type_reason_buy_commodity_expend = 12;
+	
+	//购买捕鱼等级
+	type_reason_buy_fishlevel = 13;
+	//购买捕鱼道具
+	type_reason_buy_fishitem = 14;
+	//捕鱼升级
+	type_reason_fish_uplevel = 15;
+
+	// 新手引导
+	type_reason_new_guild = 16;
+
+	// 修改头像
+	type_reason_update_icon = 17;
+
+	// 充值
+	type_reason_recharge = 18;
+
+	// 修改昵称
+	type_reason_modify_nickname = 19;
+
+	// 充值赠送
+	type_reason_recharge_send = 20;
+
+	// 后台充值
+	type_reason_gm_recharge = 21;
+
+	// 后台充值赠送
+	type_reason_gm_recharge_send = 22;
+
+	// 月卡每日领取
+	type_reason_month_card_daily_recv = 23;
+
+	// 充值礼包
+	type_reason_recharge_gift = 24;
+
+	// 每日签到
+	type_reason_daily_sign = 25;
+
+	// 每日宝箱抽奖
+	type_reason_daily_box_lottery = 26;
+
+	// 谢谢参与兑换
+	type_reason_thank_you_exchange = 27;
+
+	// 连续发小喇叭
+	type_reason_continuous_send_speaker = 28;
+
+	// 领取邮件
+	type_reason_receive_mail = 29;
+
+	// 捕鱼掉落
+	type_reason_fishlord_drop = 30;
+
+	// 创建账号
+	type_reason_create_account = 31;
+
+	// 领取活动奖励
+	type_reason_receive_activity_reward = 32;
+	
+	//百家乐抢庄
+	type_reason_rob_banker = 33;
+	
+	//百家乐提前下庄
+	type_reason_leave_banker = 34;
+
+	// 使用技能
+	type_reason_use_skill = 35;
+	
+	//五龙翻倍游戏使用钻石
+	type_reason_double_game = 36;
+	
+	//五龙升级 //钻石收入和金币支出
+	type_reason_dragons_lv = 37;	
+
+	//星星奖池
+	type_reason_star_award = 38;
+	//星星抽奖	
+	type_reason_star_lottery = 39;	
+
+	//新手礼包
+	type_reason_new_player = 40;	
+
+	//任务
+	type_reason_daily_task = 41;
+	//成就
+	type_reason_achievement = 42;
+	//导弹产出
+	type_reason_missile = 43;
+
+	// 充值抽奖
+	type_reason_recharge_lottery = 44;	
+
+		// 购物
+	type_reason_shopping = 45;	
+
+    //cdk兑换
+    cdk_exchange = 46;
+
+	//提现
+	type_reason_alipay_transfer = 47;
+	//提现返还
+	type_reason_alipay_transfer_return = 48;
+	//绑定奖励
+	type_reason_bind_reward = 49;
+	//分享奖励
+	type_reason_share_reward = 50;
+	//七日奖励
+	type_reason_sevenday_reward = 51;
+	//邀请人奖励
+	type_reason_inviter_reward = 52;
+	//邀请人排行榜奖励
+	type_reason_inviter_ranklist = 53;
+	//庄家结算
+	type_reason_banker_settle = 54;
+};
+
+
+

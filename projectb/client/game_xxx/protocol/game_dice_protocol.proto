@@ -1,0 +1,349 @@
+package dice_protocols;
+
+import "game_dice_def.proto"; 
+
+import "msg_type_def.proto"; 
+
+//e_msg_result_type
+//msg_type_def.e_msg_result_def result
+//获取玩家游戏状态
+message packetc2l_check_state {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2l_check_state];
+}
+
+//获取玩家游戏状态 - 回执
+message packetc2l_check_state_result {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_l2c_check_state_result];
+	optional bool in_table = 2 [default = false]; //是否在桌子中
+}
+
+//获取游戏房间
+message packetc2l_get_room_info {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2l_get_room_info];
+}
+
+message room_info {
+    //房间ID
+    optional int32  id = 1; 
+}
+
+//获取游戏房间 - 回执
+message packetl2c_get_room_info_result {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_l2c_get_room_info_result];
+	repeated room_info room = 2;
+}
+
+//桌子信息
+message player_info {
+ 
+	//玩家ID
+	optional int32 player_id = 2;
+	//玩家昵称
+	optional string player_nickname = 3;
+	//玩家头像ID
+	optional int32 player_head_id = 4;
+	optional string player_head_id_custom = 5;
+	//玩家剩余金币
+	optional int64 player_gold = 6;
+	// 玩家性别
+	optional int32 player_sex = 7;   
+	// Vip等级
+	optional int32 player_vip_lv = 8; 
+ 
+}
+    
+//广播 - 其他玩家下注信息
+message other_bet   
+{
+	//下注区域
+	optional int32 bet_area = 1;
+	// 下注金币
+	optional int64 bet_gold = 2;
+}
+  
+//桌面信息
+message table_info {
+	optional e_msg_gamestate_type game_state = 1;  //当前游戏状态
+	optional int32 cd_time = 2;                    //当状态为下注状态时,cd_time显示剩余下注时间
+	repeated dice_info list_info = 4;            // 牌路  
+	//玩家剩余金币
+	optional int64 player_gold = 5;
+	// 礼券数量 
+	optional int32 playe_ticket_count = 6;    
+}
+
+//进入游戏
+message packetc2l_entertable{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2l_enter_table];
+	optional int32 room_id = 2;	
+}
+//进入游戏 - 回执
+message packetc2l_entertable_result {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_l2c_enter_table_result];
+	optional msg_type_def.e_msg_result_def result = 2 [default = e_rmt_success];
+	optional int32 room_id = 3;  
+}
+
+//离开房间
+message packetc2l_leavetable {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2l_leave_table];
+}
+
+//离开游戏 - 回执
+message packetc2l_leavetable_result {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_l2c_leave_table_result];
+}
+
+//获取游戏场景
+message packetc2l_get_table_info{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2l_get_table_info];
+}
+
+
+
+//获取游戏场景 - 回执
+message packetc2l_get_table_info_result {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_l2c_get_table_info_result];
+	optional int32 room_id = 2;
+	optional table_info table = 3;
+	repeated other_bet info = 4;
+	repeated other_bet self_info = 5;
+}
+
+//筹码类型-下注区域
+message dice_bet {
+	optional int32 chip_type = 1;         //筹码类型 1 - 4
+	optional e_dice_type dice_type = 2;   //下注区域 1 - 29
+	optional int64 gold = 3;
+}
+
+//下注信息
+message bet_info {
+	optional int32 player_id = 1;       //玩家ID
+	optional int64 gold = 2;            //下注玩家剩余金币
+	repeated dice_bet db = 3;           //下注筹码信息
+}
+
+//下注
+message packetc2l_bet {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2l_bet];
+	optional dice_bet db = 2;           //下注筹码信息
+}
+
+//续注
+message packetc2l_bet_again {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2l_bet_again];
+	repeated dice_bet db = 2;           //下注筹码信息
+}
+
+//下注 - 回执
+message packetc2l_bet_result {
+    optional e_server_msg_type packet_id = 1 [default = e_mst_l2c_bet_result];
+    optional msg_type_def.e_msg_result_def result = 2 [default = e_rmt_success];
+	optional dice_bet db = 3;           //下注筹码信息
+}
+
+//广播下注
+message packetc2l_bc_bet{
+    optional e_server_msg_type packet_id = 1 [default = e_mst_bc_bet];
+    optional bet_info bi = 2;  //下注信息
+}
+
+//撤销下注
+message packetc2l_unbet {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2l_unbet];
+	optional msg_type_def.e_msg_result_def result = 2 [default = e_rmt_success];
+}
+
+//撤销下注 - 回执
+message packetc2l_unbet_result {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_l2c_unbet_result];
+	optional msg_type_def.e_msg_result_def  result = 2 [default = e_rmt_success];
+}
+
+//广播撤销下注
+message packetc2l_bc_unbet {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_bc_unbet];
+	optional int32 player_id = 2;  //下注玩家ID
+}
+
+//广播 - 通知客户端摇宝
+message packetc2l_bc_client_shake {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_bc_shake];
+}
+
+//广播 - 通知客户端开始下注
+message packetc2l_bc_client_beginbet {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_bc_beginbet];
+	optional int32 cd_time = 2;  //下注截止倒计时
+}
+
+//广播 - 通知客户端停止下注
+message packetc2l_bc_client_endbet {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_bc_endbet];
+}
+
+//骰宝信息
+message dice_info {
+	optional int32 dice1 = 1;
+	optional int32 dice2 = 2;
+	optional int32 dice3 = 3;
+}
+
+//广播开奖
+message packetc2l_bc_client_dice {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_bc_dice];
+	optional dice_info di = 2;
+
+	//开奖倒计时
+	optional int32 cd_time = 3;
+}
+
+//金币变化
+message gold_change_info {
+	optional int32 player_id = 1;
+	optional int64 gold = 2;
+}
+
+//广播玩家金币变化
+message packetc2l_bc_gold_change {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_bc_gold_change];
+	optional gold_change_info change = 2;
+}
+
+//广播游戏场景
+message packetc2l_bc_table_info {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_bc_table_info];
+	optional table_info table = 2;
+	optional int32 flag = 3;  //flag =  0 普通表示进入游戏场景的获取 flag = 1 表示开奖后的数据同步
+}
+
+//更换桌子
+message chang_table {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_chang_table];
+}
+
+//换桌回执
+message chang_table_result {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_chang_table_result];
+	optional msg_type_def.e_msg_result_def result = 2 ;
+}
+
+
+//GM命令
+message gm_command {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_gm_command];
+	
+	optional int32 dice1 = 2;
+	optional int32 dice2 = 3;
+	optional int32 dice3 = 4;
+	optional int32 open = 5;
+}
+
+// 请求桌子上的玩家信息                       
+message player_list_info   
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_player_list_info];
+	     
+}  
+
+// 请求桌子上的玩家信息 - 结果
+message player_list_info_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_player_list_info_result];
+
+	//玩家的信息
+	repeated player_info info = 2;
+	// 玩家数量
+	optional int32 player_num = 3;
+} 
+
+
+//其他玩家的金币
+message other_player_info
+{
+	optional int64 player_gold = 1;
+	optional string player_name = 2;
+	optional int32 player_id = 3;
+}
+
+//推送 - 推送结算结果给玩家
+message balance_result   
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_balance_result];
+	//玩家剩余金币
+	optional int64 player_gold = 2;
+	// 礼券数量   
+	optional int32 playe_ticket_count = 3;   
+	//其他玩家的赢的
+	repeated other_player_info  info  = 4;
+	optional int64 bet_gold = 5;
+	optional int64 win_gold = 6;
+	optional int32 orderIndex = 7;
+
+	//结算倒计时
+	optional int32 cd_time = 8;
+}  
+
+   
+//广播 - 其他玩家下注信息
+message bc_other_bet      
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_bc_other_bet];
+	// 下注信息
+	repeated other_bet info = 2;
+} 
+
+//游戏调试
+message packetc2l_game_control {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2l_game_control];
+	
+	optional int32 dice1 = 2;	//1-6
+	optional int32 dice2 = 3;	//1-6
+	optional int32 dice3 = 4;	//1-6
+    optional int32 diceBigSmall = 5;	//0表示未勾选,1 开小，2开大, 3通杀
+}
+
+//游戏调试返回
+message packetl2c_game_control_result {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_l2c_game_control_result];
+	optional msg_type_def.e_msg_result_def result = 2 ;
+}
+
+//debug信息
+message packetl2c_debuginfo {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_l2c_debuginfo];
+
+	optional string debug_infos = 2; //调试信息 lua
+}
+
+
+message msg_bet_info
+{
+	optional e_dice_type bet_index = 1;
+	optional int64 bet_count = 2;
+}
+
+message gm_msg_bet_info
+{
+	optional player_info player_info=1;
+	repeated msg_bet_info bet_info=2;
+}
+
+//通知所有玩家下注信息
+message packetl2c_notice_all_bet_info 
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_l2c_notice_gm_all_bet_info];
+	repeated gm_msg_bet_info bet_info_list = 2;
+
+}
+
+//debug信息
+message packetl2c_bc_debuginfo {
+	optional e_server_msg_type packet_id = 1 [default = e_mst_l2c_bc_debuginfo];
+	optional int32 player_id = 2;	
+	optional int64 total_profit = 3[default = 0];		//抽水
+	optional int64 total_stock = 4[default = 0];		//库存
+
+	optional string debug_infos = 5; //调试信息 lua
+}

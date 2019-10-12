@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ComplaintsSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" height="450" width="746">
+<cui:Image id="rmv_Complaint" source="rmv_tousu" anchorOffsetX="0" width="740" anchorOffsetY="0" height="469" visible="false"/>
+<cui:Image source="txt_tousuBg" x="5" y="0" width="713" height="466"/>
+<cui:ScaleButton id="skClose" icon="common@close" skinName="ScaleBtnSkin" x="660" y="9" anchorOffsetX="0" width="86" height="86"/>
+<cui:MenuGroup id="skMenuGrp" keepSelect="true"  anchorOffsetY="0" height="364"  width="112" x="18" y="61">
+    <cui:MenuItemImage tag="0" y="21" width="112" height="140" x="0">
+        <e:Skin states="up,down,disabled">
+            <cui:Image width="112" height="140" source="kefu@txt_lianxiUnchecked" source.up="kefu@txt_lianxiUnchecked" source.down="kefu@txt_lianxiSeclect"/>
+        </e:Skin>
+    </cui:MenuItemImage>
+    <cui:MenuItemImage tag="1" y="164" x="0" width="112" height="140">
+        <e:Skin states="up,down,disabled">
+            <cui:Image width="112" height="140" source="kefu@txt_fankuiUnchecked" source.up="kefu@txt_fankuiUnchecked" source.down="kefu@txt_fankuiSeclect"/>
+        </e:Skin>
+    </cui:MenuItemImage>
+</cui:MenuGroup>
+<cui:Image id="skHandImage" source="pic_tousuyijianDB" x="138" y="328"/>
+<cui:ScaleButton id="skSubmission" icon="kefu@txt_tijiao" skinName="ScaleBtnSkin" x="277" y="353" width="201" height="69"/>
+<cui:EditableText id="skAdvice" text="" x="141" y="89" anchorOffsetX="0" width="530" anchorOffsetY="0" height="234" size="26" promptColor="0xe0d5bd" multiline="true" maxChars="100"/>
+<cui:Scroller id="skScroller" width="532" height="328" x="140" y="87" scrollPolicyH="off" scrollPolicyV="on" anchorOffsetX="0">
+    <cui:DataGroup id="skList" width="532" height="328">
+        <e:layout>
+            <cui:DataLineLayout isHorizontal="false" gap="5" itemW="532" itemH="210"/>
+        </e:layout>
+    </cui:DataGroup>
+</cui:Scroller>
+</e:Skin>

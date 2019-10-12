@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RewardFrameSkin" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" width="1070" height="656">
+<cui:Image id="rmv_reward" source="rmv_reward01" visible="false"/>
+<cui:Image source="txt_limitRwd" x="11"/>
+<cui:Image source="limitRwdTip" y="133" x="308"/>
+<cui:ScaleButton id="skClose" icon="common@close" skinName="ScaleBtnSkin" anchorOffsetX="0" width="84" x="990" y="20" height="69"/>
+<cui:Label id="skTime" y="144" size="24" anchorOffsetX="0" width="989" height="24" x="28" textAlign="center" text=""/>
+<cui:Scroller x="64.5" y="188" anchorOffsetX="0" width="940" scrollPolicyV="off" scrollPolicyH="on" anchorOffsetY="0" height="425">
+    <cui:DataGroup id="skList" width="940" height="425">
+        <e:layout>
+            <cui:TileLayout isHorizontal="true" paddingLeft="50" horizontalGap="10" itemW="278" itemH="421"/>
+        </e:layout>
+    </cui:DataGroup>
+</cui:Scroller>
+</e:Skin>

@@ -1,0 +1,6 @@
+<e:Skin class="EqpTileSkin" width="86" height="86" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Image id="skBg" width="86" height="86" source="item@bg1"/>
+    <cui:Image id="skIcon" x="11" width="64" y="11" height="64"/>
+    <cui:Image source="item@mask"/>
+    <cui:Label id="skNm" x="39" y="55" width="40" height="30" size="22" textAlign="center" textColor="0xFFDE00" stroke="2" strokeColor="0x161616"/>
+</e:Skin>

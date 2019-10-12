@@ -1,0 +1,23 @@
+{
+	"c2s":[
+		{
+			"id":10002,
+			"name":"c2s_get_scene_info",
+			"keys":{
+					"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":10002 }
+				}
+		}
+	],
+	"s2c":[
+		{
+			"id":15001,
+			"name":"s2c_check_state_result",
+			"keys":{
+				"packet_id":{"tag":1, "type":"uint32", "isOption":1, "default":15001 },
+				"result":{"tag":2, "type":"int32", "isOption":1 ,"default":0 }
+			}
+		}
+	],
+	"type":{
+	}
+}

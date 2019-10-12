@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameTileSkin" width="290" height="270" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+    <cui:Image id="skIcon"/>
+    <cui:UIMovieClip id="skAni"  y="228" x="145" autoPlay="true"/>
+</e:Skin>

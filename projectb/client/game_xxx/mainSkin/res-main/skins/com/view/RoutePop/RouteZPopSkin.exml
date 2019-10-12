@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RouteZPopSkin" width="468" height="214" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:TableScroller id="skTbScroller" scrollPolicyH="on" scrollPolicyV="off"  width="468" height="214" >
+    <e:viewport>
+    <cui:DataGroup id="skList" width="100%" height="214" >
+        <cui:Image id="skImg" source="route@bgPop_zpl" fillMode="repeat"  width="36" height="214" anchorOffsetX="0"/>
+        <e:layout>
+            <cui:TileLayout isHorizontal="true" itemW="36" itemH="35.6" />
+        </e:layout>
+    </cui:DataGroup>
+    </e:viewport>
+</cui:TableScroller>
+</e:Skin>

@@ -1,0 +1,11 @@
+{"file":"playerList.png","frames":{
+"0":{"x":23,"y":0,"w":20,"h":26,"offX":0,"offY":0,"sourceW":20,"sourceH":26},
+"1":{"x":0,"y":28,"w":20,"h":25,"offX":0,"offY":0,"sourceW":20,"sourceH":26},
+"2":{"x":66,"y":28,"w":19,"h":25,"offX":0,"offY":0,"sourceW":19,"sourceH":26},
+"3":{"x":0,"y":0,"w":21,"h":26,"offX":0,"offY":0,"sourceW":21,"sourceH":26},
+"4":{"x":22,"y":28,"w":20,"h":25,"offX":0,"offY":0,"sourceW":20,"sourceH":26},
+"5":{"x":44,"y":28,"w":20,"h":25,"offX":0,"offY":1,"sourceW":20,"sourceH":26},
+"6":{"x":45,"y":0,"w":20,"h":26,"offX":0,"offY":0,"sourceW":20,"sourceH":26},
+"7":{"x":87,"y":28,"w":18,"h":24,"offX":0,"offY":1,"sourceW":18,"sourceH":26},
+"8":{"x":67,"y":0,"w":20,"h":26,"offX":0,"offY":0,"sourceW":20,"sourceH":26},
+"9":{"x":89,"y":0,"w":20,"h":26,"offX":0,"offY":0,"sourceW":20,"sourceH":26}}}

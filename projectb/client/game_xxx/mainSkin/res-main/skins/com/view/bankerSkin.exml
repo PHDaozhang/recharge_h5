@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="bankerSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing" xmlns:game="game.*">
+<game:UIDBAni id="skDBAniGetBank" y="400" anchorOffsetX="0" anchorOffsetY="0" x="640"/>
+		<game:UIDBAni id="skDBAniLeaveBank" y="300" anchorOffsetX="0" anchorOffsetY="0" x="640"/>
+		<cui:Group id="skShangZ"  width="175.5" height="250" x="550" y="180">
+			<cui:Image id="skSZHead"  source="head@nan_1" y="20.65" x="27.64" width="120" height="120"/>
+			<cui:Image id="skSZHeadBack" x="0" y="0" width="175.5" height="166.5" source="head@old0"/>
+			<cui:Label id="skSZName"  size="22" textColor="0xfdefc7" text="新用户" y="156" x="5" width="170" height="22" textAlign="center"/>
+		</cui:Group>
+</e:Skin>

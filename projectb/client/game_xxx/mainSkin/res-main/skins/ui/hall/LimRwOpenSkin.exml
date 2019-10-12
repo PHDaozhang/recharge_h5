@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LimRwOpenSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+<cui:SimpleButton id="skClose" width="1280" height="720"/>
+<cui:Image source="txt_svrOverOpen" y="5" horizontalCenter="0"/>
+<cui:Image source="hall@txt_task" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

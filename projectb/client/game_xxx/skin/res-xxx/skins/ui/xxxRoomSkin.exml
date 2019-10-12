@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="xxxRoomSkin" width="628" height="288" xmlns:e="http://ns.egret.com/eui" xmlns:game="game.*" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+<cui:Image source="txt_xuanchangBg"/>
+<cui:Image source="bjl_roomList@txt_xjz" x="473" y="191"/>
+<cui:Image source="bjl_roomList@txt_xjx" y="191" x="549"/>
+<game:RouteCom id="skZPL" skinName="RouteZPLSkin" itemSkinName="zplTileSkin" y="61" x="11"/>
+<game:RouteCom id="skDL" skinName="RouteDLSkin" itemSkinName="dlTileSkin" y="62" x="255"/>
+<game:RouteCom id="skDYZL" skinName="RouteDYZLSkin" itemSkinName="dyzTileSkin" y="147" x="255"/>
+<game:RouteCom id="skXL" skinName="RouteXLSkin" itemSkinName="xlTileSkin" y="147" x="463"/>
+<game:RouteCom id="skXQL" skinName="RouteDYZLSkin" itemSkinName="xqlTileSkin" y="188" x="255"/>
+<cui:BitmapLabel id="skChang" font="fieldNum" text="001c" x="19" y="10"/>
+<cui:Label id="skLimitLab" size="23" text="aaaa" x="253" y="16" textColor="0xfb3838" anchorOffsetX="0" width="192"/>
+<cui:Image id="skWin0" source="route@xl_1" y="213" x="478"/>
+<cui:Image id="skWin1" source="route@dyz_1"  y="213" x="499"/>
+<cui:Image id="skWin2" source="route@xql_1" y="213" x="521"/>
+<cui:Image id="skLose0" y="213" x="553"/>
+<cui:Image id="skLose1" y="213" x="572"/>
+<cui:Image id="skLose2"  y="213" x="594"/>
+<cui:Label id="skTimeLab" size="25" text="1aaaa" textColor="0xffffff" x="495" y="16" anchorOffsetX="0" width="132"/>
+<cui:Image source="common@pic_jushujiantou" y="235" x="33.5"/>
+<cui:BitmapLabel id="skJu" font="jushuNum"  text="101j" x="14" y="237" width="54" height="24" anchorOffsetX="0"/>
+<cui:Label id="skWinLab" text="" textColor="0xe0361c" size="23" x="116" y="248.5" anchorOffsetX="0" width="70"/>
+<cui:Label id="skLoseLab" text="" textColor="0x2e94dd" size="23" x="186" y="248.5" width="70"/>
+<cui:Label id="skPeaceLab" text="" textColor="0x32b50f" size="23" x="258" y="248.5" width="70"/>
+<cui:ScaleButton id="skEnterGame" icon="common@txt_enterGame" skinName="ScaleBtnSkin" y="229.5" x="454" width="168" height="50"/>
+<cui:ProgressBar id="skBar" skinName="chooseSceneBar" y="54" x="10"/>
+</e:Skin>

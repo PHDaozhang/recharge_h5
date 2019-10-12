@@ -1,0 +1,18 @@
+{
+	"groups":[{
+			"keys":"xxxConf,xxxLang",
+			"name":"xxx"
+		}],
+	"resources":[
+		{
+			"name":"xxxConf",
+			"type":"json",
+			"url":"out/conf/xxxConf.json"
+		},
+		{
+			"name":"xxxLang",
+			"type":"json",
+			"url":"out/conf/xxxLang.json"
+		}
+	]
+}

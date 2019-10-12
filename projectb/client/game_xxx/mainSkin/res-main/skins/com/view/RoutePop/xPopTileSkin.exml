@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="xPopTileSkin" width="10" height="10" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Image id="skBg" source="route@xiaoluPop_1"/>
+</e:Skin>

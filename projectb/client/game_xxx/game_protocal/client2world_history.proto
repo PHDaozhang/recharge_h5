@@ -1,0 +1,335 @@
+import "client2world_msg_type.proto";
+import "msg_type_def.proto";
+import "msg_info_def.proto";
+
+package client2world_protocols;
+
+//牌路信息
+message msg_baccarat_history {
+	optional bool is_tie = 1;			//是否和
+	optional bool is_player_win = 2;	//是否闲胜
+	optional bool is_player_pair = 3;	//是否闲对
+	optional bool is_banker_pair = 4;	//是否庄对
+	optional bool is_banker_win = 5;	//是否庄胜
+	optional int32 win_point = 6;			//胜者点数
+}
+
+message msg_baccarat_room_history
+{
+	optional int32 room_id = 1;
+	repeated msg_baccarat_history history_list = 8;
+}
+
+//请求百家乐牌路
+message packetc2w_baccarat_history
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_baccarat_history]; 
+}
+//请求百家乐牌路结果
+message packetw2c_baccarat_history_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_baccarat_history_result]; 
+	repeated msg_baccarat_room_history room_history = 2; 
+}
+
+//牛牛牌路
+message msg_cows_history{
+	repeated bool is_win = 1;
+}
+
+message msg_cows_room_history
+{
+	optional int32 room_id = 1;
+	optional int32 total_count = 2;
+	repeated int32 win_counts = 3;
+	repeated int32 lose_counts = 4;
+	repeated msg_cows_history history_list = 5;
+}
+
+//请求牛牛牌路
+message packetc2w_cows_history
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_cows_history]; 
+}
+//请求牛牛牌路结果
+message packetw2c_cows_history_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_cows_history_result]; 
+	repeated msg_cows_room_history room_history = 2;
+}
+
+//骰宝信息
+message msg_dice_history {
+	optional int32 dice1 = 1;
+	optional int32 dice2 = 2;
+	optional int32 dice3 = 3;
+}
+
+message msg_dice_room_history
+{
+	optional int32 room_id = 1;
+	repeated msg_dice_history history_list = 8;
+}
+
+//请求骰宝牌路
+message packetc2w_dice_history
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_dice_history]; 
+}
+//请求骰宝牌路结果
+message packetw2c_dice_history_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_dice_history_result]; 
+	repeated msg_dice_room_history room_history = 5;
+}
+
+//二八杠牌路
+message msg_ebg_history{
+	repeated bool is_win = 1;						// 3家
+	repeated int32 cards_id = 2;					// 3家 + 庄家 [xxyy]xx,yy,1到9筒,10为白皮
+}
+
+message msg_ebg_room_history
+{
+	optional int32 room_id = 1;
+	optional int32 total_count = 2;
+	repeated int32 win_counts = 3;
+	repeated int32 lose_counts = 4;
+	repeated msg_ebg_history history_list = 5;
+}
+
+//请求二八杠牌路
+message packetc2w_ebg_history
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_ebg_history]; 
+}
+//请求二八杠牌路结果
+message packetw2c_ebg_history_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_ebg_history_result]; 
+	repeated msg_ebg_room_history room_history = 2;
+}
+
+//金鲨银鲨牌路
+message msg_goldshark_room_history
+{
+	optional int32 room_id = 1;
+	repeated int32 history_list = 2;
+}
+//请求金鲨银鲨牌路
+message packetc2w_goldshark_history
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_goldshark_history]; 
+}
+//请求金鲨银鲨牌路结果
+message packetw2c_goldshark_history_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_goldshark_history_result]; 
+	repeated msg_goldshark_room_history room_history = 2;
+}
+
+//万人德州牌路
+message msg_multitexas_history {
+	repeated int32 win = 1; //0:failed 1:win 2:和
+}
+message msg_multitexas_room_history
+{
+	optional int32 room_id = 1;
+	repeated msg_multitexas_history history_list = 2;
+}
+//请求万人德州牌路
+message packetc2w_multitexas_history
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_multitexas_history]; 
+}
+//请求万人德州牌路结果
+message packetw2c_multitexas_history_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_multitexas_history_result]; 
+	repeated msg_multitexas_room_history room_history = 2;
+}
+
+//黑红梅方牌路
+message msg_shcd_history{
+	optional int32 cards_type = 1;	//poker_type
+	optional int32 cards_value = 2;	//点数
+}
+
+message msg_shcd_room_history
+{
+	optional int32 room_id = 1;
+	repeated msg_shcd_history history_list = 2;
+}
+//请求黑红梅方牌路
+message packetc2w_shcd_history
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_shcd_history]; 
+}
+//请求黑红梅方牌路结果
+message packetw2c_shcd_history_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_shcd_history_result]; 
+	repeated msg_shcd_room_history room_history = 2;
+}
+
+//奔驰宝马牌路
+message msg_benzbmw_room_history
+{
+	optional int32 room_id = 1;
+	repeated int32 history_list = 2;
+}
+//请求奔驰宝马牌路
+message packetc2w_benzbmw_history
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_benzbmw_history]; 
+}
+//请求奔驰宝马牌路结果
+message packetw2c_benzbmw_history_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_benzbmw_history_result]; 
+	repeated msg_benzbmw_room_history room_history = 2;
+}
+
+//森林舞会牌路
+message msg_forestball_room_history
+{
+	optional int32 room_id = 1;
+	repeated int32 history_list = 2;
+}
+//请求森林舞会牌路
+message packetc2w_forestball_history
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_forestball_history]; 
+}
+//请求森林舞会牌路结果
+message packetw2c_forestball_history_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_forestball_history_result]; 
+	repeated msg_forestball_room_history room_history = 2;
+}
+
+//水果缤纷牌路
+message msg_fruits_room_history
+{
+	optional int32 room_id = 1;
+	repeated int32 history_list = 2;
+}
+//请求水果缤纷牌路
+message packetc2w_fruits_history
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_fruits_history]; 
+}
+//请求水果缤纷牌路结果
+message packetw2c_fruits_history_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_fruits_history_result]; 
+	repeated msg_fruits_room_history room_history = 2;
+}
+
+//龙虎斗牌路
+message msg_lhd_room_history
+{
+	optional int32 room_id = 1;
+	optional int32 total_count = 2;
+	repeated int32 win_counts = 3;
+	repeated int32 lose_counts = 4;
+	repeated int32 history_infos = 5;			//0:龙 1:虎 2:和
+}
+
+//请求龙虎斗牌路
+message packetc2w_lhd_history
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_lhd_history]; 
+}
+
+//请求龙虎斗牌路结果
+message packetw2c_lhd_history_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_lhd_history_result]; 
+	repeated msg_lhd_room_history room_history = 2;
+}
+
+//百人红黑牌路
+message msg_multiredblack_room_history
+{
+	optional int32 room_id = 1;
+	repeated int32 history_infos = 2;    //牌路记录 <100红赢 / >=100黑赢  %100 0:高牌 2~13:对2~对K 14:对A 20:顺子 21:同花 22:同花顺 23：三条
+}
+
+//请求百人红黑牌路
+message packetc2w_multiredblack_history
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_multiredblack_history]; 
+}
+
+//请求百人红黑牌路结果
+message packetw2c_multiredblack_history_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_multiredblack_history_result]; 
+	repeated msg_multiredblack_room_history room_history = 2;
+}
+
+//欢乐至尊牌路信息
+message happySupremacy_history_info {
+	optional bool is_forward_win = 1; //顺门
+	optional bool is_reverse_win = 2; //倒门
+	optional bool is_opposite_win = 3; //对门
+	repeated int32 cards = 4; //0:决定发牌顺序,忽略 1~7  e_card_owner * 1000 + e_card_flower * 100 + card_point
+	repeated int32 cards_type = 5 ; //e_card_owner * 100 + card_type
+}
+
+//欢乐至尊牌路
+message msg_happySupremacy_room_history
+{
+	optional int32 room_id = 1;
+	repeated happySupremacy_history_info cards_info = 2;
+}
+
+//请求欢乐至尊牌路
+message packetc2w_happySupremacy_history
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_happySupremacy_history]; 
+}
+
+//请求欢乐至尊牌路结果
+message packetw2c_happySupremacy_history_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_happySupremacy_history_result]; 
+	repeated msg_happySupremacy_room_history room_history = 2;
+}
+
+//豪车大亨牌路
+message msg_carsmagnate_room_history
+{
+	optional int32 room_id = 1;
+	repeated int32 history_list = 2;
+}
+//请求豪车大亨牌路
+message packetc2w_carsmagnate_history
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_carsmagnate_history]; 
+}
+//请求豪车大亨牌路结果
+message packetw2c_carsmagnate_history_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_carsmagnate_history_result]; 
+	repeated msg_carsmagnate_room_history room_history = 2;
+}
+
+//四色球牌路
+message msg_fourcolorball_room_history
+{
+	optional int32 room_id = 1;
+	repeated int32 history_list = 2;
+}
+//请求四色球牌路
+message packetc2w_fourcolorball_history
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_c2w_fourcolorball_history]; 
+}
+//请求四色球牌路结果
+message packetw2c_fourcolorball_history_result
+{
+	optional e_server_msg_type packet_id = 1 [default = e_mst_w2c_fourcolorball_history_result]; 
+	repeated msg_fourcolorball_room_history room_history = 2;
+}

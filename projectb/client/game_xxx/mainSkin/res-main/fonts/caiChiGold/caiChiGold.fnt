@@ -1,0 +1,15 @@
+{"file":"caiChiGold.png","frames":{
+".":{"x":485,"y":196,"w":21,"h":28,"offX":0,"offY":82,"sourceW":21,"sourceH":122},
+"0":{"x":293,"y":0,"w":64,"h":99,"offX":0,"offY":12,"sourceW":64,"sourceH":122},
+"1":{"x":452,"y":98,"w":43,"h":96,"offX":0,"offY":14,"sourceW":43,"sourceH":122},
+"2":{"x":320,"y":101,"w":64,"h":98,"offX":0,"offY":12,"sourceW":64,"sourceH":122},
+"3":{"x":359,"y":0,"w":63,"h":99,"offX":0,"offY":12,"sourceW":63,"sourceH":122},
+"4":{"x":183,"y":120,"w":68,"h":96,"offX":0,"offY":14,"sourceW":68,"sourceH":122},
+"5":{"x":386,"y":101,"w":64,"h":97,"offX":0,"offY":14,"sourceW":64,"sourceH":122},
+"6":{"x":253,"y":101,"w":65,"h":99,"offX":0,"offY":12,"sourceW":65,"sourceH":122},
+"7":{"x":424,"y":0,"w":59,"h":96,"offX":0,"offY":14,"sourceW":59,"sourceH":122},
+"8":{"x":115,"y":120,"w":66,"h":99,"offX":0,"offY":12,"sourceW":66,"sourceH":122},
+"9":{"x":226,"y":0,"w":65,"h":99,"offX":0,"offY":12,"sourceW":65,"sourceH":122},
+"b":{"x":0,"y":122,"w":113,"h":118,"offX":1,"offY":3,"sourceW":114,"sourceH":122},
+"w":{"x":114,"y":0,"w":110,"h":118,"offX":0,"offY":0,"sourceW":111,"sourceH":122},
+"y":{"x":0,"y":0,"w":112,"h":120,"offX":0,"offY":2,"sourceW":112,"sourceH":122}}}

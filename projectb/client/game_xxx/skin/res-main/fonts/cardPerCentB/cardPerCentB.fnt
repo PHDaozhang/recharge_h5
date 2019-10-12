@@ -1,0 +1,12 @@
+{"file":"cardPerCentB.png","frames":{
+"%":{"x":0,"y":0,"w":24,"h":24,"offX":0,"offY":0,"sourceW":24,"sourceH":24},
+"0":{"x":26,"y":0,"w":17,"h":22,"offX":0,"offY":2,"sourceW":17,"sourceH":24},
+"1":{"x":36,"y":72,"w":12,"h":22,"offX":0,"offY":2,"sourceW":12,"sourceH":24},
+"2":{"x":45,"y":0,"w":17,"h":22,"offX":0,"offY":2,"sourceW":17,"sourceH":24},
+"3":{"x":0,"y":50,"w":16,"h":22,"offX":0,"offY":2,"sourceW":16,"sourceH":24},
+"4":{"x":26,"y":24,"w":17,"h":22,"offX":0,"offY":2,"sourceW":17,"sourceH":24},
+"5":{"x":45,"y":24,"w":17,"h":22,"offX":0,"offY":2,"sourceW":17,"sourceH":24},
+"6":{"x":0,"y":26,"w":17,"h":22,"offX":0,"offY":2,"sourceW":17,"sourceH":24},
+"7":{"x":18,"y":72,"w":16,"h":22,"offX":0,"offY":2,"sourceW":16,"sourceH":24},
+"8":{"x":19,"y":48,"w":17,"h":22,"offX":0,"offY":2,"sourceW":17,"sourceH":24},
+"9":{"x":38,"y":48,"w":17,"h":22,"offX":0,"offY":2,"sourceW":17,"sourceH":24}}}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="dlTileSkin" width="12" height="12" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+<cui:Image id="skBg" source="route@dl_1" y= "0.5"/>
+<cui:Image id="skNum"  height="12" source="route@dalulv_0" visible="false"/>
+</e:Skin>

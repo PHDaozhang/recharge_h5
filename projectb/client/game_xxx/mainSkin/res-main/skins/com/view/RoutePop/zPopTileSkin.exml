@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="zPopTileSkin" width="36" height="35.6" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Image id="skBg"  source="route@bjlPop_1" x="3" y="4"/>
+    <cui:Image id="skNum" height="18" x="12" y="9" source="route@num_9"/>
+    <cui:Image id="skDot" source="route@pzlPop_1" x="0" y="0"/>
+    <cui:Image id="skDot1" source="route@pzlPop_2" x="23" y="23"/>
+</e:Skin>

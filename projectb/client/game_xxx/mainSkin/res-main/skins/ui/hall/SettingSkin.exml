@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SettingSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" height="456" width="740">
+<cui:Image id="rmv_set" source="rmv_setting" y="-1" visible="false"/>
+<cui:Image source="txt_setBg" y="0" x="2.5" width="713" height="452"/>
+<cui:ScaleButton id="skMusic" icon="hall@open" skinName="ScaleBtnSkin" y="168" x="71" anchorOffsetY="0" height="56" anchorOffsetX="0" width="173"/>
+<cui:ScaleButton id="skSound" icon="hall@close" skinName="ScaleBtnSkin" y="298" x="71" anchorOffsetY="0" height="56" anchorOffsetX="0" width="173"/>
+<cui:Group anchorOffsetX="0" width="350" x="289" y="106" anchorOffsetY="0" height="285">
+<cui:ScaleButton id="skSwitch" icon="hall@txt_switchAccount" skinName="ScaleBtnSkin" y="131.5" x="17" anchorOffsetY="0" height="148" anchorOffsetX="0" width="148"/>
+<cui:ScaleButton id="skBinding" icon="hall@txt_phoneBinding" skinName="ScaleBtnSkin" y="131.5" x="189" anchorOffsetY="0" height="148" anchorOffsetX="0" width="148"/>
+<cui:Label id="skName" text="" x="128" y="14" anchorOffsetX="0" width="207" anchorOffsetY="0" height="26"/>
+<cui:Label id="skId" text="" x="131" y="71" anchorOffsetX="0" width="206" anchorOffsetY="0" height="26"/>
+<cui:Image id="skHead" x="25" y="15" width="83" height="83"/>
+<cui:Image id="skHeadFrame" x="8" y="1" width="117" height="111"/>
+<cui:Label id="skPhoneNum" x="197" y="213" anchorOffsetY="0" height="11" anchorOffsetX="0" width="131"/>
+</cui:Group>
+<cui:ScaleButton id="skClose" icon="common@close" skinName="ScaleBtnSkin" x="659" y="9.5" anchorOffsetX="0" width="83" height="83" anchorOffsetY="0"/>
+</e:Skin>

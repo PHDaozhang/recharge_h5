@@ -357,7 +357,8 @@ MigrationBackup/
 .svn
 .vscode
 .wing
-
+bin-debug
+bin-release
 
 /projectb/client/benzbmw/
 /projectb/client/game_baijiale/
@@ -371,7 +372,6 @@ MigrationBackup/
 /projectb/client/game_jinshayinsha/
 /projectb/client/game_longhudou/
 /projectb/client/game_qznn/
-/projectb/client/game_xxx/
 /projectb/client/game_zhajinhua/
 /projectb/client/recharge/
 /projectb/client/tools/
@@ -381,3 +381,7 @@ MigrationBackup/
 /projectb/client/main/bin-debug/
 /projectb/client/main/bin-release/
 /projectb/client/main/resource/
+
+/projectb/client/game_xxx/newExcel/
+/projectb/client/game_xxx/excel/
+/projectb/client/game_xxx/mainSkin/res-main/tmp/

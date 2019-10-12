@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameHallSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+    <cui:Image id="rmv_hall" source="rmv_hall02" width="100%" height="100%" y="-2" x="-1"/>
+    <cui:Image source="hallBg"  width="100%" height="100%" y="-1" horizontalCenter="2"/>
+	<cui:Scroller id="skGameSc" x="229" width="80%" height="510" right="20" scrollPolicyH="on" scrollPolicyV="off" verticalCenter="7" anchorOffsetY="0">
+		<cui:DataGroup id="skGames" width="100%" height="510" anchorOffsetX="0">
+            <e:layout>
+                <cui:TileLayout paddingTop="32" paddingLeft="142" verticalGap="40" horizontalGap="40" itemW="186" itemH="194"/>
+            </e:layout>
+		</cui:DataGroup>
+	</cui:Scroller>
+    <cui:SimpleButton id="skRight" width="48" height="80" verticalCenter="0" right="77">
+        <e:Skin>
+            <cui:UIMovieClip aniName="jiantou" autoPlay="true" scaleX="-1" verticalCenter="0" horizontalCenter="0"/>
+        </e:Skin>
+    </cui:SimpleButton>
+    <cui:Image source="leftBg" left="0" height="100%" width="32%"/>
+	<cui:Image source="rightBg" height="100%" width="10%" right="0"/>
+	<!--cui:Image source="topBg" scale9Grid="1130,0,149,113" x="0" width="100%"/-->
+    <cui:Group id="skLeftGrp" y="133" left="0" verticalCenter="54.5" width="358" height="613" anchorOffsetY="0" bottom="0">
+        <cui:Image id="skGirlImg" source="role"   y="-23" x="26"/>
+			<cui:Group id="skGrp" width="207" height="189" touchThrough="true" anchorOffsetX="136" anchorOffsetY="166" x="136" y="168" scaleY="0" scaleX="0">
+				<cui:Image source="hall@question" width="207" height="189"/>
+				<cui:Label id="skRoleTalk" text="" x="13" y="41" size="18" textColor="0xffc1b3" height="99" width="169" textAlign="center" verticalAlign="middle"/>
+				<cui:SimpleButton id="skTipBtn" height="100" y="34" x="24" width="129"/>
+			</cui:Group>
+			<cui:SimpleButton id="skTipBtn1" height="443" y="26" x="135" anchorOffsetX="0" width="219" anchorOffsetY="0"/>
+        <!--cui:SimpleButton id="skCopyHttp"  y="324" x="146" width="178" height="199" /-->
+		 
+   </cui:Group>
+	<cui:SimpleButton id="skLeft" width="48" height="80" verticalCenter="0" left="380">
+		<e:Skin>
+		<cui:UIMovieClip aniName="jiantou" autoPlay="true" verticalCenter="0" horizontalCenter="0"/>
+		</e:Skin>
+	</cui:SimpleButton>     
+    <cui:Group x="2" y="6">
+        <cui:Image source="hall@nameBottom" x="82" y="11"/>
+        <cui:Image id="skHeadImg" width="83" height="83"  x="19" y="7"/>
+        <cui:Image id="skHeadFrame" y="-5" x="2" width="117" height="111" anchorOffsetY="0" anchorOffsetX="0"/>
+        <cui:Label id="skName" text="" x="126" y="21" anchorOffsetX="0" width="190" size="26" height="28" textColor="0xffeba5"/>
+        <cui:Label id="skId" text="111" x="126" y="63.5" size="24" height="24" anchorOffsetX="0" width="157" textColor="0xfbf6ac"/>
+    </cui:Group>
+	<cui:Group bottom="0" width="100%" height="126" right="0">
+        <cui:Image source="bottom" scale9Grid="0,0,1131,93" width="1212" height="88"  y="35" x="68" right="0"/>
+		<cui:ScaleButton id="skBSet" icon="hall@txt_setup" skinName="ScaleBtnSkin" y="55" width="137" height="72" right="264"/>
+		<cui:ScaleButton id="skService" icon="hall@txt_kefu" skinName="ScaleBtnSkin"  y="58" width="146" height="69" right="825"/>
+		<cui:ScaleButton id="skMail" icon="hall@txt_mail" skinName="ScaleBtnSkin" y="59" width="133" height="69" right="689"/>
+		<cui:ScaleButton id="skProfit" icon="hall@txt_shouyi" skinName="ScaleBtnSkin" y="58" width="139" height="69" right="399"/>
+        <!--<cui:ScaleButton id="skStore" icon="hall@txt_store" skinName="ScaleBtnSkin" y="29" height="96" width="250" right="9" filterNm="grayCF" touchEnabled="false"/>-->
+        <!--cui:UIMovieClip y="134" aniName="store" autoPlay="true" right="146"/-->
+        <cui:SimpleButton id="skStore"  height="118" width="244" anchorOffsetY="0" anchorOffsetX="0" bottom="4" right="0">
+            <e:Skin>
+                <cui:UIMovieClip aniName="store" autoPlay="true" bottom="-10" right="147"/>
+            </e:Skin>
+        </cui:SimpleButton>
+        <!--cui:SimpleButton id="skStore" height="118" width="244" right="0" y="4" anchorOffsetY="0" anchorOffsetX="0" /-->
+		<cui:Image source="hall@pic_play"  y="68" width="45" height="33" right="595"/>
+		<cui:Label id="skGameName" text="" right="544" y="97.5" anchorOffsetY="0" height="21" anchorOffsetX="0" width="142" textAlign="center" size="20" textColor="0xfee9a8"/>
+		<cui:Image id="skPopular" source="hall@txt_popular" x="598" y="17" visible="false"/>
+		<cui:Image id="skLast" source="hall@txt_lastPlay"  y="17" width="129" height="44" right="555"/>
+        <cui:SimpleButton id="skLastGmBtn" width="145" height="50" right="541" y="65" anchorOffsetX="0" anchorOffsetY="0"/>
+	</cui:Group>
+
+    <cui:Group id="skClassGroup" anchorOffsetY="0" height="470" x="0" y="259" bottom="21" width="358" anchorOffsetX="0" touchThrough="true">
+        <!--<cui:ScaleButton id="skClass" tag="0" icon="hall@txt_fenlei" skinName="ScaleBtnSkin" width="75" height="75" y="388.5" x="18"/> -->
+        <cui:UIMovieClip aniName="class" autoPlay="true" x="55" y="426"/>
+        <cui:SimpleButton id="skClass" y="388.5" x="18" width="75" height="75"/>
+        <cui:Image id="skJingle" source="txt_jingle" y="231" x="29" width="379" height="128"/>
+         <cui:ScaleButton id="skAgent" icon="hall@txt_agent" skinName="ScaleBtnSkin" x="113" y="376"/>
+        <cui:MenuGroup id="skClassGrp" keepSelect="true" y="1" x="14" anchorOffsetY="0" height="385" width="82">
+            <cui:Image y="1" x="1" source="fenleiDB"/>
+            <cui:MenuItemImage tag="5" width="58" height="71" y="12" x="11">
+                <e:Skin states="up,down,disabled">
+                    <cui:Image source.up="hall@txt_all2" source.down="" source="hall@txt_all2" width="58" height="71"/>
+                    <cui:UIMovieClip  aniName.up="" aniName.down="allClass"  aniName.disabled="allClass" autoPlay="true" verticalCenter="0" horizontalCenter="0"/>
+                </e:Skin>
+            </cui:MenuItemImage>
+            <cui:MenuItemImage tag="1" width="58" height="71" y="82" x="11">
+                 <e:Skin states="up,down,disabled">
+                    <cui:Image source.up="hall@txt_qipaiItem2" source.down="" source="hall@txt_qipaiItem2" width="58" height="71"/>
+                    <cui:UIMovieClip  aniName.up="" aniName.down="qipaiClass" aniName.disabled="qipaiClass"  autoPlay="true" verticalCenter="0" horizontalCenter="2"/>
+                </e:Skin>
+            </cui:MenuItemImage>
+            <cui:MenuItemImage tag="2" width="58" height="71" y="149.5" x="10.5">
+                 <e:Skin states="up,down,disabled">
+                    <cui:Image source.up="hall@txt_bairenItem2" source.down="" source="hall@txt_bairenItem2" width="58" height="71"/>
+                    <cui:UIMovieClip aniName.up="" aniName.down="bairenClass" aniName.disabled="bairenClass" autoPlay="true" verticalCenter="0" horizontalCenter="-3"/>
+                </e:Skin>
+            </cui:MenuItemImage>
+            <cui:MenuItemImage tag="3" width="58" height="71" y="217" x="8.5">
+                <e:Skin states="up,down,disabled">
+                    <cui:Image source.up="hall@txt_buyuItem2" source.down="" source="hall@txt_buyuItem2" width="58" height="71"/>
+                    <cui:UIMovieClip aniName.up="" aniName.down="buyuClass" aniName.disabled="buyuClass" autoPlay="true" verticalCenter="0" horizontalCenter="-1"/>
+                </e:Skin>
+            </cui:MenuItemImage>  
+            <cui:MenuItemImage tag="4" width="58" height="71" y="290" x="8.5">
+                <e:Skin states="up,down,disabled">
+                    <cui:Image source.up="hall@txt_jiejiItem2" source.down="" source="hall@txt_jiejiItem2" width="58" height="71"/>
+                    <cui:UIMovieClip  aniName.up="" aniName.down="jiejiClass" aniName.disabled="jiejiClass" autoPlay="true" verticalCenter="0" horizontalCenter="-1"/>
+                </e:Skin>
+            </cui:MenuItemImage>
+        </cui:MenuGroup>
+    </cui:Group>
+    
+    <cui:Group id="skNotify" width="40%" height="38" y="98" horizontalCenter="0"/>
+    <cui:SimpleButton id="skBHead" width="335" height="110"/>
+    <cui:ScaleButton y="16" right="120" id="skBFull" height="78" icon="hall@txt_Full" skinName="ScaleBtnSkin" width="66" visible="false"/>
+    <cui:ScaleButton y="14" right="220" id="skBLang" height="80" icon="hall@txt_language" skinName="ScaleBtnSkin" width="67" visible="false"/>
+    <cui:Group width="260" height="53" top="15" left="359" anchorOffsetX="0" anchorOffsetY="0">
+        <cui:Image source="hall@goldBottom" y="3" x="13"/>
+        <cui:UIMovieClip x="22" y="25" aniName="hallGold" autoPlay="true"/>
+        <cui:BitmapLabel id="skGold" font="gold"  text="100.0y" width="224" x="15" anchorOffsetY="0" height="30" anchorOffsetX="0" textAlign="center" verticalCenter="0.5"/>
+        <cui:ScaleButton id="skAdd" icon="hall@jia" skinName="ScaleBtnSkin" anchorOffsetX="0" width="60" x="203" y="2" anchorOffsetY="0" height="54"/>
+    </cui:Group> 
+    <cui:Group id="skBtnGroup" anchorOffsetX="0" width="580" y="0" height="102" right="0">
+        <cui:SimpleButton  id="skFirstRecharge" height="77" width="101" top="14" right="357" visible="false">
+            <e:Skin>
+                <cui:UIMovieClip  aniName="firstRecharge" autoPlay="true" verticalCenter="0" horizontalCenter="0"/>
+            </e:Skin>
+        </cui:SimpleButton>
+        <cui:SimpleButton id="skTask" height="77" width="101" top="9" right="16">
+            <e:Skin>
+                <cui:UIMovieClip id="skAniTask" aniName="limitReward" autoPlay="true" verticalCenter="0" horizontalCenter="0"/>    
+            </e:Skin>
+        </cui:SimpleButton>
+        <cui:SimpleButton  id="skExtension" height="77" width="101" top="15" right="243">
+            <e:Skin>
+                <cui:UIMovieClip aniName="popular" autoPlay="true" verticalCenter="0" horizontalCenter="0"/>
+            </e:Skin>
+        </cui:SimpleButton>
+        <cui:SimpleButton id="skBinding" height="77" width="101" x="351" y="16" >
+            <e:Skin>
+                <cui:UIMovieClip id="skAniBinding" aniName="bind" autoPlay="true" verticalCenter="0" horizontalCenter="0"/>
+            </e:Skin>
+        </cui:SimpleButton>
+        <cui:SimpleButton  id="skRelief" width="101" height="77" top="15" right="135" visible="false">
+            <e:Skin>
+                <cui:UIMovieClip  id="skAniRelief" aniName="jiujijin" autoPlay="true" verticalCenter="0" horizontalCenter="0"/>
+            </e:Skin>
+        </cui:SimpleButton>
+        <cui:SimpleButton  id="skReward" height="77" width="101" top="6" right="20" >
+            <e:Skin>
+                <cui:UIMovieClip id="skAniReward" aniName="sevenReward" autoPlay="true" verticalCenter="0" horizontalCenter="0"/>
+            </e:Skin>
+        </cui:SimpleButton>
+         <cui:SimpleButton  id="skNotice" height="77" width="101" top="10" right="331" >
+            <e:Skin>
+                <cui:UIMovieClip id="skAniNotice" aniName="notice" autoPlay="true" verticalCenter="0" horizontalCenter="0"/>
+                <cui:Group id="skNInGrp" width="32" height="25" x="58" y="6">
+                    <cui:Image source="notice@noRead1"/>
+                    <cui:BitmapLabel id="skNInBit" font="noticeNum" text="9" width="18" height="16" x="7" textAlign="center" verticalCenter="0"/>
+                </cui:Group>
+            </e:Skin>
+        </cui:SimpleButton>
+			<cui:Image id="skImgDone" source="hall@done" x="500" y="9"/>
+    </cui:Group>
+    
+    <!--<cui:Group bottom="0" right="0"  width="490" height="126">
+  </cui:Group>-->
+</e:Skin>

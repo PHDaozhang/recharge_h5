@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="actMenuSkin" width="230" height="88" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing" states="up,down,disabled">
+	<cui:Image source="notice@InnerBtn1" source.up="notice@InnerBtn1" source.down="notice@InnerBtn2"  x="14"/>
+	<cui:Label id="skLabel" text="1111" size="24" textColor="0xEFDAA1" width="202" textAlign="center" anchorOffsetY="0" verticalCenter="-9" x="14"/>
+	<cui:Image id="skIcon" width="20" height="20" x="25" y="3" source="activity@xyd" includeIn="up"/>
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameTileSkin" width="186" height="194" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing" xmlns:game="game.*">
+    <game:UIDBAni id="skAni" autoPlay="true" y="180" x="105" scaleX="0.95" scaleY="0.95"/>
+</e:Skin>

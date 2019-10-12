@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RuleSkin" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing" width="864" height="660">
+    <cui:Image source="txt_ruleBg1"/>
+    <cui:ScaleButton id="skClose" skinName="CloseBtnSkin" x="786" y="17"/>
+    <cui:Scroller scrollPolicyH="off" scrollPolicyV="on" width="721" height="475" x="66" y="121" anchorOffsetX="0" anchorOffsetY="0">
+        <cui:Group id="skGrp" width="721" height="475"  x="0" y="0">
+            <cui:Group id="skInGrp">
+
+            </cui:Group>
+        </cui:Group>
+    </cui:Scroller>
+</e:Skin>

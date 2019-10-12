@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="noticeItemSkin" width="202" height="88" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+    <cui:Image source="notice@InnerBtn1" source.up="notice@InnerBtn1" source.down="notice@InnerBtn2" />
+    <!--<cui:ScaleButton  width="202" height="88">
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="notice@InnerBtn1" source.down="notice@InnerBtn2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+		</cui:ScaleButton>-->
+    <cui:Label id="skLabel" text="1111" size="24" textColor="0xefdaa1"  textColor.up="0xefdaa1" textColor.down=" 0x872e07" width="202" textAlign="center"  anchorOffsetY="0" verticalCenter="-9"/>
+    <cui:Image id="skIcon" source="notice@txt_new" x="6" y="-3"/>
+    <!--<cui:Label id="skLab2" text="12.12" size="24" textColor="0x872e07" textColor.down="0xefdaa1" width="202" textAlign="center" y="35"/>-->
+        <!--<cui:Label id="skLabel1" text="[更新公告]" size="24" textColor="0x872e07" width="202" textAlign="center" y="9"/>
+        <cui:Label id="skLabel2" text="12.12" size="24" textColor="0x872e07" width="202" textAlign="center" y="35"/>
+        <cui:Label id="skLabel3" text="[更新公告]" size="24" width="202" textAlign="center" y="9" textColor="0xefdaa1"/>
+        <cui:Label id="skLabel4" text="12.12" size="24" width="202" textAlign="center" y="35" textColor="0xefdaa1"/>-->
+</e:Skin>

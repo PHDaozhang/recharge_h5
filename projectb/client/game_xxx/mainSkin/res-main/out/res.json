@@ -1,0 +1,2222 @@
+{
+    "groups": [
+        {
+            "keys": "resConf,lang,loginBg,click",
+            "name": "preload"
+        },
+        {
+            "keys": "login",
+            "name": "loading"
+        },
+        {
+            "keys": "hall,leftBg,rightBg,topBg,bottom,role,hallBg,BG309",
+            "name": "hall"
+        },
+        {
+            "keys": "momentBg,dingbu,diban,tishi,jushuNum,fieldNum,route,paizhuoBG,tablesBg,txt_xuanchangBg",
+            "name": "publicRes"
+        }
+    ],
+    "resources": [
+        {
+            "name": "login",
+            "type": "st",
+            "url": "sheets/login.st"
+        },
+        {
+            "name": "role",
+            "type": "image",
+            "url": "imgs/role.png"
+        },
+        {
+            "name": "gold",
+            "type": "font",
+            "url": "fonts/gold.fnt"
+        },
+        {
+            "name": "resConf",
+            "type": "json",
+            "url": "conf/resConf.json"
+        },
+        {
+            "name": "lang",
+            "type": "json",
+            "url": "conf/lang.json"
+        },
+        {
+            "name": "tipBg",
+            "type": "image",
+            "url": "imgs/tipBg.png"
+        },
+        {
+            "name": "pCenter",
+            "type": "st",
+            "url": "sheets/pCenter.st"
+        },
+        {
+            "name": "winMon",
+            "type": "font",
+            "url": "fonts/winMon.fnt"
+        },
+        {
+            "name": "tiger",
+            "type": "font",
+            "url": "fonts/tiger.fnt"
+        },
+        {
+            "name": "topJu",
+            "type": "font",
+            "url": "fonts/topJu.fnt"
+        },
+        {
+            "name": "quartetWin",
+            "type": "font",
+            "url": "fonts/quartetWin.fnt"
+        },
+        {
+            "name": "remain",
+            "type": "font",
+            "url": "fonts/remain.fnt"
+        },
+        {
+            "name": "ruleRatio",
+            "type": "font",
+            "url": "fonts/ruleRatio.fnt"
+        },
+        {
+            "name": "publicMup",
+            "type": "font",
+            "url": "fonts/publicMup.fnt"
+        },
+        {
+            "name": "quartetLose",
+            "type": "font",
+            "url": "fonts/quartetLose.fnt"
+        },
+        {
+            "name": "playerGold",
+            "type": "font",
+            "url": "fonts/playerGold.fnt"
+        },
+        {
+            "name": "playerList",
+            "type": "font",
+            "url": "fonts/playerList.fnt"
+        },
+        {
+            "name": "playerRk",
+            "type": "font",
+            "url": "fonts/playerRk.fnt"
+        },
+        {
+            "name": "match",
+            "type": "font",
+            "url": "fonts/match.fnt"
+        },
+        {
+            "name": "moment",
+            "type": "font",
+            "url": "fonts/moment.fnt"
+        },
+        {
+            "name": "loseMon",
+            "type": "font",
+            "url": "fonts/loseMon.fnt"
+        },
+        {
+            "name": "loseMup",
+            "type": "font",
+            "url": "fonts/loseMup.fnt"
+        },
+        {
+            "name": "lhdJu",
+            "type": "font",
+            "url": "fonts/lhdJu.fnt"
+        },
+        {
+            "name": "lhdTotal",
+            "type": "font",
+            "url": "fonts/lhdTotal.fnt"
+        },
+        {
+            "name": "lhdBet",
+            "type": "font",
+            "url": "fonts/lhdBet.fnt"
+        },
+        {
+            "name": "closeWin",
+            "type": "font",
+            "url": "fonts/closeWin.fnt"
+        },
+        {
+            "name": "dragon",
+            "type": "font",
+            "url": "fonts/dragon.fnt"
+        },
+        {
+            "name": "endPoint",
+            "type": "font",
+            "url": "fonts/endPoint.fnt"
+        },
+        {
+            "name": "closeLose",
+            "type": "font",
+            "url": "fonts/closeLose.fnt"
+        },
+        {
+            "name": "closeMup",
+            "type": "font",
+            "url": "fonts/closeMup.fnt"
+        },
+        {
+            "name": "chip",
+            "type": "font",
+            "url": "fonts/chip.fnt"
+        },
+        {
+            "name": "clock",
+            "type": "font",
+            "url": "fonts/clock.fnt"
+        },
+        {
+            "name": "cardPerCentB",
+            "type": "font",
+            "url": "fonts/cardPerCentB.fnt"
+        },
+        {
+            "name": "cardPerCentS",
+            "type": "font",
+            "url": "fonts/cardPerCentS.fnt"
+        },
+        {
+            "name": "cardRoad",
+            "type": "font",
+            "url": "fonts/cardRoad.fnt"
+        },
+        {
+            "name": "cardJu",
+            "type": "font",
+            "url": "fonts/cardJu.fnt"
+        },
+        {
+            "name": "cardOutCome",
+            "type": "font",
+            "url": "fonts/cardOutCome.fnt"
+        },
+        {
+            "name": "bjlJu",
+            "type": "font",
+            "url": "fonts/bjlJu.fnt"
+        },
+        {
+            "name": "bjlXian",
+            "type": "font",
+            "url": "fonts/bjlXian.fnt"
+        },
+        {
+            "name": "cardClock",
+            "type": "font",
+            "url": "fonts/cardClock.fnt"
+        },
+        {
+            "name": "betG",
+            "type": "font",
+            "url": "fonts/betG.fnt"
+        },
+        {
+            "name": "beadRoad",
+            "type": "font",
+            "url": "fonts/beadRoad.fnt"
+        },
+        {
+            "name": "winMup",
+            "type": "font",
+            "url": "fonts/winMup.fnt"
+        },
+        {
+            "name": "zhuangXianHe",
+            "type": "font",
+            "url": "fonts/zhuangXianHe.fnt"
+        },
+        {
+            "name": "and",
+            "type": "font",
+            "url": "fonts/and.fnt"
+        },
+        {
+            "name": "vip",
+            "type": "st",
+            "url": "sheets/vip.st"
+        },
+        {
+            "name": "common",
+            "type": "st",
+            "url": "sheets/common.st"
+        },
+        {
+            "name": "zhuangList",
+            "type": "image",
+            "url": "imgs/zhuangList.png"
+        },
+        {
+            "name": "diban",
+            "type": "image",
+            "url": "imgs/diban.png"
+        },
+        {
+            "name": "dingbu",
+            "type": "image",
+            "url": "imgs/dingbu.png"
+        },
+        {
+            "name": "jieSuan",
+            "type": "image",
+            "url": "imgs/jieSuan.png"
+        },
+        {
+            "name": "momentBg",
+            "type": "image",
+            "url": "imgs/momentBg.png"
+        },
+        {
+            "name": "list",
+            "type": "font",
+            "url": "fonts/list.fnt"
+        },
+        {
+            "name": "listTable",
+            "type": "image",
+            "url": "imgs/listTable.png"
+        },
+        {
+            "name": "head",
+            "type": "st",
+            "url": "sheets/head.st"
+        },
+        {
+            "name": "poker46",
+            "type": "image",
+            "url": "imgs/poker46.png"
+        },
+        {
+            "name": "poker47",
+            "type": "image",
+            "url": "imgs/poker47.png"
+        },
+        {
+            "name": "poker48",
+            "type": "image",
+            "url": "imgs/poker48.png"
+        },
+        {
+            "name": "poker49",
+            "type": "image",
+            "url": "imgs/poker49.png"
+        },
+        {
+            "name": "poker50",
+            "type": "image",
+            "url": "imgs/poker50.png"
+        },
+        {
+            "name": "poker51",
+            "type": "image",
+            "url": "imgs/poker51.png"
+        },
+        {
+            "name": "poker52",
+            "type": "image",
+            "url": "imgs/poker52.png"
+        },
+        {
+            "name": "poker53",
+            "type": "image",
+            "url": "imgs/poker53.png"
+        },
+        {
+            "name": "poker54",
+            "type": "image",
+            "url": "imgs/poker54.png"
+        },
+        {
+            "name": "poker0",
+            "type": "image",
+            "url": "imgs/poker0.png"
+        },
+        {
+            "name": "poker1",
+            "type": "image",
+            "url": "imgs/poker1.png"
+        },
+        {
+            "name": "poker2",
+            "type": "image",
+            "url": "imgs/poker2.png"
+        },
+        {
+            "name": "poker3",
+            "type": "image",
+            "url": "imgs/poker3.png"
+        },
+        {
+            "name": "poker4",
+            "type": "image",
+            "url": "imgs/poker4.png"
+        },
+        {
+            "name": "poker5",
+            "type": "image",
+            "url": "imgs/poker5.png"
+        },
+        {
+            "name": "poker6",
+            "type": "image",
+            "url": "imgs/poker6.png"
+        },
+        {
+            "name": "poker7",
+            "type": "image",
+            "url": "imgs/poker7.png"
+        },
+        {
+            "name": "poker8",
+            "type": "image",
+            "url": "imgs/poker8.png"
+        },
+        {
+            "name": "poker9",
+            "type": "image",
+            "url": "imgs/poker9.png"
+        },
+        {
+            "name": "poker10",
+            "type": "image",
+            "url": "imgs/poker10.png"
+        },
+        {
+            "name": "poker11",
+            "type": "image",
+            "url": "imgs/poker11.png"
+        },
+        {
+            "name": "poker12",
+            "type": "image",
+            "url": "imgs/poker12.png"
+        },
+        {
+            "name": "poker13",
+            "type": "image",
+            "url": "imgs/poker13.png"
+        },
+        {
+            "name": "poker14",
+            "type": "image",
+            "url": "imgs/poker14.png"
+        },
+        {
+            "name": "poker15",
+            "type": "image",
+            "url": "imgs/poker15.png"
+        },
+        {
+            "name": "poker16",
+            "type": "image",
+            "url": "imgs/poker16.png"
+        },
+        {
+            "name": "poker17",
+            "type": "image",
+            "url": "imgs/poker17.png"
+        },
+        {
+            "name": "poker18",
+            "type": "image",
+            "url": "imgs/poker18.png"
+        },
+        {
+            "name": "poker19",
+            "type": "image",
+            "url": "imgs/poker19.png"
+        },
+        {
+            "name": "poker20",
+            "type": "image",
+            "url": "imgs/poker20.png"
+        },
+        {
+            "name": "poker21",
+            "type": "image",
+            "url": "imgs/poker21.png"
+        },
+        {
+            "name": "poker22",
+            "type": "image",
+            "url": "imgs/poker22.png"
+        },
+        {
+            "name": "poker23",
+            "type": "image",
+            "url": "imgs/poker23.png"
+        },
+        {
+            "name": "poker24",
+            "type": "image",
+            "url": "imgs/poker24.png"
+        },
+        {
+            "name": "poker25",
+            "type": "image",
+            "url": "imgs/poker25.png"
+        },
+        {
+            "name": "poker26",
+            "type": "image",
+            "url": "imgs/poker26.png"
+        },
+        {
+            "name": "poker27",
+            "type": "image",
+            "url": "imgs/poker27.png"
+        },
+        {
+            "name": "poker28",
+            "type": "image",
+            "url": "imgs/poker28.png"
+        },
+        {
+            "name": "poker29",
+            "type": "image",
+            "url": "imgs/poker29.png"
+        },
+        {
+            "name": "poker30",
+            "type": "image",
+            "url": "imgs/poker30.png"
+        },
+        {
+            "name": "poker31",
+            "type": "image",
+            "url": "imgs/poker31.png"
+        },
+        {
+            "name": "poker32",
+            "type": "image",
+            "url": "imgs/poker32.png"
+        },
+        {
+            "name": "poker33",
+            "type": "image",
+            "url": "imgs/poker33.png"
+        },
+        {
+            "name": "poker34",
+            "type": "image",
+            "url": "imgs/poker34.png"
+        },
+        {
+            "name": "poker35",
+            "type": "image",
+            "url": "imgs/poker35.png"
+        },
+        {
+            "name": "poker36",
+            "type": "image",
+            "url": "imgs/poker36.png"
+        },
+        {
+            "name": "poker37",
+            "type": "image",
+            "url": "imgs/poker37.png"
+        },
+        {
+            "name": "poker38",
+            "type": "image",
+            "url": "imgs/poker38.png"
+        },
+        {
+            "name": "poker39",
+            "type": "image",
+            "url": "imgs/poker39.png"
+        },
+        {
+            "name": "poker40",
+            "type": "image",
+            "url": "imgs/poker40.png"
+        },
+        {
+            "name": "poker41",
+            "type": "image",
+            "url": "imgs/poker41.png"
+        },
+        {
+            "name": "poker42",
+            "type": "image",
+            "url": "imgs/poker42.png"
+        },
+        {
+            "name": "poker43",
+            "type": "image",
+            "url": "imgs/poker43.png"
+        },
+        {
+            "name": "poker44",
+            "type": "image",
+            "url": "imgs/poker44.png"
+        },
+        {
+            "name": "poker45",
+            "type": "image",
+            "url": "imgs/poker45.png"
+        },
+        {
+            "name": "cardTableFen",
+            "type": "font",
+            "url": "fonts/cardTableFen.fnt"
+        },
+        {
+            "name": "remember",
+            "type": "font",
+            "url": "fonts/remember.fnt"
+        },
+        {
+            "name": "zjhEndPoint",
+            "type": "font",
+            "url": "fonts/zjhEndPoint.fnt"
+        },
+        {
+            "name": "txt_pCenterBg",
+            "type": "image",
+            "url": "imgs/txt_pCenterBg.png"
+        },
+        {
+            "name": "txt_registeredBg",
+            "type": "image",
+            "url": "imgs/txt_registeredBg.png"
+        },
+        {
+            "name": "txt_forgotPwdBg",
+            "type": "image",
+            "url": "imgs/txt_forgotPwdBg.png"
+        },
+        {
+            "name": "txt_modNameBg",
+            "type": "image",
+            "url": "imgs/txt_modNameBg.png"
+        },
+        {
+            "name": "card",
+            "type": "st",
+            "url": "sheets/card.st"
+        },
+        {
+            "name": "guangbo",
+            "type": "image",
+            "url": "imgs/guangbo.png"
+        },
+        {
+            "name": "txt_msgbox",
+            "type": "image",
+            "url": "imgs/txt_msgbox.png"
+        },
+        {
+            "name": "banker",
+            "type": "st",
+            "url": "sheets/banker.st"
+        },
+        {
+            "name": "chip",
+            "type": "st",
+            "url": "sheets/chip.st"
+        },
+        {
+            "name": "menuList",
+            "type": "st",
+            "url": "sheets/menuList.st"
+        },
+        {
+            "name": "betY",
+            "type": "font",
+            "url": "fonts/betY.fnt"
+        },
+        {
+            "name": "remainNum",
+            "type": "font",
+            "url": "fonts/remainNum.fnt"
+        },
+        {
+            "name": "txt_ListBg",
+            "type": "image",
+            "url": "imgs/txt_ListBg.png"
+        },
+        {
+            "name": "jiazhu",
+            "type": "font",
+            "url": "fonts/jiazhu.fnt"
+        },
+        {
+            "name": "caiChiGold",
+            "type": "font",
+            "url": "fonts/caiChiGold.fnt"
+        },
+        {
+            "name": "difenNum",
+            "type": "font",
+            "url": "fonts/difenNum.fnt"
+        },
+        {
+            "name": "resultNumLose",
+            "type": "font",
+            "url": "fonts/resultNumLose.fnt"
+        },
+        {
+            "name": "resultNumWin",
+            "type": "font",
+            "url": "fonts/resultNumWin.fnt"
+        },
+        {
+            "name": "tableCaichiGold",
+            "type": "font",
+            "url": "fonts/tableCaichiGold.fnt"
+        },
+        {
+            "name": "topBg",
+            "type": "image",
+            "url": "imgs/topBg.png"
+        },
+        {
+            "name": "leftBg",
+            "type": "image",
+            "url": "imgs/leftBg.png"
+        },
+        {
+            "name": "rightBg",
+            "type": "image",
+            "url": "imgs/rightBg.png"
+        },
+        {
+            "name": "bottom",
+            "type": "image",
+            "url": "imgs/bottom.png"
+        },
+        {
+            "name": "hall",
+            "type": "st",
+            "url": "sheets/hall.st"
+        },
+        {
+            "name": "loginBg",
+            "type": "image",
+            "url": "imgs/loginBg.jpg"
+        },
+        {
+            "name": "tablesBg",
+            "type": "image",
+            "url": "imgs/tablesBg.jpg"
+        },
+        {
+            "name": "tishi",
+            "type": "mc",
+            "url": "dbs/tishi.db"
+        },
+        {
+            "name": "bunnyGirl",
+            "type": "image",
+            "url": "imgs/bunnyGirl.png"
+        },
+        {
+            "name": "txt_bindBG",
+            "type": "image",
+            "url": "imgs/txt_bindBG.png"
+        },
+        {
+            "name": "txt_chat",
+            "type": "image",
+            "url": "imgs/txt_chat.png"
+        },
+        {
+            "name": "bindGift",
+            "type": "st",
+            "url": "sheets/bindGift.st"
+        },
+        {
+            "name": "saveMoney",
+            "type": "st",
+            "url": "sheets/saveMoney.st"
+        },
+        {
+            "name": "txt_saveMoneyBG",
+            "type": "image",
+            "url": "imgs/txt_saveMoneyBG.png"
+        },
+        {
+            "name": "pic_qiri_jinbi",
+            "type": "image",
+            "url": "imgs/pic_qiri_jinbi.png"
+        },
+        {
+            "name": "pic_qiri_juese",
+            "type": "image",
+            "url": "imgs/pic_qiri_juese.png"
+        },
+        {
+            "name": "pic_qiri_renwudi",
+            "type": "image",
+            "url": "imgs/pic_qiri_renwudi.png"
+        },
+        {
+            "name": "pic_qiri_renwuxiadi",
+            "type": "image",
+            "url": "imgs/pic_qiri_renwuxiadi.png"
+        },
+        {
+            "name": "txt_qirenjiangli_zhuyiwenzi",
+            "type": "image",
+            "url": "imgs/txt_qirenjiangli_zhuyiwenzi.png"
+        },
+        {
+            "name": "txt_qiri_biaoti",
+            "type": "image",
+            "url": "imgs/txt_qiri_biaoti.png"
+        },
+        {
+            "name": "txt_qiri_wenzi",
+            "type": "image",
+            "url": "imgs/txt_qiri_wenzi.png"
+        },
+        {
+            "name": "sevenReward",
+            "type": "st",
+            "url": "sheets/sevenReward.st"
+        },
+        {
+            "name": "mail",
+            "type": "st",
+            "url": "sheets/mail.st"
+        },
+        {
+            "name": "mailDb",
+            "type": "image",
+            "url": "imgs/mailDb.png"
+        },
+        {
+            "name": "txt_accessory",
+            "type": "image",
+            "url": "imgs/txt_accessory.png"
+        },
+        {
+            "name": "txt_detailBg",
+            "type": "image",
+            "url": "imgs/txt_detailBg.png"
+        },
+        {
+            "name": "txt_mailBg",
+            "type": "image",
+            "url": "imgs/txt_mailBg.png"
+        },
+        {
+            "name": "seveDayRwd",
+            "type": "font",
+            "url": "fonts/seveDayRwd.fnt"
+        },
+        {
+            "name": "rewardNumB",
+            "type": "font",
+            "url": "fonts/rewardNumB.fnt"
+        },
+        {
+            "name": "rewardNumA",
+            "type": "font",
+            "url": "fonts/rewardNumA.fnt"
+        },
+        {
+            "name": "txt_fenxiang_fengkuangbuyu",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_fengkuangbuyu.png"
+        },
+        {
+            "name": "txt_fenxiang_heihongmeifang",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_heihongmeifang.png"
+        },
+        {
+            "name": "txt_fenxiang_hongheidazhan",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_hongheidazhan.png"
+        },
+        {
+            "name": "txt_fenxiang_huanletouzi",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_huanletouzi.png"
+        },
+        {
+            "name": "txt_fenxiang_huanlezhizun",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_huanlezhizun.png"
+        },
+        {
+            "name": "txt_fenxiang_jinchanbuyu",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_jinchanbuyu.png"
+        },
+        {
+            "name": "txt_fenxiang_jinshayinsha",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_jinshayinsha.png"
+        },
+        {
+            "name": "txt_fenxiang_jizhishuangkuai",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_jizhishuangkuai.png"
+        },
+        {
+            "name": "txt_fenxiang_likuipiyu",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_likuipiyu.png"
+        },
+        {
+            "name": "txt_fenxiang_qiangzhuangniuniu",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_qiangzhuangniuniu.png"
+        },
+        {
+            "name": "txt_fenxiang_senlinwuhui",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_senlinwuhui.png"
+        },
+        {
+            "name": "txt_fenxiang_yibafanle",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_yibafanle.png"
+        },
+        {
+            "name": "txt_fenxiang_yibayingle",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_yibayingle.png"
+        },
+        {
+            "name": "txt_fenxiang_yipaozhuanle",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_yipaozhuanle.png"
+        },
+        {
+            "name": "txt_fenxiang_bairenniuniu",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_bairenniuniu.png"
+        },
+        {
+            "name": "txt_fenxiang_benchibaoma",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_benchibaoma.png"
+        },
+        {
+            "name": "txt_fenxiang_danaotiangong",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_danaotiangong.png"
+        },
+        {
+            "name": "txt_fenxiang_di",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_di.png"
+        },
+        {
+            "name": "txt_fenxiang_duyunhengtong",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_duyunhengtong.png"
+        },
+        {
+            "name": "txt_fenxiang_errenmajiang",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_errenmajiang.png"
+        },
+        {
+            "name": "share",
+            "type": "st",
+            "url": "sheets/share.st"
+        },
+        {
+            "name": "reward",
+            "type": "st",
+            "url": "sheets/reward.st"
+        },
+        {
+            "name": "txt_limitRwd",
+            "type": "image",
+            "url": "imgs/txt_limitRwd.png"
+        },
+        {
+            "name": "shareHuaSe",
+            "type": "font",
+            "url": "fonts/shareHuaSe.fnt"
+        },
+        {
+            "name": "shareJiaGe",
+            "type": "font",
+            "url": "fonts/shareJiaGe.fnt"
+        },
+        {
+            "name": "txt_setBg",
+            "type": "image",
+            "url": "imgs/txt_setBg.png"
+        },
+        {
+            "name": "limitBgD",
+            "type": "image",
+            "url": "imgs/limitBgD.png"
+        },
+        {
+            "name": "limitBgB",
+            "type": "image",
+            "url": "imgs/limitBgB.png"
+        },
+        {
+            "name": "txt_limitTitle",
+            "type": "image",
+            "url": "imgs/txt_limitTitle.png"
+        },
+        {
+            "name": "kefu",
+            "type": "st",
+            "url": "sheets/kefu.st"
+        },
+        {
+            "name": "pic_tousuyijianDB",
+            "type": "image",
+            "url": "imgs/pic_tousuyijianDB.png"
+        },
+        {
+            "name": "pic_wentiDB",
+            "type": "image",
+            "url": "imgs/pic_wentiDB.png"
+        },
+        {
+            "name": "txt_kefuBg",
+            "type": "image",
+            "url": "imgs/txt_kefuBg.png"
+        },
+        {
+            "name": "txt_tousuBg",
+            "type": "image",
+            "url": "imgs/txt_tousuBg.png"
+        },
+        {
+            "name": "pic_daan_db",
+            "type": "image",
+            "url": "imgs/pic_daan_db.png"
+        },
+        {
+            "name": "ruChangFen",
+            "type": "font",
+            "url": "fonts/ruChangFen.fnt"
+        },
+        {
+            "name": "xuanchangDiFen",
+            "type": "font",
+            "url": "fonts/xuanchangDiFen.fnt"
+        },
+        {
+            "name": "txt_QuickStart",
+            "type": "image",
+            "url": "imgs/txt_QuickStart.png"
+        },
+        {
+            "name": "icon_gonggao",
+            "type": "image",
+            "url": "imgs/icon_gonggao.png"
+        },
+        {
+            "name": "renwu_xuanchang",
+            "type": "image",
+            "url": "imgs/renwu_xuanchang.png"
+        },
+        {
+            "name": "txt_newScene1",
+            "type": "image",
+            "url": "imgs/txt_newScene1.png"
+        },
+        {
+            "name": "txt_newScene2",
+            "type": "image",
+            "url": "imgs/txt_newScene2.png"
+        },
+        {
+            "name": "txt_newScene3",
+            "type": "image",
+            "url": "imgs/txt_newScene3.png"
+        },
+        {
+            "name": "txt_newScene4",
+            "type": "image",
+            "url": "imgs/txt_newScene4.png"
+        },
+        {
+            "name": "txt_newScene5",
+            "type": "image",
+            "url": "imgs/txt_newScene5.png"
+        },
+        {
+            "name": "moment1",
+            "type": "font",
+            "url": "fonts/moment1.fnt"
+        },
+        {
+            "name": "moment2",
+            "type": "font",
+            "url": "fonts/moment2.fnt"
+        },
+        {
+            "name": "moment3",
+            "type": "font",
+            "url": "fonts/moment3.fnt"
+        },
+        {
+            "name": "moment4",
+            "type": "font",
+            "url": "fonts/moment4.fnt"
+        },
+        {
+            "name": "moment5",
+            "type": "font",
+            "url": "fonts/moment5.fnt"
+        },
+        {
+            "name": "pic_xuanchangBar",
+            "type": "image",
+            "url": "imgs/pic_xuanchangBar.png"
+        },
+        {
+            "name": "fieldNum",
+            "type": "font",
+            "url": "fonts/fieldNum.fnt"
+        },
+        {
+            "name": "jushuNum",
+            "type": "font",
+            "url": "fonts/jushuNum.fnt"
+        },
+        {
+            "name": "JSYSshizhong",
+            "type": "font",
+            "url": "fonts/JSYSshizhong.fnt"
+        },
+        {
+            "name": "JCBYBattery",
+            "type": "font",
+            "url": "fonts/JCBYBattery.fnt"
+        },
+        {
+            "name": "JCBYPicture",
+            "type": "font",
+            "url": "fonts/JCBYPicture.fnt"
+        },
+        {
+            "name": "BJLfuping",
+            "type": "font",
+            "url": "fonts/BJLfuping.fnt"
+        },
+        {
+            "name": "loseMoney",
+            "type": "font",
+            "url": "fonts/loseMoney.fnt"
+        },
+        {
+            "name": "winMoney",
+            "type": "font",
+            "url": "fonts/winMoney.fnt"
+        },
+        {
+            "name": "chipNum",
+            "type": "font",
+            "url": "fonts/chipNum.fnt"
+        },
+        {
+            "name": "goldNum",
+            "type": "font",
+            "url": "fonts/goldNum.fnt"
+        },
+        {
+            "name": "txt_wjdb",
+            "type": "image",
+            "url": "imgs/txt_wjdb.png"
+        },
+        {
+            "name": "txt_wjnd",
+            "type": "image",
+            "url": "imgs/txt_wjnd.png"
+        },
+        {
+            "name": "rule",
+            "type": "image",
+            "url": "imgs/rule.png"
+        },
+        {
+            "name": "ruleBg",
+            "type": "image",
+            "url": "imgs/ruleBg.png"
+        },
+        {
+            "name": "route",
+            "type": "st",
+            "url": "sheets/route.st"
+        },
+        {
+            "name": "dzpkBet",
+            "type": "font",
+            "url": "fonts/dzpkBet.fnt"
+        },
+        {
+            "name": "dzpkFollow",
+            "type": "font",
+            "url": "fonts/dzpkFollow.fnt"
+        },
+        {
+            "name": "txt_xuanchangBg",
+            "type": "image",
+            "url": "imgs/txt_xuanchangBg.png"
+        },
+        {
+            "name": "pic_chipdizuo",
+            "type": "image",
+            "url": "imgs/pic_chipdizuo.png"
+        },
+        {
+            "name": "paizhuoBG",
+            "type": "image",
+            "url": "imgs/paizhuoBG.jpg"
+        },
+        {
+            "name": "newPoker0",
+            "type": "image",
+            "url": "imgs/newPoker0.png"
+        },
+        {
+            "name": "coldTime",
+            "type": "font",
+            "url": "fonts/coldTime.fnt"
+        },
+        {
+            "name": "hhmfRound",
+            "type": "font",
+            "url": "fonts/hhmfRound.fnt"
+        },
+        {
+            "name": "pokerNum",
+            "type": "font",
+            "url": "fonts/pokerNum.fnt"
+        },
+        {
+            "name": "txt_ruleBg",
+            "type": "image",
+            "url": "imgs/txt_ruleBg.png"
+        },
+        {
+            "name": "resultBg",
+            "type": "image",
+            "url": "imgs/resultBg.png"
+        },
+        {
+            "name": "upSide",
+            "type": "image",
+            "url": "imgs/upSide.png"
+        },
+        {
+            "name": "jcbyDifen",
+            "type": "font",
+            "url": "fonts/jcbyDifen.fnt"
+        },
+        {
+            "name": "bjlOPenCard",
+            "type": "font",
+            "url": "fonts/bjlOPenCard.fnt"
+        },
+        {
+            "name": "betNum",
+            "type": "font",
+            "url": "fonts/betNum.fnt"
+        },
+        {
+            "name": "hhdzTime",
+            "type": "font",
+            "url": "fonts/hhdzTime.fnt"
+        },
+        {
+            "name": "lhdTopNum",
+            "type": "font",
+            "url": "fonts/lhdTopNum.fnt"
+        },
+        {
+            "name": "lhdLong",
+            "type": "font",
+            "url": "fonts/lhdLong.fnt"
+        },
+        {
+            "name": "lhdjuNum",
+            "type": "font",
+            "url": "fonts/lhdjuNum.fnt"
+        },
+        {
+            "name": "lhdHu",
+            "type": "font",
+            "url": "fonts/lhdHu.fnt"
+        },
+        {
+            "name": "lhdHe",
+            "type": "font",
+            "url": "fonts/lhdHe.fnt"
+        },
+        {
+            "name": "dzpkBlind",
+            "type": "font",
+            "url": "fonts/dzpkBlind.fnt"
+        },
+        {
+            "name": "dzpkRoute",
+            "type": "font",
+            "url": "fonts/dzpkRoute.fnt"
+        },
+        {
+            "name": "hlgzTime",
+            "type": "font",
+            "url": "fonts/hlgzTime.fnt"
+        },
+        {
+            "name": "ddzUpNum",
+            "type": "font",
+            "url": "fonts/ddzUpNum.fnt"
+        },
+        {
+            "name": "pailuBg",
+            "type": "image",
+            "url": "imgs/pailuBg.png"
+        },
+        {
+            "name": "txt_pailuBg",
+            "type": "image",
+            "url": "imgs/txt_pailuBg.png"
+        },
+        {
+            "name": "paiLu",
+            "type": "st",
+            "url": "sheets/paiLu.st"
+        },
+        {
+            "name": "pic_jindutiao_1",
+            "type": "image",
+            "url": "imgs/pic_jindutiao_1.png"
+        },
+        {
+            "name": "pic_jindutiao_2",
+            "type": "image",
+            "url": "imgs/pic_jindutiao_2.png"
+        },
+        {
+            "name": "hhdzRed",
+            "type": "font",
+            "url": "fonts/hhdzRed.fnt"
+        },
+        {
+            "name": "hhdzBlack",
+            "type": "font",
+            "url": "fonts/hhdzBlack.fnt"
+        },
+        {
+            "name": "dzpkResult",
+            "type": "font",
+            "url": "fonts/dzpkResult.fnt"
+        },
+        {
+            "name": "hlgzPerCent",
+            "type": "font",
+            "url": "fonts/hlgzPerCent.fnt"
+        },
+        {
+            "name": "jcbyHitNum1",
+            "type": "font",
+            "url": "fonts/jcbyHitNum1.fnt"
+        },
+        {
+            "name": "jcbyHitNum2",
+            "type": "font",
+            "url": "fonts/jcbyHitNum2.fnt"
+        },
+        {
+            "name": "jcbyHitNum3",
+            "type": "font",
+            "url": "fonts/jcbyHitNum3.fnt"
+        },
+        {
+            "name": "jcbyReward",
+            "type": "font",
+            "url": "fonts/jcbyReward.fnt"
+        },
+        {
+            "name": "hlgzTopNum",
+            "type": "font",
+            "url": "fonts/hlgzTopNum.fnt"
+        },
+        {
+            "name": "hlgzPoint",
+            "type": "font",
+            "url": "fonts/hlgzPoint.fnt"
+        },
+        {
+            "name": "qznnEndScore",
+            "type": "font",
+            "url": "fonts/qznnEndScore.fnt"
+        },
+        {
+            "name": "qznnIconNum",
+            "type": "font",
+            "url": "fonts/qznnIconNum.fnt"
+        },
+        {
+            "name": "qznnTime",
+            "type": "font",
+            "url": "fonts/qznnTime.fnt"
+        },
+        {
+            "name": "txt_ruleBg1",
+            "type": "image",
+            "url": "imgs/txt_ruleBg1.png"
+        },
+        {
+            "name": "hallBg",
+            "type": "image",
+            "url": "imgs/hallBg.jpg"
+        },
+        {
+            "name": "txt_jingle",
+            "type": "image",
+            "url": "imgs/txt_jingle.png"
+        },
+        {
+            "name": "fenleiDB",
+            "type": "image",
+            "url": "imgs/fenleiDB.png"
+        },
+        {
+            "name": "brnnBaiNum",
+            "type": "font",
+            "url": "fonts/brnnBaiNum.fnt"
+        },
+        {
+            "name": "brnnLvNum",
+            "type": "font",
+            "url": "fonts/brnnLvNum.fnt"
+        },
+        {
+            "name": "brnnRoute",
+            "type": "font",
+            "url": "fonts/brnnRoute.fnt"
+        },
+        {
+            "name": "erbaNum",
+            "type": "font",
+            "url": "fonts/erbaNum.fnt"
+        },
+        {
+            "name": "txt_fenxiang_buyu",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_buyu.png"
+        },
+        {
+            "name": "txt_fenxiang_dezhoupuke",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_dezhoupuke.png"
+        },
+        {
+            "name": "txt_fenxiang_doudizhu",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_doudizhu.png"
+        },
+        {
+            "name": "txt_fenxiang_erbagang",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_erbagang.png"
+        },
+        {
+            "name": "txt_fenxiang_errenniuniu",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_errenniuniu.png"
+        },
+        {
+            "name": "txt_fenxiang_haochedaheng",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_haochedaheng.png"
+        },
+        {
+            "name": "txt_fenxiang_longhudou",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_longhudou.png"
+        },
+        {
+            "name": "txt_fenxiang_lunpan",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_lunpan.png"
+        },
+        {
+            "name": "txt_fenxiang_lunpanlucky",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_lunpanlucky.png"
+        },
+        {
+            "name": "txt_fenxiang_shisanshui",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_shisanshui.png"
+        },
+        {
+            "name": "txt_fenxiang_shuiguoji",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_shuiguoji.png"
+        },
+        {
+            "name": "txt_fenxiang_shuihuzhuan",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_shuihuzhuan.png"
+        },
+        {
+            "name": "txt_fenxiang_sirenniuniu",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_sirenniuniu.png"
+        },
+        {
+            "name": "txt_fenxiang_siseqiu",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_siseqiu.png"
+        },
+        {
+            "name": "txt_fenxiang_tongbiniuniu",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_tongbiniuniu.png"
+        },
+        {
+            "name": "txt_fenxiang_tuitongzi",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_tuitongzi.png"
+        },
+        {
+            "name": "txt_fenxiang_wanrendezhou",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_wanrendezhou.png"
+        },
+        {
+            "name": "txt_fenxiang_yiqiuchengming",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_yiqiuchengming.png"
+        },
+        {
+            "name": "txt_fenxiang_yiyuanduobao",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_yiyuanduobao.png"
+        },
+        {
+            "name": "txt_fenxiang_zhajinhua",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_zhajinhua.png"
+        },
+        {
+            "name": "txt_fenxiang_aklunpan",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_aklunpan.png"
+        },
+        {
+            "name": "txt_fenxiang_baijiale",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_baijiale.png"
+        },
+        {
+            "name": "txt_fenxiang_bairenhonghei",
+            "type": "image",
+            "url": "imgs/txt_fenxiang_bairenhonghei.png"
+        },
+        {
+            "name": "PageUpNum",
+            "type": "font",
+            "url": "fonts/PageUpNum.fnt"
+        },
+        {
+            "name": "yejiQuaryNum",
+            "type": "font",
+            "url": "fonts/yejiQuaryNum.fnt"
+        },
+        {
+            "name": "hlgzChipNum1",
+            "type": "font",
+            "url": "fonts/hlgzChipNum1.fnt"
+        },
+        {
+            "name": "hlgzChipNum2",
+            "type": "font",
+            "url": "fonts/hlgzChipNum2.fnt"
+        },
+        {
+            "name": "extend",
+            "type": "st",
+            "url": "sheets/extend.st"
+        },
+        {
+            "name": "txt_xianma",
+            "type": "image",
+            "url": "imgs/txt_xianma.png"
+        },
+        {
+            "name": "txt_lianjie",
+            "type": "image",
+            "url": "imgs/txt_lianjie.png"
+        },
+        {
+            "name": "txt_palyerId",
+            "type": "image",
+            "url": "imgs/txt_palyerId.png"
+        },
+        {
+            "name": "chaxunkuang",
+            "type": "image",
+            "url": "imgs/chaxunkuang.png"
+        },
+        {
+            "name": "shurukuang01",
+            "type": "image",
+            "url": "imgs/shurukuang01.png"
+        },
+        {
+            "name": "shurukuang02",
+            "type": "image",
+            "url": "imgs/shurukuang02.png"
+        },
+        {
+            "name": "tckuang",
+            "type": "image",
+            "url": "imgs/tckuang.png"
+        },
+        {
+            "name": "biaoge_xian",
+            "type": "image",
+            "url": "imgs/biaoge_xian.png"
+        },
+        {
+            "name": "dailibiao",
+            "type": "image",
+            "url": "imgs/dailibiao.png"
+        },
+        {
+            "name": "txt_xhyl",
+            "type": "image",
+            "url": "imgs/txt_xhyl.png"
+        },
+        {
+            "name": "zuo_diban",
+            "type": "image",
+            "url": "imgs/zuo_diban.png"
+        },
+        {
+            "name": "teamBg",
+            "type": "image",
+            "url": "imgs/teamBg.png"
+        },
+        {
+            "name": "txt_yeji",
+            "type": "image",
+            "url": "imgs/txt_yeji.png"
+        },
+        {
+            "name": "lihe",
+            "type": "image",
+            "url": "imgs/lihe.png"
+        },
+        {
+            "name": "wuyan",
+            "type": "image",
+            "url": "imgs/wuyan.png"
+        },
+        {
+            "name": "txt_teamBg",
+            "type": "image",
+            "url": "imgs/txt_teamBg.png"
+        },
+        {
+            "name": "guanli_bg",
+            "type": "image",
+            "url": "imgs/guanli_bg.png"
+        },
+        {
+            "name": "biaoti_diban",
+            "type": "image",
+            "url": "imgs/biaoti_diban.png"
+        },
+        {
+            "name": "txt_yongjin",
+            "type": "image",
+            "url": "imgs/txt_yongjin.png"
+        },
+        {
+            "name": "txt_yejizhishu",
+            "type": "image",
+            "url": "imgs/txt_yejizhishu.png"
+        },
+        {
+            "name": "txt_yejiBiao",
+            "type": "image",
+            "url": "imgs/txt_yejiBiao.png"
+        },
+        {
+            "name": "txt_wuxian",
+            "type": "image",
+            "url": "imgs/txt_wuxian.png"
+        },
+        {
+            "name": "txt_saoma",
+            "type": "image",
+            "url": "imgs/txt_saoma.png"
+        },
+        {
+            "name": "lihe02",
+            "type": "image",
+            "url": "imgs/lihe02.png"
+        },
+        {
+            "name": "txt_daili",
+            "type": "image",
+            "url": "imgs/txt_daili.png"
+        },
+        {
+            "name": "txt_svrOverOpen",
+            "type": "image",
+            "url": "imgs/txt_svrOverOpen.png"
+        },
+        {
+            "name": "bjlOpenCard1",
+            "type": "font",
+            "url": "fonts/bjlOpenCard1.fnt"
+        },
+        {
+            "name": "txt_msgbox1",
+            "type": "image",
+            "url": "imgs/txt_msgbox1.png"
+        },
+        {
+            "name": "benzChoose",
+            "type": "font",
+            "url": "fonts/benzChoose.fnt"
+        },
+        {
+            "name": "zjhLose",
+            "type": "font",
+            "url": "fonts/zjhLose.fnt"
+        },
+        {
+            "name": "zjhWin",
+            "type": "font",
+            "url": "fonts/zjhWin.fnt"
+        },
+        {
+            "name": "yqcmBlueNum",
+            "type": "font",
+            "url": "fonts/yqcmBlueNum.fnt"
+        },
+        {
+            "name": "yqcmChip",
+            "type": "font",
+            "url": "fonts/yqcmChip.fnt"
+        },
+        {
+            "name": "yqcmRankNum",
+            "type": "font",
+            "url": "fonts/yqcmRankNum.fnt"
+        },
+        {
+            "name": "yqcmRedNum",
+            "type": "font",
+            "url": "fonts/yqcmRedNum.fnt"
+        },
+        {
+            "name": "yqcmTime",
+            "type": "font",
+            "url": "fonts/yqcmTime.fnt"
+        },
+        {
+            "name": "txt_pljj",
+            "type": "image",
+            "url": "imgs/txt_pljj.png"
+        },
+        {
+            "name": "GoldNum1",
+            "type": "font",
+            "url": "fonts/GoldNum1.fnt"
+        },
+        {
+            "name": "hchFree",
+            "type": "font",
+            "url": "fonts/hchFree.fnt"
+        },
+        {
+            "name": "hchHeadNum",
+            "type": "font",
+            "url": "fonts/hchHeadNum.fnt"
+        },
+        {
+            "name": "hchPledge",
+            "type": "font",
+            "url": "fonts/hchPledge.fnt"
+        },
+        {
+            "name": "hchReward",
+            "type": "font",
+            "url": "fonts/hchReward.fnt"
+        },
+        {
+            "name": "hchRewardScore",
+            "type": "font",
+            "url": "fonts/hchRewardScore.fnt"
+        },
+        {
+            "name": "hchSmallGame",
+            "type": "font",
+            "url": "fonts/hchSmallGame.fnt"
+        },
+        {
+            "name": "hchTime",
+            "type": "font",
+            "url": "fonts/hchTime.fnt"
+        },
+        {
+            "name": "RankNum",
+            "type": "font",
+            "url": "fonts/RankNum.fnt"
+        },
+        {
+            "name": "rywzCount",
+            "type": "font",
+            "url": "fonts/rywzCount.fnt"
+        },
+        {
+            "name": "rywzFree",
+            "type": "font",
+            "url": "fonts/rywzFree.fnt"
+        },
+        {
+            "name": "rywzPoint",
+            "type": "font",
+            "url": "fonts/rywzPoint.fnt"
+        },
+        {
+            "name": "rywzResult1",
+            "type": "font",
+            "url": "fonts/rywzResult1.fnt"
+        },
+        {
+            "name": "rywzResult2",
+            "type": "font",
+            "url": "fonts/rywzResult2.fnt"
+        },
+        {
+            "name": "rywzResult3",
+            "type": "font",
+            "url": "fonts/rywzResult3.fnt"
+        },
+        {
+            "name": "shzGold",
+            "type": "font",
+            "url": "fonts/shzGold.fnt"
+        },
+        {
+            "name": "shzMultiple",
+            "type": "font",
+            "url": "fonts/shzMultiple.fnt"
+        },
+        {
+            "name": "shzPledge",
+            "type": "font",
+            "url": "fonts/shzPledge.fnt"
+        },
+        {
+            "name": "xmlCount",
+            "type": "font",
+            "url": "fonts/xmlCount.fnt"
+        },
+        {
+            "name": "xmlMultiple",
+            "type": "font",
+            "url": "fonts/xmlMultiple.fnt"
+        },
+        {
+            "name": "xmlPledge",
+            "type": "font",
+            "url": "fonts/xmlPledge.fnt"
+        },
+        {
+            "name": "routeIntroBg",
+            "type": "image",
+            "url": "imgs/routeIntroBg.png"
+        },
+        {
+            "name": "pic_qiri_guangxiaodiban",
+            "type": "image",
+            "url": "imgs/pic_qiri_guangxiaodiban.png"
+        },
+        {
+            "name": "yydbBet",
+            "type": "font",
+            "url": "fonts/yydbBet.fnt"
+        },
+        {
+            "name": "yydbCount",
+            "type": "font",
+            "url": "fonts/yydbCount.fnt"
+        },
+        {
+            "name": "yydbGold",
+            "type": "font",
+            "url": "fonts/yydbGold.fnt"
+        },
+        {
+            "name": "yydbPercent",
+            "type": "font",
+            "url": "fonts/yydbPercent.fnt"
+        },
+        {
+            "name": "yydbTime",
+            "type": "font",
+            "url": "fonts/yydbTime.fnt"
+        },
+        {
+            "name": "xuyacha",
+            "type": "font",
+            "url": "fonts/xuyacha.fnt"
+        },
+        {
+            "name": "dailibiaoX",
+            "type": "image",
+            "url": "imgs/dailibiaoX.png"
+        },
+        {
+            "name": "xuyacha2",
+            "type": "font",
+            "url": "fonts/xuyacha2.fnt"
+        },
+        {
+            "name": "dzpkGoldNow",
+            "type": "font",
+            "url": "fonts/dzpkGoldNow.fnt"
+        },
+        {
+            "name": "pCenterGold1",
+            "type": "font",
+            "url": "fonts/pCenterGold1.fnt"
+        },
+        {
+            "name": "pCenterGold2",
+            "type": "font",
+            "url": "fonts/pCenterGold2.fnt"
+        },
+        {
+            "name": "VipNum",
+            "type": "font",
+            "url": "fonts/VipNum.fnt"
+        },
+        {
+            "name": "txt_vipPrivilegeDB",
+            "type": "image",
+            "url": "imgs/txt_vipPrivilegeDB.png"
+        },
+        {
+            "name": "activityDB",
+            "type": "image",
+            "url": "imgs/activityDB.png"
+        },
+        {
+            "name": "activityInnerDB",
+            "type": "image",
+            "url": "imgs/activityInnerDB.png"
+        },
+        {
+            "name": "noNoticeDB",
+            "type": "image",
+            "url": "imgs/noNoticeDB.png"
+        },
+        {
+            "name": "signInDay2",
+            "type": "image",
+            "url": "imgs/signInDay2.png"
+        },
+        {
+            "name": "signIngrid1",
+            "type": "image",
+            "url": "imgs/signIngrid1.png"
+        },
+        {
+            "name": "signIngrid2",
+            "type": "image",
+            "url": "imgs/signIngrid2.png"
+        },
+        {
+            "name": "signInMask",
+            "type": "image",
+            "url": "imgs/signInMask.png"
+        },
+        {
+            "name": "sinInDay1",
+            "type": "image",
+            "url": "imgs/sinInDay1.png"
+        },
+        {
+            "name": "txt_activitySignDB",
+            "type": "image",
+            "url": "imgs/txt_activitySignDB.png"
+        },
+        {
+            "name": "txt_noticedb",
+            "type": "image",
+            "url": "imgs/txt_noticedb.png"
+        },
+        {
+            "name": "txt_signInDb",
+            "type": "image",
+            "url": "imgs/txt_signInDb.png"
+        },
+        {
+            "name": "notice",
+            "type": "st",
+            "url": "sheets/notice.st"
+        },
+        {
+            "name": "signIn",
+            "type": "st",
+            "url": "sheets/signIn.st"
+        },
+        {
+            "name": "signInTip",
+            "type": "image",
+            "url": "imgs/signInTip.png"
+        },
+        {
+            "name": "bg",
+            "type": "image",
+            "url": "imgs/bg.png"
+        },
+        {
+            "name": "pic_qiri_beijing",
+            "type": "image",
+            "url": "imgs/pic_qiri_beijing.jpg"
+        },
+        {
+            "name": "paizhuoBG1",
+            "type": "image",
+            "url": "imgs/paizhuoBG1.jpg"
+        },
+        {
+            "name": "tuiguang_bg",
+            "type": "image",
+            "url": "imgs/tuiguang_bg.jpg"
+        },
+        {
+            "name": "txt_FAQ",
+            "type": "image",
+            "url": "imgs/txt_FAQ.jpg"
+        },
+        {
+            "name": "paizhuo_diban",
+            "type": "image",
+            "url": "imgs/paizhuo_diban.jpg"
+        },
+        {
+            "name": "slwhColorGold",
+            "type": "font",
+            "url": "fonts/slwhColorGold.fnt"
+        },
+        {
+            "name": "slwhMultiple",
+            "type": "font",
+            "url": "fonts/slwhMultiple.fnt"
+        },
+        {
+            "name": "slwhOpenAwd",
+            "type": "font",
+            "url": "fonts/slwhOpenAwd.fnt"
+        },
+        {
+            "name": "brnnPercent",
+            "type": "font",
+            "url": "fonts/brnnPercent.fnt"
+        },
+        {
+            "name": "lhdProgress1",
+            "type": "font",
+            "url": "fonts/lhdProgress1.fnt"
+        },
+        {
+            "name": "lhdProgress2",
+            "type": "font",
+            "url": "fonts/lhdProgress2.fnt"
+        },
+        {
+            "name": "noticeNum",
+            "type": "font",
+            "url": "fonts/noticeNum.fnt"
+        },
+        {
+            "name": "limitRwdTip",
+            "type": "image",
+            "url": "imgs/limitRwdTip.png"
+        },
+        {
+            "name": "changeBg",
+            "type": "image",
+            "url": "imgs/changeBg.png"
+        },
+        {
+            "name": "dfdcLuckyNum",
+            "type": "font",
+            "url": "fonts/dfdcLuckyNum.fnt"
+        },
+        {
+            "name": "dfdcMainNum4",
+            "type": "font",
+            "url": "fonts/dfdcMainNum4.fnt"
+        },
+        {
+            "name": "dfdcMainNum5",
+            "type": "font",
+            "url": "fonts/dfdcMainNum5.fnt"
+        },
+        {
+            "name": "dfdcMainNum6",
+            "type": "font",
+            "url": "fonts/dfdcMainNum6.fnt"
+        },
+        {
+            "name": "dfdcMainNum7",
+            "type": "font",
+            "url": "fonts/dfdcMainNum7.fnt"
+        },
+        {
+            "name": "dfdcMainNum8",
+            "type": "font",
+            "url": "fonts/dfdcMainNum8.fnt"
+        },
+        {
+            "name": "dfdcMianNum1",
+            "type": "font",
+            "url": "fonts/dfdcMianNum1.fnt"
+        },
+        {
+            "name": "dfdcMianNum2",
+            "type": "font",
+            "url": "fonts/dfdcMianNum2.fnt"
+        },
+        {
+            "name": "dfdcMianNum3",
+            "type": "font",
+            "url": "fonts/dfdcMianNum3.fnt"
+        },
+        {
+            "name": "dfdcResult",
+            "type": "font",
+            "url": "fonts/dfdcResult.fnt"
+        },
+        {
+            "name": "dfdcResult1",
+            "type": "font",
+            "url": "fonts/dfdcResult1.fnt"
+        },
+        {
+            "name": "ttzRatioNum",
+            "type": "font",
+            "url": "fonts/ttzRatioNum.fnt"
+        },
+        {
+            "name": "txt_popTG",
+            "type": "image",
+            "url": "imgs/txt_popTG.png"
+        },
+        {
+            "name": "ssqTime",
+            "type": "font",
+            "url": "fonts/ssqTime.fnt"
+        },
+        {
+            "name": "sgjArcadeNum",
+            "type": "font",
+            "url": "fonts/sgjArcadeNum.fnt"
+        },
+        {
+            "name": "sgjBetNum",
+            "type": "font",
+            "url": "fonts/sgjBetNum.fnt"
+        },
+        {
+            "name": "sgjRecordNum",
+            "type": "font",
+            "url": "fonts/sgjRecordNum.fnt"
+        },
+        {
+            "name": "activity",
+            "type": "st",
+            "url": "sheets/activity.st"
+        },
+        {
+            "name": "txt_xxgz",
+            "type": "image",
+            "url": "imgs/txt_xxgz.png"
+        },
+        {
+            "name": "txt_rysj",
+            "type": "image",
+            "url": "imgs/txt_rysj.png"
+        },
+        {
+            "name": "unRead",
+            "type": "font",
+            "url": "fonts/unRead.fnt"
+        },
+        {
+            "name": "xlmjGold",
+            "type": "font",
+            "url": "fonts/xlmjGold.fnt"
+        },
+        {
+            "name": "xlmjTime",
+            "type": "font",
+            "url": "fonts/xlmjTime.fnt"
+        },
+        {
+            "name": "gameBg",
+            "type": "image",
+            "url": "imgs/gameBg.png"
+        },
+        {
+            "name": "BG309",
+            "type": "sound",
+            "url": "sound/BG309.mp3"
+        },
+        {
+            "name": "click",
+            "type": "sound",
+            "url": "sound/click.mp3"
+        },
+        {
+            "name": "ermj1",
+            "type": "font",
+            "url": "fonts/ermj1.fnt"
+        },
+        {
+            "name": "ermj2",
+            "type": "font",
+            "url": "fonts/ermj2.fnt"
+        },
+        {
+            "name": "ermj3",
+            "type": "font",
+            "url": "fonts/ermj3.fnt"
+        },
+        {
+            "name": "ermj4",
+            "type": "font",
+            "url": "fonts/ermj4.fnt"
+        },
+        {
+            "name": "ermj5",
+            "type": "font",
+            "url": "fonts/ermj5.fnt"
+        }
+    ]
+}

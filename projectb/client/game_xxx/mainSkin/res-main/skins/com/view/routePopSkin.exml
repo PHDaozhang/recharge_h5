@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="routePopSkin" width="982" height="620" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:game="game.*" xmlns:w="http://ns.egret.com/wing">
+<cui:Image id="skImg" source=""/>
+<cui:ScaleButton id="skClose" skinName="CloseBtnSkin" icon="common@close" x="904" y="20"/>
+<game:UIRouteList id="skList" width="870" height="450" y="121" x="49"/>
+</e:Skin>

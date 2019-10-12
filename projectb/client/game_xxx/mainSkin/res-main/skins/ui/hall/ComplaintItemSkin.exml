@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ComplaintItemSkin" width="532" height="210" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+<cui:Label id="skReturn" text="" y="36" x="3" anchorOffsetX="0" width="532" anchorOffsetY="0" height="54" size="26" textColor="0xe0d5bd"/>
+<cui:Label id="skTime" text="" size="26" textColor="0xe0d5bd" width="532" height="34" anchorOffsetX="0" anchorOffsetY="0"/>
+<cui:Label id="skAdvice" text=""  width="532" height="116" y="91" anchorOffsetY="0" x="0"/>
+</e:Skin>

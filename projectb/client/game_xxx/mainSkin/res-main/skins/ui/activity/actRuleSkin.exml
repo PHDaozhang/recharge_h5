@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="actRuleSkin" width="870" height="660" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+	<cui:Image source="gameBg"/>
+	<cui:ScaleButton id="skClose" skinName="CloseBtnSkin" x="790" y="18"/>
+    <cui:Scroller scrollPolicyH="off" scrollPolicyV="on" width="700" height="460" x="74" y="128" anchorOffsetX="0" anchorOffsetY="0">
+        <cui:Group id="skGrp" width="700" height="460"  x="0" y="0">
+            <cui:Group id="skInGrp">
+
+            </cui:Group>
+        </cui:Group>
+    </cui:Scroller>
+	<cui:Image x="333.5" y="12.68" source="activity@txt_gz"/>
+</e:Skin>

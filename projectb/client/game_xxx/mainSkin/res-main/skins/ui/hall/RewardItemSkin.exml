@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="rewardItem" width="278" height="421" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+<cui:Group id="skGrp" width="270" height="412">
+        <cui:Image id="skBg" source="limitBgB" x="10" y="6"/> 
+    <cui:Image id="skGoldBg" source="reward@icon_gold" y="42" x="80"/>
+    <cui:Image id="skOverImg" source="reward@txt_finished" y="326" x="68"/>
+    <cui:BitmapLabel id="skGold" font="rewardNumA" text="jl500y" width="251" height="31" y="282" x="15" anchorOffsetX="0" textAlign="center"/>
+        <cui:Label id="skName" text="" width="226" height="40" x="30" y="165" fontFamily="Microsoft JhengHei" textAlign="center"/>
+    <cui:Label id="skContent" text="" width="211" height="71" x="32.5" y="212.5" size="24" fontFamily="Arial" textColor="0xfffbbe" anchorOffsetY="0"/>
+
+    <cui:ScaleButton id="skGo" icon="reward@txt_go" skinName="ScaleBtnSkin" y="338" x="41"/> <!--reward@txt_receive-->
+    <cui:ProgressBar id="skBar" skinName="taskProSkin" y="316" x="63"/>
+    <cui:Label id="skBarLab" size="20" textColor="0xFFFFFF" text="111" x="66" y="316" width="145" textAlign="center"/>
+</cui:Group>
+<cui:Image id="skBgImg" source="limitBgD" x="10" y="6" visible="false"/>
+</e:Skin>

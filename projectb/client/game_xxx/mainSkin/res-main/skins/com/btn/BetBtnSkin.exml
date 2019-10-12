@@ -1,0 +1,6 @@
+<e:Skin class="BetBtnSkin" width="135" height="64" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+    <cui:Group id="skAniGp" width="100%" height="100%">
+        <cui:Image horizontalCenter="0" verticalCenter="0"  source="common@betBg"/>
+			<cui:BitmapLabel id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="x2" font="xuyacha"/>
+    </cui:Group>
+</e:Skin> 

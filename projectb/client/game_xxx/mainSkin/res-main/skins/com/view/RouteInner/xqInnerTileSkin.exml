@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="xqInnerTileSkin" width="9" height="9" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Image id="skBg" source="route@xxInner_1" width="8" height="8" anchorOffsetX="4" anchorOffsetY="4" x="2.5" y="4.5"/>
+</e:Skin>

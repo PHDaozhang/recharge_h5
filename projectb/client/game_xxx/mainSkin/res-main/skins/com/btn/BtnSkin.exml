@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BtnSkin" width="52" height="53" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

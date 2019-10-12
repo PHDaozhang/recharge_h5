@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NofitySkin" width="579" height="38" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+    <cui:Image id="skBg" source="guangbo" width="579" height="36" x="0"/>
+    <cui:UIMovieClip id="skAni"  x="0" y="0" aniName="horn" autoPlay="true"/>
+    <cui:Group width="579" height="38" mask="45,0,579,38" anchorOffsetX="0" x="0" y="0">
+        <cui:Label id="skTxt" y="5" size="24" height="24" />
+    </cui:Group>	
+</e:Skin>

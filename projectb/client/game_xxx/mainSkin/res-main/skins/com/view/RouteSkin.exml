@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RouteSkin" width="598" height="168" xmlns:e="http://ns.egret.com/eui" xmlns:game="game.*" xmlns:cui="cui.*">
+<game:RouteList id="skRouteZPL" skinName="RouteZPLSkin"/>
+<game:RouteList id="skRouteDL" skinName="RouteDLSkin" x="234"/>
+<game:RouteList id="skRouteDYZL" skinName="RouteDYZLSkin" x="234" y="83"/>
+<game:RouteList id="skRouteXL" skinName="RouteXLSkin" x="442" y="83"/>
+<game:RouteList id="skRouteXQL" skinName="RouteDYZLSkin" x="234" y="123"/>
+<cui:Group width="156" height="40" x="442" y="123">
+    <cui:Image id="skDylWin"   width="12" height="13" y="24" x="15"/>
+    <cui:Image id="skXlWin"  width="12" height="13" y="24" x="34"/>
+    <cui:Image id="skXqlWin"  width="12" height="13" y="24" x="53"/>
+    <cui:Image id="skDylLose"  width="12" height="13" y="24" x="94"/>
+    <cui:Image id="skXlLose"  width="12" height="13" y="24" x="113"/>
+    <cui:Image id="skXqlLose"  width="12" height="13" y="24" x="132"/>
+</cui:Group>
+</e:Skin>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="routeItemSkin" width="870" height="450" xmlns:e="http://ns.egret.com/eui" xmlns:game="game.*" xmlns:cui="cui.*">
+    <game:RouteCom id="skZPL" skinName="RouteZPopSkin" itemSkinName="zPopTileSkin" y="166" x="0"/>
+    <game:RouteCom id="skDL" skinName="RouteDPopSkin" itemSkinName="dPopTileSkin" y="-1.5" x="-1"/>
+    <game:RouteCom id="skDYZL" skinName="RouteXPopSkin" itemSkinName="dyPopTileSkin" y="163" x="473"/>
+    <game:RouteCom id="skXL" skinName="RouteXPopSkin" itemSkinName="xPopTileSkin" y="236" x="473"/>
+    <game:RouteCom id="skXQL" skinName="RouteXPopSkin" itemSkinName="xqPopTileSkin" y="311" x="473"/>
+    <cui:Image id="skWin0"  source="route@xlPop_1" y="253" x="834"/>
+    <cui:Image id="skWin1"  source="route@dyzPop_1" y="264" x="834"/>
+    <cui:Image id="skWin2"  source="route@xqlPop_1" y="282" x="834"/>
+    <cui:Image id="skLose0" y="335" x="834"/>
+    <cui:Image id="skLose1" y="349" x="834"/>
+    <cui:Image id="skLose2"  y="359" x="834"/>
+    <cui:Label id="skLab0" text="100" x="82" y="405" anchorOffsetX="0" width="51" size="22"/>
+    <cui:Label id="skLab1" text="100" x="177" y="405" anchorOffsetX="0" width="51" size="22"/>
+    <cui:Label id="skLab2" text="100" x="340.5" y="405" anchorOffsetX="0" width="51" size="22"/>
+    <cui:Label id="skLab3" text="100" x="490" y="405" anchorOffsetX="0" width="51" size="22"/>
+    <cui:Label id="skLab4" text="100" x="656.5" y="405" anchorOffsetX="0" width="51" size="22"/>
+    <cui:Label id="skLab5" text="100" x="802" y="405" anchorOffsetX="0" width="51" size="22"/>
+</e:Skin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="playerListSkin" width="643" height="105" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+<cui:Image   x="0" source="txt_wjnd" y="19"/>
+<cui:Image id="skplyHead"   x="24.68"  y="26.56" source="head@nan_1" width="70.55" height="70.55"/>
+<cui:Image id="skplyHeadF"   x="10"  y="18.66" width="99.45" height="94.35" source="headList@6"/>
+<cui:Label id="sknickname"  text="001" size="24" textColor="0xede2bf" x="130.5" y="27.56" width="160" textAlign="center"/>
+<cui:Label  text="获胜" size="20" textColor="0xede2bf" x="369" y="30.67" width="40"/>
+	<cui:Label text="局" size="20" textColor="0xEDE2BF" x="449" y="30.67" width="20"/>
+<cui:Label id="skwinConut"   size="20"  textColor="0x8aff00" text="14" x="409" y="31.17" textAlign="center" width="35"/>
+<cui:Label text="最近" size="20" textColor="0xEDE2BF" x="506" y="30.67" width="40"/>
+	<cui:Label text="局" size="20" textColor="0xEDE2BF" x="586" y="30.67" width="20"/>
+<cui:Label id="skplayCount" size="20" text="20" x="544.5" y="31.17" textColor="0xff5a00" textAlign="center" width="40"/>
+<cui:BitmapLabel id="skgold"  text="123y" font="goldNum" width="120" x="164.5" y="67.5" textAlign="center" />
+<cui:BitmapLabel id="skbets" text="123y" font="goldNum" width="120" x="489.5" y="67.5" textAlign="center" />
+<cui:Image id="skJiao"  source="common@jiaobiao" y="25" x="18"/>
+<cui:BitmapLabel id="skrank" textAlign="center"  font="BJLfuping" text="10" width="42" height="20" y="37" x="28" anchorOffsetY="10" anchorOffsetX="21"/>
+<cui:Image id="skfuhao"  x="6.96" y="-1.83" width="104" height="48" source="common@txt_fuhao" visible="false"/>
+
+</e:Skin>

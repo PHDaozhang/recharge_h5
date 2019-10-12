@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HelpBtnSkin" width="53" height="53" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Group id="skAniGp" width="53" height="53" >
+        <cui:Image source="btn@q_bg"/>
+    </cui:Group>
+</e:Skin>

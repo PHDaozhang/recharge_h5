@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameExtendSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+	<cui:Group left="0" right="0" top="0" bottom="0">
+	<cui:Image  width="100%" height="100%" source="tuiguang_bg" right="0" verticalCenter="0"/>
+	<cui:Group id="skdaili4" touchThrough="true" anchorOffsetX="0" right="0" bottom="0" top="0" left="314" visible="false">
+		<cui:Image anchorOffsetY="0" source="loginBg" right="-47" left="-107" top="19" bottom="1"/>
+		<cui:Image y="554.18" x="140.59" anchorOffsetY="0" source="txt_lianjie"/>
+		<cui:Image y="292.95" x="383.95" anchorOffsetY="0" source="extend@erweima"/>
+		<cui:Base64Img id="skerwei" y="320" x="410" anchorOffsetY="0" source="" width="143" height="143"/>
+		<cui:Image y="79.29" x="108.2" anchorOffsetY="0" source="txt_xhyl" width="763.2" height="213.6"/>
+        <cui:Label id="skNet" text="https" y="565.95" x="299.22" size="24" textColor="0xbab19b" width="330" height="24"/>
+		<cui:ScaleButton id="skCopy" skinName="ScaleBtnSkin" icon="extend@txt_copy" width="182" height="58" x="676.53" y="548.48"/>
+		<cui:ScaleButton id="skQQ" skinName="ScaleBtnSkin" icon="extend@btn_qq" width="60" height="59" x="685" y="470"/>
+		<cui:ScaleButton id="skWX" skinName="ScaleBtnSkin" icon="extend@btn_wx" width="60" height="59" x="790" y="470"/>
+	</cui:Group>
+		<cui:Image source="lihe" right="0" bottom="0" width="475" height="300"/>
+	<cui:Image x="280.11" source="lihe02" bottom="0"/>
+	<cui:Group width="335" left="0" top="0" bottom="0">
+		<cui:Image source="zuo_diban" bottom="0" top="0" left="0"/>
+		<cui:Image y="0" x="0" source="biaoti_diban"/>
+		<cui:Image y="8.48" x="32.8" source="txt_daili"/>
+		<cui:Group id="skdlXian" anchorOffsetX="0" width="276" touchThrough="false" anchorOffsetY="0" height="597" verticalCenter="61.5" left="0">
+			<cui:Image y="71" x="-52" source="extend@fenge"/>
+			<cui:Image y="151" x="-52" source="extend@fenge"/>
+			<cui:Image y="231" x="-52" source="extend@fenge"/>
+			<cui:Image y="311" x="-52" source="extend@fenge"/>
+			<cui:Image y="391" x="-52" source="extend@fenge"/>
+			<cui:Image y="471" x="-52" source="extend@fenge"/>
+			<cui:Image y="551" x="-52" source="extend@fenge"/>
+		</cui:Group>
+		<cui:Group id="skYJxian" anchorOffsetX="0" width="276" touchThrough="false" anchorOffsetY="0" height="597" verticalCenter="61.5" left="0" visible="false">
+			<cui:Image y="71" x="-52" source="extend@fenge"/>
+			<cui:Image y="141" x="-52" source="extend@fenge"/>
+			<cui:Image y="211" x="-52" source="extend@fenge"/>
+			<cui:Image y="281" x="-52" source="extend@fenge"/>
+			<cui:Image y="351" x="-52" source="extend@fenge"/>
+			<cui:Image y="421" x="-52" source="extend@fenge"/>
+			<cui:Image y="491" x="-52" source="extend@fenge"/>
+			<cui:Image y="561" x="-52" source="extend@fenge"/>
+		</cui:Group>
+		<cui:Group id="skdiGrp" anchorOffsetX="0" width="276" touchThrough="false" anchorOffsetY="0" height="597" verticalCenter="61.5" left="0">
+			<cui:Image y="-5" x="0" source="extend@diban"/>
+			<cui:Image y="75" x="0" source="extend@diban" visible="false"/>
+			<cui:Image y="155" x="0" source="extend@diban" visible="false"/>
+			<cui:Image y="235" x="0" source="extend@diban" visible="false"/>
+			<cui:Image y="315" x="0" source="extend@diban" visible="false"/>
+			<cui:Image y="392" x="0" source="extend@diban" visible="false"/>
+			<cui:Image y="474" x="0" source="extend@diban" visible="false"/>
+		</cui:Group>
+		<cui:Group id="skdiTeam" anchorOffsetX="0" width="276" touchThrough="false" anchorOffsetY="0" height="597" verticalCenter="61.5" left="0" visible="false">
+			<cui:Image y="-5" x="0" source="extend@diban"/>
+		</cui:Group>
+		<cui:Group id="skdiYJGrp" anchorOffsetX="0" width="276" touchThrough="false" anchorOffsetY="0" height="597" verticalCenter="61.5" left="0" visible="false">
+			<cui:Image y="-5" x="0" source="extend@diban"/>
+			<cui:Image y="65" x="0" source="extend@diban" visible="false"/>
+			<cui:Image y="135" x="0" source="extend@diban" visible="false"/>
+			<cui:Image y="205" x="0" source="extend@diban" visible="false"/>
+			<cui:Image y="275" x="0" source="extend@diban" visible="false"/>
+			<cui:Image y="345" x="0" source="extend@diban" visible="false"/>
+			<cui:Image y="415" x="0" source="extend@diban" visible="false"/>
+			<cui:Image y="485" x="0" source="extend@diban" visible="false"/>
+		</cui:Group>
+		<cui:MenuGroup id="skBtnGrp" keepSelect="true" anchorOffsetX="0" width="276" touchThrough="false" anchorOffsetY="0" height="597" verticalCenter="61.5" left="0">
+			<cui:MenuItemImage tag="0" width="143" height="34" x="44" y="20">
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="extend@txt_zq01" source.down="extend@txt_zq02" source.up="extend@txt_zq01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+			</cui:MenuItemImage>
+			<cui:MenuItemImage tag="1" width="119" height="34" x="55.97" y="100">
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="extend@txt_yj01" source.down="extend@txt_yj02" source.up="extend@txt_yj01" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+			</cui:MenuItemImage>
+			<cui:MenuItemImage tag="2" width="143" height="34" x="44" y="180">
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="extend@txt_dl01" source.down="extend@txt_dl02" source.up="extend@txt_dl01" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+			</cui:MenuItemImage>
+			<cui:MenuItemImage tag="3" width="143" height="34" x="44" y="260">
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="extend@txt_xj01" source.down="extend@txt_xj02" source.up="extend@txt_xj01" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+			</cui:MenuItemImage>
+			<cui:MenuItemImage tag="4" width="143" height="34" x="44" y="340">
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="extend@txt_fz01" source.down="extend@txt_fz02" source.up="extend@txt_fz01" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+			</cui:MenuItemImage>
+			<cui:MenuItemImage tag="5" width="74" height="34" x="82" y="420">
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="extend@FAQ01" source.down="extend@FAQ02" source.up="extend@FAQ01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+			</cui:MenuItemImage>
+			<cui:MenuItemImage tag="6" width="143" height="34" x="55" y="500">
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="extend@txt_px01" source.down="extend@txt_px02" source.up="extend@txt_px01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+			</cui:MenuItemImage>
+		</cui:MenuGroup>
+		<cui:MenuGroup id="skYeJiGrp" keepSelect="true" anchorOffsetX="0" width="276" height="597" touchThrough="false" anchorOffsetY="0" left="0" verticalCenter="61.5" visible="false">
+			<cui:MenuItemImage tag="0" width="217" height="34" x="16" y="20">
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="extend@txt_selfjr01" source.down="extend@txt_selfjr02" source.up="extend@txt_selfjr01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+			</cui:MenuItemImage>
+			<cui:MenuItemImage tag="1" width="217" height="34" x="16" y="90">
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="extend@txt_zsjr01" source.down="extend@txt_zsjr02" source.up="extend@txt_zsjr01" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+			</cui:MenuItemImage>
+			<cui:MenuItemImage tag="2" width="217" height="34" x="16" y="160">
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="extend@txt_selfzr01" source.down="extend@txt_selfzr02" source.up="extend@txt_selfzr01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+			</cui:MenuItemImage>
+			<cui:MenuItemImage tag="3" width="217" height="34" x="16" y="230">
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="extend@txt_zszr01" source.down="extend@txt_zszr02" source.up="extend@txt_zszr01" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+			</cui:MenuItemImage>
+			<cui:MenuItemImage tag="4" width="217" height="34" x="16" y="300">
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="extend@txt_selfbz01" source.down="extend@txt_selfbz02" source.up="extend@txt_selfbz01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+			</cui:MenuItemImage>
+			<cui:MenuItemImage tag="5" width="217" height="34" x="16" y="370">
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="extend@txt_zsbz01" source.down="extend@txt_zsbz02" source.up="extend@txt_zsbz01" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+			</cui:MenuItemImage>
+			<cui:MenuItemImage tag="6" width="217" height="34" x="16" y="440">
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="extend@txt_selfsz01" source.down="extend@txt_selfsz02" source.up="extend@txt_selfsz01" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+			</cui:MenuItemImage>
+			<cui:MenuItemImage tag="7" width="217" height="34" x="16" y="510">
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="extend@txt_zssz01" source.down="extend@txt_zssz02" source.up="extend@txt_zssz01"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+			</cui:MenuItemImage>
+		</cui:MenuGroup>
+		<cui:MenuGroup id="skteamGrp" keepSelect="true" anchorOffsetX="0" width="276" height="597" touchThrough="false" anchorOffsetY="0" left="0" verticalCenter="62.5" visible="false">
+			<cui:MenuItemImage tag="0" width="119" height="34" x="62" y="19.66">
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="extend@txt_td01" source.down="extend@txt_td02" source.up="extend@txt_td01" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+			</cui:MenuItemImage>
+		</cui:MenuGroup>
+	</cui:Group>
+	<cui:Image source="wuyan" left="319" right="-596" y="0"/>
+	<cui:ScaleButton id="skBack" skinName="ScaleBtnSkin" icon="common@return" width="162" height="97" right="-4" top="4"/>
+    <cui:Group id="skdaili0"  touchThrough="true" anchorOffsetX="0" height="720" width="966" verticalCenter="0" horizontalCenter="157" visible="false">
+        <cui:Image y="108.39" x="4" source="shurukuang01"/>
+        <cui:Label id="skPay"  textColor="0xc4904d" text="" y="116.66" x="22.44"/>
+	    <cui:Label text="普通会员" y="509.99" x="9.83" size="26" textColor="0xe5a359"/>
+	    <cui:Label id="skVip" text="" y="540.34" x="5.44" size="26" textColor="0xe0d5bd"/>
+			<cui:Label text="什么叫业绩？" y="579.63" x="9.83" size="26" textColor="0xE5A359"/>
+			<cui:Label id="skYeji" textColor="0xE0D5BD" text="" y="613" x="5.12" size="26"/>
+	    <cui:ScaleButton id="skGet" skinName="ScaleBtnSkin" icon="extend@txt_canGet" width="162" height="97" x="762" y="79.17"/>
+	    <cui:Image y="162.29" x="0" source="txt_wuxian"/>
+        <cui:Scroller width="906" x="6" y="242.22" height="255" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+			<cui:DataGroup id="skList" width="906" height="255" anchorOffsetX="0">
+			<e:layout>
+				<cui:TileLayout isHorizontal="false" itemW="906" itemH="40"/>
+			</e:layout>
+			</cui:DataGroup>
+		</cui:Scroller>
+    </cui:Group>
+	<cui:Group id="skdaili1" width="966" height="720" touchThrough="true" anchorOffsetX="0" verticalCenter="0" horizontalCenter="157" visible="false">
+		<cui:Image y="105.01" x="7.98" source="txt_yeji"/>
+		<cui:BitmapLabel id="skteamNum" text="0" width="80" height="36" textAlign="center" verticalCenter="-226" x="195" font="yejiQuaryNum"/>
+		<cui:BitmapLabel id="skyesNew" text="0" width="80" height="36" textAlign="center" verticalCenter="-226" x="500" font="yejiQuaryNum"/>
+		<cui:BitmapLabel id="skmonthNew" text="0" width="80" height="36" textAlign="center" verticalCenter="-226" x="803" font="yejiQuaryNum"/>
+		<cui:Label id="skteamtoday" text="0" size="22" textColor="0xDB7F57" y="205" x="35" width="120" textAlign="center" height="22"/>
+        <cui:Label id="skselftoday"  text="0" size="22" textColor="0xdb7f57" y="166" x="312"/>
+		<cui:Label id="skdltoday" text="0" size="22" textColor="0xDB7F57" y="210" x="334"/>
+        <cui:Label id="skteamtodaygold" text="0" size="22" textColor="0xDB7F57" y="205" x="480" width="120" textAlign="center" height="22"/>
+		<cui:Label id="skselftodaygold" text="0" size="22" textColor="0xDB7F57" y="166" x="795"/>
+		<cui:Label id="skdltodaygold" text="0" size="22" textColor="0xDB7F57" y="210" x="775"/>
+		<cui:Label id="skteamyes" text="0" size="22" textColor="0xDB7F57" y="322" x="35" width="120" textAlign="center" height="22"/>
+		<cui:Label id="skselfyes" text="0" size="22" textColor="0xDB7F57" y="282" x="312"/>
+		<cui:Label id="skdlyes" text="0" size="22" textColor="0xDB7F57" y="326" x="334"/>
+		<cui:Label id="skteamyesgold" text="0" size="22" textColor="0xDB7F57" y="322" x="480" width="120" textAlign="center" height="22"/>
+		<cui:Label id="skselfyesgold" text="0" size="22" textColor="0xDB7F57" y="282" x="795"/>
+		<cui:Label id="skdlyesgold" text="0" size="22" textColor="0xDB7F57" y="326" x="775"/>
+		<cui:Label id="skmyyj" text="0" size="22" textColor="0xDB7F57" y="388" x="210" width="200" textAlign="center"/>
+		<cui:Label id="sktodayyj" text="0" size="22" textColor="0xDB7F57" y="388" x="645" width="200" textAlign="center"/>
+		<cui:Label id="skmyweek" text="0" size="22" textColor="0xDB7F57" y="425" x="210" width="200" textAlign="center"/>
+		<cui:Label id="skweekyj" text="0" size="22" textColor="0xDB7F57" y="425" x="645" width="200" textAlign="center"/>
+		<cui:Label id="skmyZY" text="0" size="22" textColor="0xDB7F57" y="487" x="210" width="200" textAlign="center"/>
+		<cui:Label id="skmyZYyes" text="0" size="22" textColor="0xDB7F57" y="487" x="645" width="200" textAlign="center"/>
+		<cui:Label id="skZS" text="0" size="22" textColor="0xDB7F57" y="564" x="210" width="200" textAlign="center"/>
+		<cui:Label id="skZSyes" text="0" size="22" textColor="0xDB7F57" y="564" x="645" width="200" textAlign="center"/>
+		<cui:MenuGroup id="skChaxun" keepSelect="true" anchorOffsetX="0" width="876" touchThrough="false" anchorOffsetY="0" left="15" bottom="113" top="468">
+			<cui:MenuItemImage tag="0" width="20" height="27" x="380" y="17">
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="extend@jiantou" source.down="extend@jiantou"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+			</cui:MenuItemImage>
+			<cui:MenuItemImage tag="1" width="20" height="27" x="380" y="94">
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="extend@jiantou" source.down="extend@jiantou"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+			</cui:MenuItemImage>
+			<cui:MenuItemImage tag="2" width="20" height="27" x="810" y="17">
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="extend@jiantou" source.down="extend@jiantou"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+			</cui:MenuItemImage>
+			<cui:MenuItemImage tag="3" width="20" height="27" x="810" y="94">
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="extend@jiantou" source.down="extend@jiantou"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+			</cui:MenuItemImage>
+		</cui:MenuGroup>
+	</cui:Group>
+	<cui:Group id="skdaili2" width="966" height="720" touchThrough="true" anchorOffsetX="0" horizontalCenter="157" verticalCenter="0" visible="false">
+		<cui:Image y="108.39" x="4" source="shurukuang01"/>
+		<cui:EditableText id="skName" text="" x="20" y="115" anchorOffsetX="0" width="750" size="30" height="30" textColor="0xc4904d"/>
+		<cui:ScaleButton id="skX" skinName="ScaleBtnSkin" icon="extend@X" width="36" height="36" x="721.23" y="112.31" visible="false"/>
+		<cui:ScaleButton id="skFind" skinName="ScaleBtnSkin" icon="extend@txt_sousuo" width="182" height="58" x="755.18" y="101.92"/>
+		<cui:ScaleButton id="skCancle" skinName="ScaleBtnSkin" icon="extend@txt_cancle" width="165" height="62" x="755.18" y="101.92" visible="false"/>
+		<cui:Image y="162.38" x="-0.66" source="guanli_bg"/>
+		<cui:Scroller width="906" x="4" y="242.22" height="360" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+			<cui:DataGroup id="skDLList" width="906" height="360" anchorOffsetX="0">
+			<cui:layout>
+				<cui:TileLayout isHorizontal="false" itemW="906" itemH="42"/>
+			</cui:layout>
+			</cui:DataGroup>
+		</cui:Scroller>
+		<cui:ScaleButton id="skLast" skinName="ScaleBtnSkin" icon="extend@left_btn" width="94" height="50" x="292" y="606"/>
+		<cui:ScaleButton id="skNext" skinName="ScaleBtnSkin" icon="extend@right_btn" width="94" height="50" x="529" y="606"/>
+		<cui:ScaleButton id="skFirst" skinName="ScaleBtnSkin" icon="extend@txt_shou" width="94" height="50" x="185" y="606"/>
+        <cui:ScaleButton id="skEnd" skinName="ScaleBtnSkin" icon="extend@txt_wei" width="94" height="50" x="636" y="606"/>
+		<cui:BitmapLabel id="skGLPage0" textAlign="center" text="0" y="617.33" x="430.99" font="PageUpNum"/>
+		<cui:BitmapLabel textAlign="center" font="PageUpNum" text="0" y="617.33" x="473.01" id="skGLPage1"/>
+		<cui:BitmapLabel textAlign="center" font="PageUpNum" text="p" y="617.33" x="451.69"/>
+	</cui:Group>
+	<cui:Group id="skdaili3" width="966" height="720" touchThrough="true" anchorOffsetX="0" horizontalCenter="157" verticalCenter="0">
+		<cui:Image y="296" x="48" source="chaxunkuang" anchorOffsetY="0" height="365"/>
+		<cui:Image y="172.84" x="168.58" anchorOffsetY="0" height="45" source="txt_palyerId" width="515"/>
+		<cui:EditableText id="skplayerId" text="" x="301.83" y="179.97" anchorOffsetX="0" width="360" size="30" height="30" textColor="0xC4904D"/>
+		<cui:ScaleButton id="skSearch" skinName="ScaleBtnSkin" icon="extend@txt_search" width="182" height="58" x="376.2" y="235.48"/>
+        <cui:Group id="skSearchGrp" anchorOffsetY="0" height="365" x="48" width="840" y="296">
+            <cui:Label size="30" text="查询结果" y="25.63" x="359.32" textColor="0xfdb4ba"/>
+					<cui:Label size="26" textColor="0xFDB4BA" text="恭喜您的团队又壮大了" y="64.96" x="290.68"/>
+					<cui:Label id="skupId" size="26" textColor="0xFDB4BA" text="" y="104.3" x="52.59"/>
+					<cui:Label id="skteamnum" size="26" textColor="0xFDB4BA" text="" y="104.3" x="474.62"/>
+					<cui:Label id="sktodaygold" size="26" textColor="0xFDB4BA" text="" y="144.3" x="52.59"/>
+					<cui:Label id="skweekgold" size="26" textColor="0xFDB4BA" text="" y="144.3" x="474.62"/>
+					<cui:Label id="sktime" size="26" textColor="0xFDB4BA" text="" y="188.95" x="52.59"/>
+        </cui:Group>
+	</cui:Group>
+	<cui:Group id="skdaili5" width="966" height="720" touchThrough="true" anchorOffsetX="0" horizontalCenter="157" verticalCenter="0">
+		<cui:Scroller scrollPolicyH="off" scrollPolicyV="on" width="966" height="560" x="0" y="100" anchorOffsetX="0" anchorOffsetY="0">
+			<cui:Group id="skGrp" width="966" height="560" x="0" y="0">
+			<cui:Group id="skInGrp"/>
+			</cui:Group>
+		</cui:Scroller>
+	</cui:Group>
+	<cui:Group id="skdaili6" width="966" height="720" touchThrough="true" anchorOffsetX="0" horizontalCenter="157" verticalCenter="0" visible="false">
+		<cui:Image y="296" x="23" source="chaxunkuang" anchorOffsetY="0" scale9Grid="10,10,821,270" width="890" height="365"/>
+		<cui:Image y="129.86" x="206.44" anchorOffsetY="0" source="shurukuang02" scale9Grid="21,6,310,36" anchorOffsetX="0" width="557"/>
+		<cui:EditableText id="skteamName" text="" x="226.34" y="138" anchorOffsetX="0" width="480" size="30" height="30" textColor="0xC4904D"/>
+		<cui:ScaleButton id="skCreateTeam" skinName="ScaleBtnSkin" icon="extend@txt_create" width="182" height="58" x="477.04" y="186.48"/>
+		<cui:ScaleButton id="skSearchTeam" skinName="ScaleBtnSkin" icon="extend@txt_sousuo" width="182" height="58" x="297.04" y="186.48"/>
+		<cui:ScaleButton id="skclean" skinName="ScaleBtnSkin" icon="extend@X" width="36" height="36" x="678.58" y="136.3" visible="false"/>
+		<cui:Scroller width="890" x="23" y="296" height="365" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+			<cui:DataGroup id="skTeamList" width="890" height="365" anchorOffsetX="0">
+			<cui:layout>
+				<cui:TileLayout isHorizontal="false" itemW="890" itemH="96"/>
+			</cui:layout>
+			</cui:DataGroup>
+		</cui:Scroller>
+	</cui:Group>
+	<cui:Group id="skTeam" width="966" height="720" touchThrough="true" anchorOffsetX="0" horizontalCenter="157" verticalCenter="0" visible="false">
+		<cui:Image y="108.39" x="4" source="shurukuang01"/>
+		<cui:ScaleButton id="skTeamBack" skinName="ScaleBtnSkin" icon="common@return" width="162" height="97" x="807" y="4"/>
+		<cui:EditableText id="skScerchName" text="" x="20" y="115" anchorOffsetX="0" width="680" size="30" height="30" textColor="0xC4904D"/>
+		<cui:ScaleButton id="skteamScerch" skinName="ScaleBtnSkin" icon="extend@txt_sousuo" width="182" height="58" x="753.84" y="101.92"/>
+		<cui:ScaleButton id="skTeamX" skinName="ScaleBtnSkin" icon="extend@X" width="36" height="36" x="709.26" y="112.31" visible="false"/>
+		<cui:ScaleButton id="skTeamCancle" skinName="ScaleBtnSkin" icon="extend@txt_cancle" width="165" height="62" x="755.18" y="101.92" visible="false"/>
+		<cui:Image y="162.38" x="-0.66" source="txt_teamBg"/>
+		<cui:BitmapLabel id="skpaixianNum" textAlign="center" font="yejiQuaryNum" text="0" y="174" x="355"/>
+		<cui:BitmapLabel id="skpaixianNew" textAlign="center" font="yejiQuaryNum" text="0" y="174" x="812"/>
+		<cui:Scroller width="906" x="4" y="242.22" height="360" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+		<cui:DataGroup id="skteamList" width="906" height="360" anchorOffsetX="0">
+			<cui:layout>
+			<cui:TileLayout isHorizontal="false" itemW="906" itemH="42"/>
+			</cui:layout>
+		</cui:DataGroup>
+		</cui:Scroller>
+		<cui:ScaleButton id="skTeamLast" skinName="ScaleBtnSkin" icon="extend@left_btn" width="94" height="50" x="292" y="606"/>
+		<cui:ScaleButton id="skTeamNext" skinName="ScaleBtnSkin" icon="extend@right_btn" width="94" height="50" x="529" y="606"/>
+		<cui:ScaleButton id="skTeamFirst" skinName="ScaleBtnSkin" icon="extend@txt_shou" width="94" height="50" x="185" y="606"/>
+		<cui:ScaleButton id="skTeamEnd" skinName="ScaleBtnSkin" icon="extend@txt_wei" width="94" height="50" x="636" y="606"/>
+		<cui:BitmapLabel id="skTeamPage0" textAlign="center" font="PageUpNum" text="0" y="617.33" x="430.99"/>
+		<cui:BitmapLabel id="skTeamPage1" textAlign="center" font="PageUpNum" text="0" y="617.33" x="473.01"/>
+		<cui:BitmapLabel textAlign="center" font="PageUpNum" text="p" y="617.33" x="451.69"/>
+	</cui:Group>
+	<cui:Group id="skyejiGrp" width="966" height="720" touchThrough="true" anchorOffsetX="0" horizontalCenter="157" verticalCenter="0" visible="false">
+		<cui:ScaleButton id="skYejiBack" skinName="ScaleBtnSkin" icon="common@return" width="162" height="97" x="807" y="4"/>
+		<cui:Image id="skyejiBG" y="106" x="0" source="txt_yejizhishu"/>
+		<cui:Image id="skyejiPic" y="119.99" x="24.67" source="extend@txt_yeji0"/>
+		<cui:Scroller width="906" x="5" y="205" height="390" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+		<cui:DataGroup id="skDLYJlist" width="906" height="390" anchorOffsetX="0">
+			<cui:layout>
+			<cui:TileLayout isHorizontal="false" itemW="906" itemH="42"/>
+			</cui:layout>
+		</cui:DataGroup>
+		</cui:Scroller>
+		<cui:ScaleButton id="skYJLast" skinName="ScaleBtnSkin" icon="extend@left_btn" width="94" height="50" x="292" y="606"/>
+		<cui:ScaleButton id="skYJNext" skinName="ScaleBtnSkin" icon="extend@right_btn" width="94" height="50" x="529" y="606"/>
+		<cui:ScaleButton id="skYJFirst" skinName="ScaleBtnSkin" icon="extend@txt_shou" width="94" height="50" x="185" y="606"/>
+		<cui:ScaleButton id="skYJEnd" skinName="ScaleBtnSkin" icon="extend@txt_wei" width="94" height="50" x="636" y="606"/>
+		<cui:BitmapLabel id="skYJPage0" textAlign="center" font="PageUpNum" text="0" y="617.33" x="430.99"/>
+		<cui:BitmapLabel id="skYJPage1" textAlign="center" font="PageUpNum" text="0" y="617.33" x="473.01"/>
+		<cui:BitmapLabel textAlign="center" font="PageUpNum" text="p" y="617.33" x="451.69"/>
+	</cui:Group>
+	</cui:Group>
+</e:Skin>

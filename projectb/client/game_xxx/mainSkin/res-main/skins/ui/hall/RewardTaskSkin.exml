@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RewardTaskSkin" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" width="1280" height="720">
+<cui:Image id="rmv_reward" source="rmv_reward" x="1" visible="false"/>
+    <cui:Image source="txt_limitTitle" y="5" horizontalCenter="0"/>
+    <cui:SimpleButton id="skClose" width="1280" height="720"/>
+    <cui:Scroller y="125" scrollPolicyH="on" scrollPolicyV="off" anchorOffsetX="0" width="957" anchorOffsetY="0" height="471"  horizontalCenter="0">
+        <cui:DataGroup id="skList" width="957" height="471">
+            <e:layout>
+                <cui:TileLayout isHorizontal="true" itemW="278" paddingLeft="70" itemH="421" horizontalGap="10"/>
+            </e:layout>
+        </cui:DataGroup>
+    </cui:Scroller>
+    <cui:Label id="skTips" text="" y="599" size="24" textColor="0xf5d38e" fontFamily="SimHei" width="1109" height="24" anchorOffsetX="0" textAlign="center" horizontalCenter="0"/>
+</e:Skin>

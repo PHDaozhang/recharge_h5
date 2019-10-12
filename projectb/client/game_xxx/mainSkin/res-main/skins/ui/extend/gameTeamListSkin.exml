@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameTeamListSkin" width="890" height="96" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+	<cui:Image  source="txt_xianma"/>
+	<cui:ScaleButton id="skshare" skinName="ScaleBtnSkin" icon="extend@txt_share" width="127" height="36" x="450" y="9"/>
+	<cui:ScaleButton id="skerweima" skinName="ScaleBtnSkin" icon="extend@txt_reset" width="155" height="36" x="590" y="9"/>
+	<cui:ScaleButton id="skTeam" skinName="ScaleBtnSkin" icon="extend@txt_teamList" width="127" height="36" x="758" y="9"/>
+	<cui:ScaleButton id="skChange" skinName="ScaleBtnSkin" icon="extend@txt_changeTeam" width="105" height="27" x="180" y="13.5"/>
+	<cui:Label id="skteamName" size="26" text="" y="15" x="16" width="150" textAlign="left" textColor="0xfabeb3" verticalAlign="middle"/>
+	<cui:Label id="sknumber"  size="26" text="" y="60" x="135" textAlign="left" textColor="0xdeba93"/>
+	<cui:Label id="skpaixian" size="26" textColor="0xDEBA93" text="" y="60" x="450" textAlign="left"/>
+	<cui:Label id="sknewId" size="26" textColor="0xDEBA93" text="" y="60" x="737" textAlign="left"/>
+</e:Skin>

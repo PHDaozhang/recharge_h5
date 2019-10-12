@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExtendPopSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+	<cui:SimpleButton id="skclose" width="1280" height="720" y="0" x="0" anchorOffsetX="0" anchorOffsetY="0"/>
+	<cui:Image y="75.16" x="64.6" alpha="1" source="txt_popTG"/>
+	<cui:ScaleButton id="skTG" skinName="ScaleBtnSkin" icon="common@txt_btnTG" width="238" height="90" x="522.26" y="458.76"/>
+</e:Skin>

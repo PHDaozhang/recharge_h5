@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameItemSkin" width="130" height="190" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+	<cui:Image id="skImg" width="122" height="140" x="4" y="0"/>
+	<cui:ScaleButton id="skEnter" icon="activity@txt_enter" x="0" y="145" skinName="ScaleBtnSkin" width="130" height="45"/>
+</e:Skin>

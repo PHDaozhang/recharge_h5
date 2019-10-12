@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="actBycjSkin" width="930" height="570" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:game="game.*" xmlns:w="http://ns.egret.com/wing">
+	<cui:Image id="skBg" source=""/>
+	<cui:Label id="skDesc" text="" x="42" y="341.97" size="20" fontFamily="SimHei" width="500" height="130"/>
+	<cui:Label id="skTip2" text="" x="43" y="505" width="500" height="18" size="18" fontFamily="SimHei" textColor="0xe3db93" textAlign="center"/>
+     <game:UIDBAni id="skTipAni" autoPlay="true" x="617" y="526"/>
+	<cui:Label id="skTip1" text="" x="641.33" y="516.66" width="210" height="18" size="18" fontFamily="SimHei" textColor="0xE3DB93"/>
+	<cui:Scroller y="93.5" x="574.35" scrollPolicyV="off" scrollPolicyH="off" width="310" height="340">
+		<cui:DataGroup id="skList" width="310" height="340">
+		<e:layout>
+			<cui:TileLayout isHorizontal="false" itemW="310" itemH="34"/>
+		</e:layout>
+		</cui:DataGroup>
+	</cui:Scroller>
+	<cui:SimpleButton id="skJoin" width="220" height="60" x="604" y="447.66">
+        <e:Skin>
+            <game:UIDBAni id="skBtnAni" autoPlay="true" verticalCenter="0" horizontalCenter="0"/>
+        </e:Skin>
+    </cui:SimpleButton>
+	<cui:ScaleButton id="skRule" x="427.31" y="64" skinName="ScaleBtnSkin" width="110" height="26" icon="activity@txt_rule"/>
+	<cui:BitmapLabel id="skGold" x="234" y="176" width="270" text="" height="62" textAlign="center"/>
+	<cui:ScaleButton id="skGaBtn" x="133.5" y="49" skinName="ScaleBtnSkin" icon="activity@txt_bqyx" width="167" height="139"/>
+</e:Skin>

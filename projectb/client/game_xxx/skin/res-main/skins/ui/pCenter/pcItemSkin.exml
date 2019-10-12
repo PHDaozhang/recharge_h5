@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="pcItemSkin" width="91" height="91" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Image id="skIcon"/>
+    <cui:Image source="pCenter@frame"/>
+    <cui:Image id="skSel" x="-5" y="-5" source="pCenter@choose" visible="false"/>
+    <cui:Group id="skMask"  visible="false">
+        <cui:Image source="pCenter@mask"/>
+        <cui:Image source="pCenter@lock"/>
+    </cui:Group>
+</e:Skin>

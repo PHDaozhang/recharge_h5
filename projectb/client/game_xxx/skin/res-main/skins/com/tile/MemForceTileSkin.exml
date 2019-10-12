@@ -1,0 +1,8 @@
+<e:Skin class="MemForceTileSkin" width="137" height="185" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Image id="skBg" width="137" height="185"/>
+    <cui:Image id="skIcon" x="38" y="21" width="90" height="115"/>
+    <cui:Image id="skPos" x="10" y="45" width="28" height="51" />
+    <cui:Label id="skNm" x="0" y="149" width="137" height="33" size="24" filterNm="testFW" text="11" anchorOffsetY="0" textAlign="center" anchorOffsetX="0"/>
+    <cui:Label id="skKpi" x="15" y="6" size="22" text="11"/>
+    <cui:BitmapLabel id="skWis" x="20" y="112" width="28" height="51" font="num1" text="11"/>
+</e:Skin>

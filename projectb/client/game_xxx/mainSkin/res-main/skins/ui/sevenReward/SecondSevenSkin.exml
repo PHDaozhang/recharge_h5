@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SecondSevenSkin" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing" width="91" height="93">
+	<cui:Group id="skGrp" anchorOffsetX="46" x="46" y="93" width="240" height="105">
+		<cui:Image source="reward@pic_kuang" scaleX="-1" x="240"/>
+		<cui:ProgressBar id="skPb" y="65" skinName="MissionBarSkin" value="50" x="44"/>
+		<cui:Label id="skLabGame" text="捕鱼" y="33" size="26" horizontalCenter="0" textColor="0xfffbbe" fontFamily="SimHei"/>
+		<cui:Label id="skLabPb" text="1/1" y="65" size="20" fontFamily="SimHei" horizontalCenter="0"/>
+	</cui:Group>
+
+    <cui:ScaleButton id="skBtn" icon="hall@txt_qiriyoujiang" skinName="ScaleBtnSkin"  width="91" height="93"/>
+	<cui:Image id="skImgDone" source="hall@done" x="38" y="-6"/>
+
+</e:Skin>

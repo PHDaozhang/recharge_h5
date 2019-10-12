@@ -1,0 +1,11 @@
+{"file":"beadRoad.png","frames":{
+"0":{"x":0,"y":0,"w":14,"h":20,"offX":0,"offY":0,"sourceW":14,"sourceH":20},
+"1":{"x":15,"y":43,"w":13,"h":19,"offX":1,"offY":0,"sourceW":14,"sourceH":20},
+"2":{"x":32,"y":22,"w":14,"h":19,"offX":0,"offY":0,"sourceW":14,"sourceH":20},
+"3":{"x":48,"y":22,"w":13,"h":20,"offX":1,"offY":0,"sourceW":14,"sourceH":20},
+"4":{"x":16,"y":22,"w":14,"h":19,"offX":0,"offY":0,"sourceW":14,"sourceH":20},
+"5":{"x":0,"y":43,"w":13,"h":20,"offX":1,"offY":0,"sourceW":14,"sourceH":20},
+"6":{"x":16,"y":0,"w":14,"h":20,"offX":0,"offY":0,"sourceW":14,"sourceH":20},
+"7":{"x":0,"y":22,"w":14,"h":19,"offX":0,"offY":0,"sourceW":14,"sourceH":20},
+"8":{"x":32,"y":0,"w":14,"h":20,"offX":0,"offY":0,"sourceW":14,"sourceH":20},
+"9":{"x":48,"y":0,"w":14,"h":20,"offX":0,"offY":0,"sourceW":14,"sourceH":20}}}

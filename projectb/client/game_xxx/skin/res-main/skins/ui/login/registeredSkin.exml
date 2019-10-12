@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="registeredSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+<cui:Image id="rmv_reged" source="rmv_registered" width="1280" height="720"/>
+<cui:SimpleButton id="skClose" width="1280" height="720" x="1"/>
+<cui:Image source="registeredBg" width="712" height="630" verticalCenter="0" horizontalCenter="0"/>
+<cui:Group width="602" anchorOffsetY="0" horizontalCenter="0" height="462" verticalCenter="0">
+    <cui:Label text="手机号码：" x="0" y="18" size="32" textColor="0xdaa249" fontFamily="Arial" width="160" height="32"/>
+    <cui:Image source="login@longBottom" x="154" y="-0.5" width="397" height="65"/>
+    <cui:EditableText id="skPhone" text="" x="170" y="19" textColor="0x715a5a" anchorOffsetX="0" width="373" height="30"/>
+    <cui:Label text="验证码：" x="-1" y="96" size="32" textColor="0xdaa249" fontFamily="Arial" width="160" height="32"/>
+    <cui:Image source="login@shortBottom" x="153" y="81.5" width="253" height="61"/>
+    <cui:EditableText id="skCode" text="" x="169" y="97" textColor="0x715a5a" anchorOffsetX="0" width="228" height="30"/>
+    <cui:Label text="输入密码：" x="-1" y="175" size="32" textColor="0xdaa249" fontFamily="Arial" width="160" height="32"/>
+    <cui:Image source="login@longBottom" x="153" y="156.5" width="397" height="65"/>
+    <cui:EditableText id="skPwd" text="" x="169" y="176" textColor="0x715a5a" anchorOffsetX="0" width="373" height="30"/>
+    <cui:Label text="确认密码：" x="-1" y="261" size="32" textColor="0xdaa249" fontFamily="Arial" width="160" height="32"/>
+    <cui:Image source="login@longBottom" x="153" y="242.5" width="397" height="65"/>
+    <cui:EditableText id="skAgainPwd" text="" x="169" y="262" textColor="0x715a5a" anchorOffsetX="0" width="373" height="30"/>
+    <cui:Label text="已同意并阅读【游戏协议】" size="24"  textColor="0xffe095" x="165" y="333.5" anchorOffsetX="0" width="416"/>
+    <cui:ScaleButton id="skGetCode" icon="login@txt_getBtn" skinName="ScaleBtnSkin" width="144" height="58" x="405" y="86.5"/>
+    <cui:ScaleButton id="skchoose" icon="login@registeredD" skinName="ScaleBtnSkin" x="95.5" y="320.5" width="50" height="50"/>
+    <cui:ScaleButton id="skSure" icon="login@txt_sureBtn" skinName="ScaleBtnSkin"  x="144" y="402" width="242" height="67"/>
+</cui:Group>
+
+</e:Skin>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XxxSkin" width="500" height="500" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:GMD_xxx="GMD_xxx.*">
+    <cui:Image id="skIcon" y="5" source="hallBg"/>
+    <cui:ScaleButton y="14" right="20" id="skBack" width="69" height="80" icon="common@close" skinName="ScaleBtnSkin"/>
+    <cui:Label id="skTest" size="36" filterNm="blackFW"/>
+    <GMD_xxx:XxxUI id="skUI" x="5" y="90" skinName="Skil3TileSkin"/>
+	<cui:MenuGroup id="skMenuGrp" width="100" height="325" keepSelect="true" x="875" y="158" anchorOffsetY="0">
+    <cui:MenuItemImage tag="0" width="92" height="90">
+        <e:Skin states="up,down,disabled">
+            <cui:Image width="100%" height="100%" source="common@chip1" source.up="common@chip1" source.down="common@chip2"/>
+        </e:Skin>
+    </cui:MenuItemImage>
+    <cui:MenuItemImage tag="1" width="92" height="90" y="90">
+        <e:Skin states="up,down,disabled">
+            <cui:Image width="100%" height="100%" source="common@chip3" source.up="common@chip3" source.down="common@chip4"/>
+        </e:Skin>
+    </cui:MenuItemImage>
+</cui:MenuGroup>
+    <cui:Scroller width="698" height="469" y="130" x="64"  scrollPolicyH="off" scrollPolicyV="on" anchorOffsetY="0">
+        <cui:Group width="698" height="469">
+            <e:layout>
+                <cui:LineLayout isHorizontal="false"/>
+            </e:layout>
+            <cui:Image  source="txt_ddz_rule"/>
+            <cui:Image  source="txt_ddz_rule"/>
+        </cui:Group>
+    </cui:Scroller>
+</e:Skin>

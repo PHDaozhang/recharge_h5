@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TabSkin" states="up,down,disabled" width="179" height="66" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Image width="100%" scale9Grid="15,15,108,36" source="bg@yeqian_up" source.up="bg@yeqian_up" source.down="bg@yeqian_d"/>
+    <cui:Label id="labelDisplay" size="36" y="15" stroke="1" strokeColor="0x727272" horizontalCenter="0"/>
+</e:Skin>

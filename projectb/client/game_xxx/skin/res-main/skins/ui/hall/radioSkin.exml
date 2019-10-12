@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="radioSkin" width="681" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Image source="hall@messageBottom" x="0" y="0" width="681" height="40"/>
+    <cui:Image source="hall@message" width="37" height="32" x="0" y="4"/>
+    <cui:Label id="skTongZhi" text="" size="26" x="58" y="6" anchorOffsetX="0" width="586" height="26"/>
+</e:Skin>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="pCenterSkin" width="732" height="466" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Image id="rmv_gm" x="-283" y="-127" source="rmv_grzx"/>
+    <cui:Image source="pCenterBg"/>
+    <cui:ScaleButton id="skBack" icon="pCenter@close" skinName="ScaleBtnSkin" y="24" width="80" height="82" x="651"/>
+    <cui:Image id="skIconImg" width="83" height="83"  x="112" y="119"/>
+    <cui:Image id="skIconFrame" width="117" height="111" x="94" y="108"/>
+    <cui:Image source="pCenter@bottomBg" width="205" height="34" x="57.5" y="255"/>
+    <cui:Label id="skName" size="24" text="111" textColor="0xf5f1c4" x="57" y="259" anchorOffsetX="0" width="163" height="24"/>
+    <cui:ScaleButton id="skMod" icon="pCenter@modify" skinName="ScaleBtnSkin" width="45" height="32" x="218" y="255"/>
+    <cui:Image source="pCenter@bottomBg" width="205" height="34" x="57.5" y="308"/>
+    <cui:Label id="skId" size="24" text="111" textColor="0xf5f1c4" x="57" y="312" anchorOffsetX="0" width="163" height="24"/>
+    <cui:Image source="pCenter@copy" x="218" y="308" width="45" height="32"/>
+    <cui:Image source="pCenter@landMarkB" width="202" height="32" x="56.5" y="362"/>
+    <cui:Image source="pCenter@landMark" width="20" height="26" y="365" x="109.5"/>
+    <cui:Label id="skAddresss" size="24" text="111" textColor="0xf5f1c4" x="132.5" y="366" anchorOffsetX="0" width="111"/>
+    <cui:Scroller width="364" height="282" x="300" y="105" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="on">
+        <cui:DataGroup id="skList" width="364" height="282" anchorOffsetX="0" x="0" y="0" anchorOffsetY="0">
+            <e:layout>
+                <cui:TileLayout isHorizontal="false" itemW="90" itemH="90" horizontalGap="1" verticalGap="1"/>
+            </e:layout>
+        </cui:DataGroup>   
+    </cui:Scroller>
+</e:Skin>

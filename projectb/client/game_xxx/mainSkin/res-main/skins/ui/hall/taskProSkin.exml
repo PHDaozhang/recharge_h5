@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="taskProSkin" width="152" height="22" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Image source="reward@pic_progessBar1" width="152" height="22"/>
+    <cui:Image id="thumb" source="reward@pic_progessBar" width="152" height="22"/>  
+</e:Skin>

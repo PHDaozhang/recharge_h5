@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BindGiftSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+	<cui:Image source="txt_bindBG" x="345" y="23"/>
+	<cui:ScaleButton id="skBtnClose" x="1024" y="110" skinName="CloseBtnSkin"/>
+	<cui:Image source="bindGift@txt_giftOne" x="519" y="264"/>
+	<cui:Image x="744" y="264" source="bindGift@txt_giftThree"/>
+	<cui:ScaleButton id="skBtnBind" icon="bindGift@txt_bind" x="649" y="555" skinName="ScaleBtnSkin"/>
+	<cui:Image source="bunnyGirl" x="80" y="167"/>
+	<cui:Image id="skImgSay" source="txt_chat" anchorOffsetX="110" anchorOffsetY="230" x="401" y="230" scaleX="0" scaleY="0"/>
+	<cui:Image id="rmv_bind" source="rmv_bind"  visible="false"/>
+
+</e:Skin>

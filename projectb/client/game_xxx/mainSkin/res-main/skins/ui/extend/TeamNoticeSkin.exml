@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeamNoticeSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*" xmlns:w="http://ns.egret.com/wing">
+	<cui:Image  y="149.93" x="366.64" source="teamBg"/>
+	<cui:Image id="sknoticeName" y="166.01" x="540.3" source="extend@txt_changeTeamN"/>
+	<cui:Group id="skCreateGrp" x="405" anchorOffsetX="0" width="442" anchorOffsetY="0" height="260" y="239" visible="false">
+		<cui:Label id="sksetname" text="" y="10.36" x="149.81" size="24" textColor="0xffd180"/>
+		<cui:Label id="sksetnum" text="" y="93.09" x="124.94" size="24" textColor="0xFFD180"/>
+		<cui:Image y="122" x="15" source="tckuang"/>
+		<cui:Image y="41" x="15" source="tckuang"/>
+		<cui:EditableText id="skTname" text="" x="20" y="50" anchorOffsetX="0" width="402" size="24" height="30" textColor="0x988293"/>
+		<cui:EditableText id="skTnum" text="" x="20" y="131" anchorOffsetX="0" width="402" size="24" height="30" textColor="0x988293"/>
+		<cui:ScaleButton id="skCreate" skinName="ScaleBtnSkin" icon="extend@txt_sure" width="165" height="62" x="143.6" y="188" scaleX="1" scaleY="1"/>
+	</cui:Group>
+	<cui:Group id="skChangeGrp" x="405" anchorOffsetX="0" width="442" anchorOffsetY="0" height="260" y="239" visible="false">
+		<cui:Label id="skTishi" text="" y="27.04" x="40.69" size="24" textColor="0xFFD180"/>
+		<cui:Image y="60" x="15" source="tckuang"/>
+		<cui:EditableText id="skTchange" text="" x="20" y="69" anchorOffsetX="0" width="402" size="24" height="30" textColor="0x988293"/>
+		<cui:ScaleButton id="skchange" skinName="ScaleBtnSkin" icon="extend@txt_sure" width="165" height="62" x="26" y="188"/>
+		<cui:ScaleButton id="skcancle" skinName="ScaleBtnSkin" icon="extend@txt_cancle" width="165" height="62" x="250" y="188"/>
+	</cui:Group>
+	<cui:Group id="skresetGrp" x="405" anchorOffsetX="0" width="442" anchorOffsetY="0" height="260" y="239">
+		<cui:Label id="skReset" text="" y="46.04" x="24.69" size="30" textColor="0xe0d5bd"/>
+		<cui:ScaleButton id="skSure" skinName="ScaleBtnSkin" icon="extend@txt_sure" width="165" height="62" x="26" y="188"/>
+		<cui:ScaleButton id="sknoSure" skinName="ScaleBtnSkin" icon="extend@txt_cancle" width="165" height="62" x="250" y="188"/>
+	</cui:Group>
+	<cui:ScaleButton id="skclose" skinName="ScaleBtnSkin" icon="common@close" width="80" height="82" x="840.59" y="132.98"/>
+</e:Skin>

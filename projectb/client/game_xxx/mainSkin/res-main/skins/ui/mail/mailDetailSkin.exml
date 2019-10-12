@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mailDetailSkin" width="559" height="625" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+<cui:Image source="txt_detailBg" x="9" y="26"/>
+<cui:ScaleButton id="skClose" skinName="CloseBtnSkin" x="479"/>
+<cui:Label id="skTitle" text="aaaa" size="24" x="53" y="142" height="24" anchorOffsetX="0" width="325" textColor="0xffd180"/>
+<cui:Label id="skSender" text="aaaa" size="24" x="53" y="183" height="24" anchorOffsetX="0" width="325" textColor="0xffd180"/>
+<cui:Label id="skContent" text="aaaa" size="24" x="47" y="251" height="184" anchorOffsetX="0" width="447" textColor="0xffd180" anchorOffsetY="0"/>
+<cui:Image id="skOverImg" source="mail@txt_overGet" x="353" y="341"/>
+<cui:Group id="skAccessory" x="32" y="481">
+    <cui:Image source="txt_accessory" x="25"/>
+    <cui:Image source="mail@jinbi" x="131" y="25"/>
+    <cui:Label id="skGold" text="x2000" size="30"  x="224.5" y="54.5" textColor="0xfed76e"/>
+</cui:Group>
+</e:Skin>

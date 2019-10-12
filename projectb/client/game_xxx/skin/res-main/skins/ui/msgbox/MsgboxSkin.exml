@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MsgBoxSkin" width="550" height="400" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Image x="-167" y="-142" source="rmv_msgbox"/>
+	<cui:Image source="txt_msgbox" y="20" x="3"/>
+	<cui:Label id="skTxt" size="24" height="136" bold="true" text="本次登录不再提示" y="122" x="61" anchorOffsetX="0" width="409" anchorOffsetY="0"/>
+	<cui:ScaleButton id="skClose" y="0" x="473" skinName="CloseBtnSkin" />
+	<cui:ScaleButton id="skOk" y="299" x="162" icon="common@txt_ok" skinName="ScaleBtnSkin" anchorOffsetX="0" width="217" anchorOffsetY="0" height="71"/>
+</e:Skin>

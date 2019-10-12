@@ -1,0 +1,8 @@
+<e:Skin class="Card68Skin" width="93" height="126" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Image id="skBg" y="1" width="93" height="125" source="card@q4"/>
+    <cui:Image id="skIcon" x="26" y="15" width="61" height="78"/>
+    <cui:Image id="skPos" x="9" y="31" width="19" height="35"/>
+    <cui:Label id="skNm" y="103" width="90" height="17" size="13" textAlign="center" stroke="1" strokeColor="0x7c7c7c"/>
+    <cui:Label id="skKpi" x="7" y="7" size="16" text="11" stroke="2" strokeColor="0x161616"/>
+    <cui:BitmapLabel id="skWis" x="0" y="76" width="35" height="17" textAlign="center" font="num_s1" text="11" letterSpacing="-1"/>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NofitySkin" width="703" height="38" xmlns:e="http://ns.egret.com/eui" xmlns:cui="cui.*">
+    <cui:Image source="guangbo"/>
+    <cui:Group width="660" height="38" mask="0,0,660,38" x="43" anchorOffsetX="0">
+        <cui:Label id="skTxt" y="5" size="24" height="24"/>
+    </cui:Group>	
+</e:Skin>
