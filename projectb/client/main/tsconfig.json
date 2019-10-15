@@ -1,11 +1,18 @@
 {
     "compilerOptions": {
         "target": "es5",
-        "outFile": "./bin-debug/main.js",
-        "declaration": true
+		"outDir": "bin-debug",
+        "experimentalDecorators": true,
+        "lib": [
+            "es5",
+            "dom",
+            "es2015.promise"
+        ],
+        "types":[]
     },
     "include": [
-        "src/**/*.ts",
-        "libs/**/*.ts"
+        "src",
+        "libs",
+        "bin"
     ]
 }

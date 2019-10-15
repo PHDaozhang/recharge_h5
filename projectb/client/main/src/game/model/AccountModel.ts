@@ -65,6 +65,8 @@ module game {
             }
 
             HttpUtil.accLogin({ nm: nm, channel: CONF.channelId, agentId: CONF.agentId,hardwareId:CONF.deviceId }, true, function (data: any) {
+                console.log("data:");
+                console.log( data );
                 if (data && data.ret) {
                     let accNm = data.acc;
                     self.accNm = accNm;

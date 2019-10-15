@@ -78,7 +78,7 @@
 				<cui:Label id="skNoBindAliWithrawTip" text="使用收益功能，必须先绑定支付宝，一个支付宝账号对应一个游戏帐号，支付宝绑定后不可以随便修改，如需修改请联系客服，每次兑换收取兑换金额2%的手续费" y="373.85" anchorOffsetX="0" width="661.88" anchorOffsetY="0" height="146.67" textColor="0xffe095" horizontalCenter="0"/>
 			</cui:Group>
             
-			<cui:Group id="skNoBindBankPanel" left="0" right="0" bottom="0" top="0">
+			<cui:Group id="skNoBindBankPanel" left="0" right="0" bottom="0" top="0" visible="false">
 				<cui:Label id="skNoBindBankWithrawTip" text="请输入正确信息，为了您的财产安全，绑定后不能随意修改，如需修改请联系客服，每次兑换收取兑换金额1.5%的手续费" y="448.18" anchorOffsetX="0" width="699.76" anchorOffsetY="0" height="122.42" textColor="0xffe095" horizontalCenter="0"/>
 				<cui:Group id="skNBBRealNameGrp" width="350" height="61" x="90" y="91">
 					<cui:Image width="350" height="61" x="0" y="0" source="recharge_safeBox@pic_shouyi_bangdingyinhangka_shurukuang_db"/>
@@ -229,6 +229,9 @@
 					<cui:Label text="" x="461.18" y="10.84"/>
 				</cui:Group>
 				<cui:Label id="skBankWithrawTip" text="1.兑换五分钟到账，若未到账请及时与客服联系。 2.兑换下限为100元，兑换金额必须为50的整倍数，手续费为兑换金额的2%。" x="46.09" y="430.36" anchorOffsetX="0" width="670.97" anchorOffsetY="0" height="155.76" textColor="0xffe095"/>
+			</cui:Group>
+			<cui:Group id="skNoneTips" width="639.4" height="104.55" horizontalCenter="0" verticalCenter="0" anchorOffsetY="0" anchorOffsetX="0">
+				<cui:Label text="系统维护中。。。" textColor="0xffdd82" horizontalCenter="0" verticalCenter="0" bold="true"/>
 			</cui:Group>
 		</cui:Group>
 		<cui:Group id="skTipsPanel" scaleX="1" scaleY="1" left="2" right="-2" top="0" bottom="0" visible="false">

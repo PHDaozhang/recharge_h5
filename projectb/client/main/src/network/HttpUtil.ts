@@ -13,8 +13,6 @@ module game{
         export let svrURL:string = "";
 
         export function accLogin( args:{nm:string,channel:string,agentId:string,hardwareId:string}, showBusy:boolean, cb:Function, target:any ){//游客登录
-            console.log("CONF.isNative:" + CONF.isNative);
-            CONF.isNative = true;
             if(CONF.isNative){
                 let postData = args.nm + ':' + args.channel + ':' + args.agentId + ':' + args.hardwareId;
                 reqURL( "/Web/WebLogin.aspx", makeSign(postData), showBusy, cb, target );

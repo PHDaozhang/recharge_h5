@@ -120,7 +120,8 @@ module game {
         export function loadParam() {
             let nativeInterface = (window as any).nativeInterface;
 
-            if( nativeInterface || true){
+            if( nativeInterface){
+                CONF.isNative = true;
                 CONF.deviceId = nativeInterface.getDeviceID();
                 
                 let cfgStr = nativeInterface.getGameConfig();
@@ -138,7 +139,6 @@ module game {
                             CONF.agentId = tmpVal;
                         }
 
-
                         tmpVal = cfg.res;
                         if( tmpVal ){
                             CONF.res = tmpVal;
@@ -155,7 +155,6 @@ module game {
             }
 
             CONF.verFile = CONF.resHome + "webver.ver?v=" + Date.now();
-
 
             var params = URLUtil.getLocationParams();
             let othSrc = params.or_src;

@@ -3,7 +3,8 @@ module CONF {
     //export let svrUrl = "http://10.0.0.116:8611"; 
     //export let svrUrl = "http://192.168.1.49:8611";
     // export let svrUrl = "https://www.zhuangroume.com:1002/"
-    export let svrUrl = "http://3.113.107.12:1001"
+    //export let svrUrl = "http://3.113.107.12:1001"
+    export let svrUrl = "http://10.1.12.8:9611"
     //export let svrUrl = "http://10.0.0.211:8611";
      //export let svrUrl = "https://www.qilinziguan.net" 
     // export let svrUrl = "https://www.tiantianypt.com"

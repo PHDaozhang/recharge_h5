@@ -131,9 +131,6 @@ class Main extends egret.DisplayObjectContainer implements IMainDelegate
             RES.removeEventListener(RES.ResourceEvent.GROUP_LOAD_ERROR, this.onResourceLoadError, this);
             RES.removeEventListener(RES.ResourceEvent.GROUP_PROGRESS, this.onResourceProgress, this);
         }
-
-
-        game.GameUtil.loadParam();
     }
     /**
      * 资源组加载出错

@@ -6,7 +6,7 @@
 		<cui:Image width="250" height="94" source="recharge_box@pic_shangcheng_lihe02" bottom="0" left="283"/>
 		<cui:Image id="skImgBgLeft" width="335" height="720" x="0" y="0" source="recharge_box@pic_shangcheng_zuobian_diban"/>
 		<cui:Image id="skImgBgTopRight" width="1557" height="94" right="0" top="0" source="recharge_box@pic_shangcheng_wuyan"/>
-		<cui:Image id="skImgBgRight" width="340" height="720" right="1" bottom="2" source="recharge_box@pic_shangcheng_youbian_diban"/>
+		<cui:Image id="skImgBgRight" width="340" right="1" source="recharge_box@pic_shangcheng_youbian_diban" top="-2" height="720"/>
 		<cui:Image width="321" height="135" source="recharge_box@pic_shangcheng_biaoti_diban" left="0" top="0"/>
 		<cui:Image width="324" height="125" source="recharge_box@pic_shangcheng_caideng" right="0" top="50"/>
 		<cui:Image width="475" height="300" source="recharge_box@pic_shangcheng_lihe" right="0" bottom="0"/>
@@ -56,12 +56,13 @@
 			</cui:DataGroup>
 		</cui:Scroller>
 	</cui:Group>
-	<cui:Group id="skProxyPanel" width="800" height="570" y="100" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="10">
+	<cui:Group id="skProxyPanel" width="800" height="570" y="100" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="10" visible="false">
 
 		<cui:Group id="skTopTip" width="770" height="180" x="0" y="0" anchorOffsetY="0">
-			<cui:Image id="skTopTipBG" width="785" height="253" x="8" y="-65" scaleX="1" scaleY="1"  source="recharge_txt_60"/>
+			<cui:Image id="skTopTipBG" width="769" height="183" x="8" y="-14" scaleX="1" scaleY="1"  source="recharge_txt_60"/>
 			<cui:ScaleButton id="skCopyID" skinName="ScaleBtnSkin" icon="recharge_chg@5" x="443.91" y="37.91" width="108" height="37"/>
-			<cui:Label id="skProxyPlayerID" text="00000" x="289.2" y="39.12" width="140" height="25"/>
+			<cui:Label id="skProxyPlayerID" text="00000" x="289.2" y="15" width="140" height="25"/>
+
 		</cui:Group>
 
 		<cui:Scroller id="skProxySrollView" width="716" height="302" x="30.56" y="174.64" anchorOffsetX="0" anchorOffsetY="0">
@@ -86,8 +87,8 @@
 
 	<cui:Group id="skGoldBuyPanel" width="800" height="570" y="100" horizontalCenter="10" visible="false">
 		<cui:Group id="skGoldBuyTopTipGrp" width="770" height="180" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
-			<cui:Image id="skGoldbuyTopTipBG" width="785" height="253" x="8" y="-65"   source="recharge_txt_60"/>
-			<cui:Label id="skGoldBuyPlayerID" text="Label" x="289" y="36" anchorOffsetX="0" width="172"/>
+			<cui:Image id="skGoldbuyTopTipBG" width="769" height="183" x="8" y="-14"   source="recharge_txt_60"/>
+			<cui:Label id="skGoldBuyPlayerID" text="Label" x="292" y="15" anchorOffsetX="0" width="172"/>
 		</cui:Group>
 
 		<cui:Group id="skChipIcon1" width="109" height="100" x="71" y="271">
@@ -121,17 +122,17 @@
 			<cui:ScaleButton id="skGoldClear" skinName="ScaleBtnSkin" icon="recharge_chg@6" x="503.15" y="4.65" width="174" height="58"/>
 		</cui:Group>
 		<cui:ScaleButton id="skRecharge" x="254" y="410" skinName="ScaleBtnSkin" icon="recharge_chg@3"  width="242" height="87"/>
-		<cui:ScaleButton id="skDownloadBtn" x="574" y="110" skinName="ScaleBtnSkin" icon="recharge_chg@btn_shangcheng_lijixiazai"  width="202" height="70"/>
+		<cui:ScaleButton id="skDownloadBtn" x="570" y="70" skinName="ScaleBtnSkin" icon="recharge_chg@btn_shangcheng_lijixiazai"  width="202" height="70"/>
 	</cui:Group>
 	<cui:Group id="skNotOpenPanel" width="800" height="570" y="104.65" horizontalCenter="0" visible="false">
 		<cui:Image width="357" height="67" x="180" y="39" source="recharge_chg@46" />
 		<cui:Image width="659" height="200" x="87" y="158" source="recharge_chg@69" />
 		<cui:ScaleButton id="skToProxy" width="242" height="87" label="Button" x="396" y="224"  skinName="ScaleBtnSkin" icon="recharge_chg@1" />
 	</cui:Group>
-	<cui:Group id="skFixedPanel" width="800" height="570" y="102" anchorOffsetY="0" horizontalCenter="10">
+	<cui:Group id="skFixedPanel" width="800" height="570" y="100" anchorOffsetY="0" horizontalCenter="10" visible="false">
 		<cui:Group id="skFixedTipGrp" width="775" height="180" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0">
-			<cui:Image id="skFixedpTipBG" width="785" height="253" x="8" y="-65"   source="recharge_txt_60"/>
-			<cui:Label id="skFixedPlayerID" text="Label" x="293" y="39" anchorOffsetX="0" width="202"/>
+			<cui:Image id="skFixedpTipBG" width="769" height="183" x="8" y="-14"   source="recharge_txt_60"/>
+			<cui:Label id="skFixedPlayerID" text="Label" x="293" y="15" anchorOffsetX="0" width="202"/>
 			<cui:Image id="skFixedFlag" width="69" height="71" x="20" y="38"  source="recharge_chg@38" />
 		</cui:Group>
 
