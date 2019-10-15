@@ -1,3 +1,6 @@
 {
-    "ver": "v3"
+    "ver": "v3",
+    "json": {
+        "recharge_theme": "bd9c40"
+    }
 }
