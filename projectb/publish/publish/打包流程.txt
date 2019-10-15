@@ -1,0 +1,26 @@
+注：在运行打包程序前确保代码和资源是最新的
+
+
+子游戏
+第一次打包流程：
+	1.拷贝一个game_xxx，将xxx改为对应的游戏名
+	2.清空client
+	3.将copyOut.bat中gameNm = xxx的xxx改为对应的游戏名
+	4.运行copyOut.bat,将patch中打包出的out.zip拷贝到bak下，将名字修改为对应的版本号，并上传
+	5.上传client下的所有修改的文件
+第二次以后的打包流程：
+	跳过前面三步直接执行第4,5步骤。
+
+main
+打包流程：
+	1.运行copyOut.bat
+	2.如果改变拷贝代码与资源以外的东西则运行copyIndex.bat,没有改变拷贝的则不需要运行（目前只有index.html和gif.png）
+	3.运行zip.bat将patch中打包出的out.zip拷贝到bak下，将名字修改为对应的版本号，并上传
+	4.上传client下的所有修改的文件
+
+
+注意：如果需要回退到上一个版本只需要将client下的jsver.ver manifest.json ver.ver webver.ver 回退到想要的版本，然后运行copyOut.bat
+      manifest.json中的svr是游戏网址后面需要修改
+	  
+	  
+打全资源包  修改mainver.json的版本号(v+版本号)

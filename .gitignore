@@ -168,7 +168,7 @@ DocProject/Help/Html2
 DocProject/Help/html
 
 # Click-Once directory
-publish/
+#publish/
 
 # Publish Web Output
 *.[Pp]ublish.xml
@@ -376,7 +376,8 @@ node_modules
 /projectb/client/game_zhajinhua/
 /projectb/client/recharge/
 
-/projectb/publish/
+/projectb/publish/publish/s设计/
+/projectb/publish/publish/美术资源/
 
 
 /projectb/client/main/bin-debug/
